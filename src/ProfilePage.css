@@ -1,0 +1,265 @@
+.profile-page {
+  animation: fadeIn 0.4s ease-out;
+  padding: 40px;
+  max-width: 1300px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.profile-header {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-bottom: 3rem;
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  padding: 32px;
+  border-radius: 32px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05);
+}
+
+.back-btn {
+  align-self: flex-start;
+  background: white;
+  border: 1px solid #e2e8f0;
+  padding: 10px 20px;
+  border-radius: 12px;
+  font-weight: 700;
+  color: #1e293b;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.back-btn:hover {
+  background: #f8fafc;
+  color: #0ea5e9;
+  border-color: #0ea5e9;
+}
+
+.profile-identity {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.large-avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 32px;
+  border: 4px solid white;
+  box-shadow: 0 15px 30px -5px rgba(0, 0, 0, 0.1);
+  object-fit: cover;
+}
+
+.identity-text h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #1e293b;
+  margin-bottom: 4px;
+  letter-spacing: -0.02em;
+}
+
+.identity-text p {
+  color: #64748b;
+  font-size: 1.1rem;
+  margin-bottom: 1.2rem;
+}
+
+.profile-badges {
+  display: flex;
+  gap: 12px;
+}
+
+.badge {
+  padding: 8px 18px;
+  border-radius: 12px;
+  font-weight: 800;
+  font-size: 0.9rem;
+  letter-spacing: 0.02em;
+}
+
+.lvl-badge {
+  background: linear-gradient(135deg, #0ea5e9, #6366f1);
+  color: white;
+  box-shadow: 0 4px 10px rgba(14, 165, 233, 0.4);
+}
+
+.xp-badge {
+  background: #f8fafc;
+  color: #1e293b;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Heatmap */
+.activity-section {
+  background: white;
+  padding: 40px;
+  border-radius: 32px;
+  margin-bottom: 2rem;
+  border: 1px solid #f1f5f9;
+}
+
+.heatmap-container {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.heatmap-grid {
+  display: grid;
+  grid-template-columns: repeat(30, 20px);
+  gap: 6px;
+  margin-top: 2rem;
+  padding: 10px;
+  background: #f8fafc;
+  border-radius: 16px;
+  width: fit-content;
+  min-width: min-content;
+}
+
+.heatmap-cell {
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
+  background: #e2e8f0;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.heatmap-cell:hover {
+  transform: scale(1.4);
+  z-index: 10;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.heatmap-cell.level-1 { background: #bae6fd; }
+.heatmap-cell.level-2 { background: #7dd3fc; }
+.heatmap-cell.level-3 { background: #38bdf8; }
+.heatmap-cell.level-4 {
+  background: #0ea5e9;
+  box-shadow: 0 0 10px rgba(14, 165, 233, 0.4);
+}
+
+.heatmap-legend {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 16px;
+  font-size: 0.75rem;
+  color: #94a3b8;
+}
+
+.legend-cells {
+  display: flex;
+  gap: 4px;
+}
+
+.legend-cells .heatmap-cell {
+  width: 14px;
+  height: 14px;
+}
+
+/* Achievements */
+.achievements-section {
+  background: white;
+  padding: 40px;
+  border-radius: 32px;
+  border: 1px solid #f1f5f9;
+}
+
+.achievements-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.achievement-card {
+  padding: 32px;
+  border-radius: 24px;
+  background: #f8fafc;
+  border: 1px solid #f1f5f9;
+  text-align: center;
+  transition: all 0.3s;
+  opacity: 0.5;
+  filter: grayscale(1);
+}
+
+.achievement-card.unlocked {
+  opacity: 1;
+  filter: grayscale(0);
+  background: white;
+  border-color: #bae6fd;
+}
+
+.achievement-card.unlocked:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px -5px rgba(14, 165, 233, 0.1);
+}
+
+.achievement-card i {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: #0ea5e9;
+}
+
+.achievement-card h4 {
+  font-size: 1.25rem;
+  font-weight: 800;
+  margin-bottom: 8px;
+}
+
+.section-title {
+  margin-bottom: 1.5rem;
+}
+
+.section-title h2 {
+  font-size: 1.5rem;
+  color: #1e293b;
+  margin-bottom: 4px;
+}
+
+.section-title p {
+  font-size: 0.9rem;
+  color: #64748b;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .profile-page {
+    padding: 20px;
+  }
+
+  .profile-identity {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+  }
+
+  .large-avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 24px;
+  }
+
+  .identity-text h1 {
+    font-size: 1.75rem;
+  }
+
+  .activity-section,
+  .achievements-section {
+    padding: 24px;
+  }
+
+  .achievements-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}

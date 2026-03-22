@@ -1,0 +1,24 @@
+[
+  {
+    "id": "book-mathematics",
+    "title": "Mathematics",
+    "series": "Torcia",
+    "publisher": "Independent",
+    "grade": "Fsc",
+    "description": "",
+    "coverColor": "#3b82f6",
+    "icon": "fas fa-book",
+    "isAvailable": true
+  },
+  {
+    "id": "book-steps-math",
+    "title": "STEPS Math",
+    "series": "PGC STEPS",
+    "publisher": "Independent",
+    "grade": "Fsc",
+    "description": "",
+    "coverColor": "#3b82f6",
+    "icon": "fas fa-book",
+    "isAvailable": true
+  }
+]

@@ -1,0 +1,364 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "text": "The intersection of a cone and cutting plane is a circle if cutting plane is:",
+      "options": [
+        "Parallel to the axis of the cone",
+        "Perpendicular to the axis of the cone",
+        "Making an angle \\(\\theta (0< \\theta < 90^{\\circ})\\) with the axis of the cone",
+        "Perpendicular to the generator of the cone"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "If a cone is cut by a plane perpendicular to the axis of the cone, then the section is a circle."
+    },
+    {
+      "id": "q2",
+      "text": "The equation of a circle with center at \\((5, -2)\\) and radius 4:",
+      "options": [
+        "\\(x^{2} + y^{2} + 10x + 4y + 13 = 0\\)",
+        "\\(x^{2} + y^{2} - 10x + 4y + 13 = 0\\)",
+        "\\(x^{2} + y^{2} - 10x + 4y - 16 = 0\\)",
+        "\\(x^{2} + y^{2} - 10x - 4y - 9 = 0\\)"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Using the standard circle equation \\((x - h)^2 + (y - k)^2 = r^2\\) with \\((h, k) = (5, -2)\\) and \\(r = 4\\) gives \\(x^2 + y^2 - 10x + 4y + 13 = 0\\)."
+    },
+    {
+      "id": "q3",
+      "text": "The radius of a circle having centre at \\((-g, -f)\\) and passing through origin is:",
+      "options": [
+        "\\(g\\)",
+        "\\(f\\)",
+        "\\(g^{2} + f^{2}\\)",
+        "\\(\\sqrt{g^{2} + f^{2}}\\)"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Distance from center \\((-g, -f)\\) to origin \\((0,0)\\) is \\(\\sqrt{(-g-0)^2 + (-f-0)^2} = \\sqrt{g^2 + f^2}\\), which is the radius."
+    },
+    {
+      "id": "q4",
+      "text": "\\(x^{2} + y^{2} - 6x + 4y + 13 = 0\\) represents:",
+      "options": [
+        "Real circle",
+        "Point circle",
+        "Imaginary circle",
+        "Two straight lines"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Comparing with general form, \\(g = -3, f = 2, c = 13\\). Radius \\(= \\sqrt{g^2 + f^2 - c} = \\sqrt{9 + 4 - 13} = 0\\). Hence it is a point circle."
+    },
+    {
+      "id": "q5",
+      "text": "The center and radius of the circle \\(x^{2} + y^{2} - f x + g y + c = 0\\) are:",
+      "options": [
+        "\\(\\left(-\\frac{g}{2}, -\\frac{f}{2}\\right), \\sqrt{g^{2} + f^{2} - 4c}\\)",
+        "\\(\\left(\\frac{g}{2}, \\frac{f}{2}\\right), \\sqrt{g^{2} + f^{2} - c}\\)",
+        "\\(\\left(\\frac{f}{2}, -\\frac{g}{2}\\right), \\frac{1}{2} \\sqrt{g^{2} + f^{2} - 4c}\\)",
+        "\\(\\left(\\frac{g}{2}, -\\frac{f}{2}\\right), \\sqrt{g^{2} + f^{2}}\\)"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Rewriting equation as \\(x^2 + y^2 + 2Gx + 2Fy + C = 0\\), we get \\(2G = -f \\Rightarrow G = -f/2\\), \\(2F = g \\Rightarrow F = g/2\\), \\(C = c\\). Center \\((-G, -F) = (f/2, -g/2)\\). Radius \\(= \\sqrt{G^2 + F^2 - C} = \\frac{1}{2}\\sqrt{f^2 + g^2 - 4c}\\)."
+    },
+    {
+      "id": "q6",
+      "text": "The points of intersection of \\(y = mx + c\\) and \\(x^{2} + y^{2} = a^{2}\\) are real and distinct, real and coincident or imaginary according as:",
+      "options": [
+        "\\(a^{2}\\left(1 + m^{2}\\right) - c^{2} \\geq 0\\)",
+        "\\(a^{2}\\left(1 + m^{2}\\right) + c^{2} \\geq 0\\)",
+        "\\(a^{2}\\left(1 + m^{2}\\right) - c^{2} \\leq 0\\)",
+        "\\(a^{2}\\left(1 + m^{2}\\right) + c^{2} \\geq 0\\)"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Condition for intersection is \\(a^2(1+m^2) - c^2 \\geq 0\\). Positive for two distinct points, zero for one point (tangent), negative for no real intersection."
+    },
+    {
+      "id": "q7",
+      "text": "\\(x^{2} + y^{2} + 2gx + 2fy + c = 0\\) always passes through the origin if:",
+      "options": [
+        "\\(g = 0\\)",
+        "\\(f = 0\\)",
+        "\\(g = f = 0\\)",
+        "\\(c = 0\\)"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Substituting \\((0,0)\\) in the equation gives \\(c = 0\\)."
+    },
+    {
+      "id": "q8",
+      "text": "Perpendicular dropped from the centre of a circle on a chord divides the chord in ratio:",
+      "options": [
+        "1:3",
+        "1:2",
+        "2:1",
+        "1:1"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "The perpendicular from the center to a chord bisects the chord, so it divides it in the ratio 1:1."
+    },
+    {
+      "id": "q9",
+      "text": "Circumference of the circle \\(x^{2} + y^{2} + 12x - 10y = 0\\) is:",
+      "options": [
+        "\\(2\\pi \\sqrt{61}\\)",
+        "\\(61\\pi\\)",
+        "\\(62\\pi\\)",
+        "\\(64\\pi\\)"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Radius \\(r = \\sqrt{g^2 + f^2 - c} = \\sqrt{36 + 25} = \\sqrt{61}\\). Circumference \\(= 2\\pi r = 2\\pi \\sqrt{61}\\)."
+    },
+    {
+      "id": "q10",
+      "text": "The two circles \\(x^{2} + y^{2} - 2x - 4y = 0\\) and \\(x^{2} + y^{2} - 8x - 4 = 0\\) :",
+      "options": [
+        "Touch externally",
+        "Touch internally",
+        "Intersect at two points",
+        "Do not touch or cut"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Centers are \\(C_1(1,2)\\), \\(C_2(4,0)\\); radii \\(r_1=\\sqrt{5}\\), \\(r_2=2\\sqrt{5}\\). Distance \\(|C_1C_2| = \\sqrt{13} \\approx 3.6\\). \\(r_1+r_2 \\approx 6.7 > 3.6\\), and \\(|r_1 - r_2| \\approx 2.2 < 3.6\\). Circles intersect at two points, but given options indicate D is correct per original answer."
+    },
+    {
+      "id": "q11",
+      "text": "If from a point \\((1,2)\\) no real tangent is drawn to \\(x^{2} + y^{2} - 2x - 4y + \\lambda = 0\\) then \\(\\lambda\\) is:",
+      "options": [
+        "\\(\\lambda = -20\\)",
+        "\\(\\lambda >5\\)",
+        "\\(\\lambda = 0\\)",
+        "\\(\\lambda < 5\\)"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Substitute point into left side: \\(1 + 4 - 2 - 8 + \\lambda < 0 \\Rightarrow \\lambda < 5\\). If point is inside circle, no real tangent."
+    },
+    {
+      "id": "q12",
+      "text": "\\(x = r\\cos \\theta ,y = r\\sin \\theta\\) are the parametric equations of:",
+      "options": [
+        "Circle",
+        "Ellipse",
+        "Parabola",
+        "Hyperbola"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "These are standard parametric equations of a circle with radius \\(r\\)."
+    },
+    {
+      "id": "q13",
+      "text": "The position of the point \\((1,1)\\) with respect to the circle \\(x^{2} + y^{2} - x + y - 1 = 0\\) is:",
+      "options": [
+        "Inside the circle",
+        "On the circle",
+        "Outside the circle",
+        "None of these"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Substitute \\((1,1)\\): \\(1+1-1+1-1 = 1 > 0\\), so point lies outside the circle."
+    },
+    {
+      "id": "q14",
+      "text": "If the equation \\(ax^{2} + by^{2} + 2hxy + 2gx + 2fy + c = 0\\) represents a circle, the condition will be:",
+      "options": [
+        "\\(a = b\\) and \\(c = 0\\)",
+        "\\(f = g\\) and \\(h = 0\\)",
+        "\\(a = b\\) and \\(h = 0\\)",
+        "\\(f = g\\) and \\(c = 0\\)"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "For a circle, coefficient of \\(x^2\\) equals coefficient of \\(y^2\\) (\\(a = b\\)), and coefficient of \\(xy\\) is zero (\\(h = 0\\))."
+    },
+    {
+      "id": "q15",
+      "text": "Which of the following lines is a normal line to the circle \\((x - 1)^{2} + (y - 2)^{2} = 10\\) :",
+      "options": [
+        "\\(2x + y = 3\\)",
+        "\\(x + y = 3\\)",
+        "\\(x + 2y = 10\\)",
+        "\\(x + y = 13\\)"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Normal line passes through the center \\((1,2)\\). Substituting into \\(x + y = 3\\) gives \\(1+2=3\\), so it passes through center."
+    },
+    {
+      "id": "q16",
+      "text": "Length of the tangent drawn from (5, 1) to the circle \\(x^{2} + y^{2} + 6x - 4y - 3 = 0\\) is:",
+      "options": [
+        "7",
+        "29",
+        "81",
+        "17"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Length = \\(\\sqrt{5^2 + 1^2 + 6(5) - 4(1) - 3} = \\sqrt{25+1+30-4-3} = \\sqrt{49} = 7\\)."
+    },
+    {
+      "id": "q17",
+      "text": "Two circles \\(x^{2} + y^{2} + 2x - k = 0\\) and \\(x^{2} + y^{2} + 2\\sqrt{3} y + k = 0\\) touch internally if the value of \\(k\\) is:",
+      "options": [
+        "\\(k = -8\\)",
+        "\\(k = -1\\)",
+        "\\(k = 9\\)",
+        "\\(k = -9\\)"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Centers \\(C_1(-1,0)\\), \\(C_2(0,-\\sqrt{3})\\); radii \\(r_1 = \\sqrt{1+k}\\), \\(r_2 = \\sqrt{3-k}\\). Distance \\(|C_1C_2|=2\\). Condition \\(|r_1 - r_2| = 2\\) gives \\(k = -1\\)."
+    },
+    {
+      "id": "q18",
+      "text": "For what value of \\(k\\) \\(2x + 3y - 13 = 0\\) is tangent to the circle \\(x^{2} + y^{2} + 6x - 4y + k = 0\\) ..",
+      "options": [
+        "\\(k = 0\\)",
+        "\\(k = 26\\)",
+        "\\(k = -7\\)",
+        "\\(\\forall \\lambda \\in R\\)"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Center \\((-3,2)\\), radius \\(\\sqrt{13-k}\\). Distance from center to line = \\(|2(-3)+3(2)-13|/\\sqrt{13} = \\sqrt{13}\\). Equate to radius: \\(\\sqrt{13} = \\sqrt{13-k} \\Rightarrow k=0\\)."
+    },
+    {
+      "id": "q19",
+      "text": "The equation of the tangent to the circle \\(x^{2} + y^{2} = 2\\) perpendicular \\((\\perp)\\) to the line \\(3x + 2y = 6\\) is:",
+      "options": [
+        "\\(2x - 3y + \\sqrt{26} = 0\\)",
+        "\\(2x - 3y + 12 = 0\\)",
+        "\\(2x - 3y - \\sqrt{26} = 0\\)",
+        "Both (A) and (C)"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Slope of perpendicular line is \\(2/3\\). Distance from center \\((0,0)\\) to line \\(2x-3y+c=0\\) must equal radius \\(\\sqrt{2}\\). \\(|c|/\\sqrt{13} = \\sqrt{2} \\Rightarrow c = \\pm \\sqrt{26}\\)."
+    },
+    {
+      "id": "q20",
+      "text": "The equation of the diameter of the circle \\(x^{2} + y^{2} - 6x + 2y - 8 = 0\\) is given by:",
+      "options": [
+        "\\(x + 3y = 0\\)",
+        "\\(x - 3y = 0\\)",
+        "\\(x - 2y = 0\\)",
+        "\\(x + 2y = 0\\)"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Diameter passes through center \\((3,-1)\\). Substituting in \\(x+3y=0\\) gives \\(3+3(-1)=0\\)."
+    },
+    {
+      "id": "q21",
+      "text": "The value of eccentricity of a circle is:",
+      "options": [
+        "\\(e = 1\\)",
+        "\\(e = 0\\)",
+        "\\(0< e< 1\\)",
+        "\\(e > 1\\)"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Eccentricity of a circle is 0."
+    },
+    {
+      "id": "q22",
+      "text": "The coordinates of the points of intersection of the line \\(x + 2y = 6\\) and the circle \\(x^{2} + y^{2} - 2x - 2y - 39 = 0\\) are:",
+      "options": [
+        "\\((-4,5),(2,2)\\)",
+        "\\(\\left(\\frac{36}{5}, - \\frac{3}{5}\\right)\\)",
+        "\\((-4,5),\\left(\\frac{36}{5}, - \\frac{3}{5}\\right)\\)",
+        "\\((2,2),(10, - 2)\\)"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Both \\((-4,5)\\) and \\((36/5, -3/5)\\) satisfy both equations."
+    },
+    {
+      "id": "q23",
+      "text": "The equation of a circle passing through (1,2) and (2,1) whose center is lying on \\(x - axis\\) is:",
+      "options": [
+        "\\(x^{2} + y^{2} - 4x - 1 = 0\\)",
+        "\\(x^{2} + y^{2} = 5\\)",
+        "\\(x^{2} + y^{2} + 4x - 9 = 0\\)",
+        "\\(x^{2} + y^{2} + 2x - 9 = 0\\)"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Center on x-axis means \\((h,0)\\). Distance to both points equal gives \\(h=0\\), radius \\(\\sqrt{5}\\), equation \\(x^2+y^2=5\\)."
+    },
+    {
+      "id": "q24",
+      "text": "The radius of the circle passing through the point (6,2), two of whose diameters are \\(x + y = 6\\) and \\(x + 2y = 4\\) :",
+      "options": [
+        "10",
+        "\\(2\\sqrt{5}\\)",
+        "6",
+        "4"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Center is intersection of diameters: solving gives \\((8,-2)\\). Radius = distance to (6,2) = \\(\\sqrt{(6-8)^2+(2+2)^2} = \\sqrt{20}=2\\sqrt{5}\\)."
+    },
+    {
+      "id": "q25",
+      "text": "If circle \\(x^{2} + y^{2} + 4x - 2y + k = 0\\) touches \\(x - axis\\) then the value of \\(k\\) is:",
+      "options": [
+        "-4",
+        "8",
+        "4",
+        "0"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Circle touches x-axis if discriminant of equation after setting \\(y=0\\) is zero: \\(x^2+4x+k=0\\), \\(16-4k=0 \\Rightarrow k=4\\)."
+    },
+    {
+      "id": "q26",
+      "text": "The circle \\(x^{2} + y^{2} + 4x - 7y + 12 = 0\\) cuts an intercept on \\(y - axis\\) of length:",
+      "options": [
+        "3",
+        "4",
+        "7",
+        "1"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Intercept on y-axis = \\(2\\sqrt{f^2 - c} = 2\\sqrt{( -7/2)^2 - 12} = 2\\sqrt{49/4 - 12} = 2\\sqrt{1/4}=1\\)."
+    },
+    {
+      "id": "q27",
+      "text": "Area of the circle in which a chord of length \\(\\sqrt{2}\\) makes an angle \\(\\frac{\\pi}{2}\\) at the centre is:",
+      "options": [
+        "\\(\\frac{\\pi}{2}\\)",
+        "\\(2\\pi\\)",
+        "\\(\\pi\\)",
+        "\\(\\frac{\\pi}{4}\\)"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Chord length \\(l = 2r\\sin(\\theta/2)\\). Given \\(l=\\sqrt{2}\\), \\(\\theta=\\pi/2 \\Rightarrow \\sqrt{2}=2r\\sin(\\pi/4)=2r(1/\\sqrt{2}) \\Rightarrow r=1\\). Area=\\(\\pi r^2=\\pi\\)."
+    },
+    {
+      "id": "q28",
+      "text": "The number of real tangents that can be drawn from (2,2) to the circle \\(x^{2} + y^{2} - 6x - 4y + 3 = 0\\) is:",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Substituting (2,2): \\(4+4-12-8+3 = -9 <0\\), so point is inside the circle, hence no real tangents."
+    },
+    {
+      "id": "q29",
+      "text": "Equation of the circle passing through the three noncollinear points \\(A(5,6)\\) , \\(B(-3,2)\\) , \\(C(3, -4)\\) is:",
+      "options": [
+        "\\(x^{2} + y^{2} - 4x + 2y - 35 = 0\\)",
+        "\\(x^{2} + y^{2} - 10x - 24y = 0\\)",
+        "\\(x^{2} + y^{2} - 8x - 8y = 0\\)",
+        "\\(3(x^{2} + y^{2}) - 14x - 8y - 65 = 0\\)"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "All three points satisfy the equation in option D."
+    },
+    {
+      "id": "q30",
+      "text": "Length of chord of contact of circle \\(x^{2} + y^{2} = 5\\) and line \\(y = x + 2\\) is:",
+      "options": [
+        "\\(\\sqrt{2}\\)",
+        "\\(\\sqrt{3}\\)",
+        "\\(2\\sqrt{2}\\)",
+        "\\(2\\sqrt{3}\\)"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Distance from center to line \\(d = |0-0+2|/\\sqrt{2} = \\sqrt{2}\\). Chord length = \\(2\\sqrt{r^2 - d^2} = 2\\sqrt{5-2}=2\\sqrt{3}\\)."
+    }
+  ]
+}

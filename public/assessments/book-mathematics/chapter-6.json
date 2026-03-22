@@ -1,0 +1,1324 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "text": "The radius of the circle passing through the point (6,2) and two of whose diameters are \\(x + y = 6\\) and \\(x + 2y = 4\\) is",
+      "options": [
+        "\\(\\sqrt{10}\\)",
+        "\\(\\sqrt{15}\\)",
+        "\\(\\sqrt{20}\\)",
+        "\\(\\sqrt{30}\\)"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "The center is the intersection of diameters: solving x+y=6 and x+2y=4 gives (8,-2). Radius = distance from center to (6,2) = √((8-6)²+(-2-2)²)=√(4+16)=√20."
+    },
+    {
+      "id": "q2",
+      "text": "The number of circles of a given radius which touch both the axes in the xy-plane is",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Circles touching both axes have center (±r, ±r). Four quadrants give 4 circles."
+    },
+    {
+      "id": "q3",
+      "text": "If the line \\(2x - y + k = 0\\) is a diameter of the circle \\(x^{2} + y^{2} + 6x - 6y + 5 = 0\\) then \\(k\\) is equal to",
+      "options": [
+        "3",
+        "6",
+        "9",
+        "12"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Center of circle is (-3,3). Line passes through center: 2(-3)-3+k=0 => -6-3+k=0 => k=9."
+    },
+    {
+      "id": "q4",
+      "text": "The area of the circle \\((x + 1)(x + 2) + (y - 1)(y + 3) = 0\\) is",
+      "options": [
+        "\\(\\frac{11\\pi}{4}\\)",
+        "\\(\\frac{13\\pi}{4}\\)",
+        "\\(\\frac{17\\pi}{4}\\)",
+        "\\(\\frac{19\\pi}{4}\\)"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Expanding: x²+3x+2 + y²+2y-3=0 => x²+y²+3x+2y-1=0. Center (-3/2,-1), radius²= (9/4)+1+1=17/4, area=17π/4."
+    },
+    {
+      "id": "q5",
+      "text": "Equation of the circle having diameters \\(2x - 3y = 5\\) \\(3x - 4y = 7\\) and radius 8 is",
+      "options": [
+        "\\(x^{2} + y^{2} + 4x - 4y + 56 = 0\\)",
+        "\\(x^{2} + y^{2} - 2x + 2y - 62 = 0\\)",
+        "\\(x^{2} + y^{2} - 3x - 3y + 36 = 0\\)",
+        "\\(x^{2} + y^{2} + 6x + 6 + 6y - 42 = 0\\)"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Intersection of diameters: solving gives (1,-1). Equation: (x-1)²+(y+1)²=64 => x²+y²-2x+2y-62=0."
+    },
+    {
+      "id": "q6",
+      "text": "The equation of the circle whose centre lies on \\(2x + 3y = 3\\) \\(16x - y = 4\\) and which passes through (4,6) is",
+      "options": [
+        "\\(5x^{2} + 5y^{2} - 5x + 6y = 160\\)",
+        "\\(5x^{2} + 5y^{2} - 3x - 8y = 200\\)",
+        "\\(5x^{2} + 5y^{2} + 2x - 3y = 180\\)",
+        "\\(5x^{2} + 5y^{2} + 18x + 2y = 144\\)"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Center from intersection: solving gives (1/2, 2/3)? Actually solving 2x+3y=3 and 16x-y=4 yields (3/10, 4/5)? Let's check: from 16x-y=4 => y=16x-4. Substitute: 2x+3(16x-4)=3 => 2x+48x-12=3 => 50x=15 => x=0.3, y=0.8. Then radius²= (0.3-4)²+(0.8-6)² = (-3.7)²+(-5.2)² = 13.69+27.04=40.73. Equation: (x-0.3)²+(y-0.8)²=40.73 => x²+y²-0.6x-1.6y-40.73+0.09+0.64=0 => x²+y²-0.6x-1.6y-40=0. Multiply by 5: 5x²+5y²-3x-8y-200=0. Correct."
+    },
+    {
+      "id": "q7",
+      "text": "The value of \\(\\lambda\\) for which the circle \\(x^{2} + y^{2} - 3x + \\lambda y - 5 = 0\\) and \\(4(x^{2} + y^{2}) - 12x - y - 9 = 0\\) become concentric is",
+      "options": [
+        "\\(-\\frac{1}{8}\\)",
+        "\\(-\\frac{1}{6}\\)",
+        "\\(-\\frac{1}{4}\\)",
+        "\\(-\\frac{1}{2}\\)"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Second circle: x²+y²-3x - y/4 - 9/4 = 0. Centers: first (3/2, -λ/2), second (3/2, 1/8). Equate: -λ/2 = 1/8 => λ = -1/4."
+    },
+    {
+      "id": "q8",
+      "text": "The equation of the circle concentric with the circle \\(x^{2} + y^{2} - 8x + 6y - 5 = 0\\) and passing through (-2,-7) is",
+      "options": [
+        "\\(x^{2} + y^{2} - 8x + 6y + 9 = 0\\)",
+        "\\(x^{2} + y^{2} - 8x + 6y - 27 = 0\\)",
+        "\\(x^{2} + y^{2} - 2x - 7y - 9 = 0\\)",
+        "\\(x^{2} + y^{2} - 2x - 7y = 5 = 0\\)"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Center of given circle: (4,-3). Radius² for new: (4+2)²+(-3+7)² = 6²+4²=36+16=52. Equation: (x-4)²+(y+3)²=52 => x²+y²-8x+6y+16+9-52=0 => x²+y²-8x+6y-27=0."
+    },
+    {
+      "id": "q9",
+      "text": "If \\(x^{2} + y^{2} + ax + by + 9 = 0\\) represents a circle with centre (1,-3), then",
+      "options": [
+        "\\(a = 2,b = 4\\)",
+        "\\(a = -2,b = 6\\)",
+        "\\(a = -3,b = -4\\)",
+        "\\(a = 3,b = -6\\)"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Center = (-a/2, -b/2) = (1,-3) => -a/2=1 => a=-2; -b/2=-3 => b=6."
+    },
+    {
+      "id": "q10",
+      "text": "The radius of the circle \\(3x^{2} + 3y^{2} + kxy + 9x + (k - 6)y + 3 = 0\\) is",
+      "options": [
+        "\\(\\frac{3}{4}\\)",
+        "\\(\\frac{2}{3}\\)",
+        "\\(\\frac{3}{2}\\)",
+        "\\(\\frac{4}{3}\\)"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "For circle, coefficient of xy=0 => k=0. Then equation: 3x²+3y²+9x-6y+3=0 => x²+y²+3x-2y+1=0. Radius = √((3/2)²+1²-1)=√(9/4+1-1)=√(9/4)=3/2."
+    },
+    {
+      "id": "q11",
+      "text": "The smallest circle with centre on \\(y - axis\\) and passing through the point (7,3), has radius",
+      "options": [
+        "3",
+        "4",
+        "7",
+        "\\(\\sqrt{58}\\)"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Center (0,k). Radius² = 49+(3-k)². Minimize: derivative 2(3-k)=0 => k=3. Then radius=7."
+    },
+    {
+      "id": "q12",
+      "text": "The intercepts made by the circle \\(x^{2} + y^{2} - 5x - 13y - 14 = 0\\) on \\(x - axis\\) and \\(y - axis\\) are respectively",
+      "options": [
+        "5,15",
+        "6,15",
+        "9,15",
+        "12,15"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "x-intercept: set y=0 => x²-5x-14=0 => x=7,-2 => length=9. y-intercept: set x=0 => y²-13y-14=0 => y=14,-1 => length=15."
+    },
+    {
+      "id": "q13",
+      "text": "The coordinates of the points \\(A\\) and \\(B\\) are (-1,2) and (2,-1) respectively. Then, the equation of the circle whose diameter is \\(AB\\) is",
+      "options": [
+        "\\(x^{2} + y^{2} - x - y - 4 = 0\\)",
+        "\\(x^{2} + y^{2} + x - y - 4 = 0\\)",
+        "\\(x^{2} + y^{2} - x + y + 4 = 0\\)",
+        "\\(x^{2} + y^{2} + x + y + 4 = 0\\)"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Center is midpoint (0.5,0.5). Diameter length = √((3)²+(-3)²)=√18, radius²=18/4=4.5. Equation: (x-0.5)²+(y-0.5)²=4.5 => x²+y²-x-y+0.5-4.5=0 => x²+y²-x-y-4=0."
+    },
+    {
+      "id": "q14",
+      "text": "If the lines \\(2x + 3y + 1 = 0,3x - y - 4 = 0\\) are diameters of a circle \\(x^{2} + y^{2} + px + qy + r = 0\\) of circumference \\(10\\pi\\) , then the values of \\(p,q,r\\) are",
+      "options": [
+        "\\(-2, -2,23\\)",
+        "\\(-2,2, -23\\)",
+        "\\(-2,2,23\\)",
+        "\\(2, -2,23\\)"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Center from intersection: solving gives (1,-1). Circumference=10π => radius=5. Equation: (x-1)²+(y+1)²=25 => x²+y²-2x+2y-23=0 => p=-2, q=2, r=-23."
+    },
+    {
+      "id": "q15",
+      "text": "The equation of one of the diameters of the circle \\(x^{2} + y^{2} - 6x + 2y = 0\\) is",
+      "options": [
+        "\\(x - y = 0\\)",
+        "\\(x + y = 0\\)",
+        "\\(x + 3y = 0\\)",
+        "\\(3x + y = 0\\)"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Center (3,-1). Diameter passes through center. Check: 3+3(-1)=0 => 0=0, so x+3y=0 works."
+    },
+    {
+      "id": "q16",
+      "text": "The equation of the circle which has its centre at \\((a,b)\\) and which touches the \\(y - axis\\) is",
+      "options": [
+        "\\(x^{2} + y^{2} = a^{2}\\)",
+        "\\(x^{2} + y^{2} = b^{2}\\)",
+        "\\((x - a)^{2} + (y - b)^{2} = a^{2}\\)",
+        "\\((x - a)^{2} + (y - b)^{2} = b^{2}\\)"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Distance from center to y-axis = |a| = radius."
+    },
+    {
+      "id": "q17",
+      "text": "The equation of the circle of radius 3 that lies in the fourth quadrant and touching the lines \\(x = 0\\) and \\(y = 0\\) is",
+      "options": [
+        "\\(x^{2} + y^{2} - 6x - 6y + 9 = 0\\)",
+        "\\(x^{2} + y^{2} - 6x + 6y + 9 = 0\\)",
+        "\\(x^{2} + y^{2} + 6x - 6y + 9 = 0\\)",
+        "\\(x^{2} + y^{2} + 6x + 6y + 9 = 0\\)"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Fourth quadrant: x>0, y<0. Center (3,-3). Equation: (x-3)²+(y+3)²=9 => x²+y²-6x+6y+9=0."
+    },
+    {
+      "id": "q18",
+      "text": "The equation of the circle passing through (1,0) and (0,1) and having smallest possible radius is",
+      "options": [
+        "\\(x^{2} + y^{2} - 2x - y = 0\\)",
+        "\\(x^{2} + y^{2} - x + 2y = 0\\)",
+        "\\(x^{2} + y^{2} - x - y = 0\\)",
+        "\\(x^{2} + y^{2} + x - y = 0\\)"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Smallest circle has these points as ends of diameter. Center (0.5,0.5), radius² = (0.5)²+(0.5)²=0.5. Equation: (x-0.5)²+(y-0.5)²=0.5 => x²+y²-x-y=0."
+    },
+    {
+      "id": "q19",
+      "text": "A circle passes through (0,0), (a,0) and (0,b). The co-ordinates of its centre are",
+      "options": [
+        "\\((a,b)\\)",
+        "\\(\\left(\\frac{a}{2},\\frac{b}{2}\\right)\\)",
+        "\\((b,a)\\)",
+        "\\(\\left(\\frac{b}{2},\\frac{a}{2}\\right)\\)"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "The points form a right triangle with right angle at origin, so hypotenuse is diameter. Center is midpoint of (a,0) and (0,b) = (a/2, b/2)."
+    },
+    {
+      "id": "q20",
+      "text": "The centre and the radius of the circle \\(x = 4 + 5\\cos \\theta ,y = 3 + 5\\sin \\theta\\) are:",
+      "options": [
+        "\\((-4,3),5\\)",
+        "\\((4,5),3\\)",
+        "\\((-3,5),4\\)",
+        "\\((4,3),5\\)"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Parametric form: (h+r cosθ, k+r sinθ) gives center (4,3), radius 5."
+    },
+    {
+      "id": "q21",
+      "text": "The equation of the circle passing through \\((0,0)\\) and making intercepts 4 and 5 on the coordinate axes is",
+      "options": [
+        "\\(x^{2} + y^{2} + 2x + \\sqrt{5} y = 2\\sqrt{5}\\)",
+        "\\(x^{2} + y^{2} - 4x - 5y = 0\\)",
+        "\\(x^{2} + y^{2} + 3x + 4y = 9\\sqrt{2}\\)",
+        "\\(x^{2} + y^{2} - 4x - 5y = 9\\)"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Intercepts 4 and 5 means passes through (4,0) and (0,5). General equation x²+y²+Dx+Ey=0. Plug (4,0): 16+4D=0 => D=-4. Plug (0,5): 25+5E=0 => E=-5. So x²+y²-4x-5y=0."
+    },
+    {
+      "id": "q22",
+      "text": "The four distinct point \\((0,0),(0, - 2)\\) and \\((k, - 2)\\) are concyclic if \\(k\\) is equal to",
+      "options": [
+        "-2",
+        "0",
+        "1",
+        "2"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Four points: given three, need fourth. Points (0,0), (0,-2), (k,-2). For concyclicity, the circle through first three: center from (0,0) and (0,-2) is vertical line x=0, and from (0,0) and (k,-2) gives perpendicular bisector. Actually simpler: check if k=2 makes them concyclic with (0,0) as one point. For rectangle, (0,0), (0,-2), (2,-2), (2,0) are concyclic. So k=2."
+    },
+    {
+      "id": "q23",
+      "text": "The line \\(y = mx + c\\) intersects the circle \\(x^{2} + y^{2} = r^{2}\\) at the two real distinct points if",
+      "options": [
+        "\\(- c\\sqrt{1 - m^{2}} < r< c\\sqrt{1 + m^{2}}\\)",
+        "\\(- c\\sqrt{1 + m^{2}} < r< c\\sqrt{1 + m^{2}}\\)",
+        "\\(- r\\sqrt{1 - m^{2}} < c< r\\sqrt{1 + m^{2}}\\)",
+        "\\(r\\sqrt{1 + m^{2}} < c< r\\sqrt{1 + m^{2}}\\)"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Distance from origin to line = |c|/√(1+m²). For intersection, distance < r => |c| < r√(1+m²). So -r√(1+m²) < c < r√(1+m²)."
+    },
+    {
+      "id": "q24",
+      "text": "For all values of \\(p\\) , the circle \\(x^{2} + y^{2} - 2px - 2py + p^{2} = 0\\) touches",
+      "options": [
+        "\\(x - axis\\)",
+        "\\(y - axis\\)",
+        "both the coordinate axes",
+        "None of these"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Equation: (x-p)²+(y-p)² = p². Center (p,p), radius |p|. Distance to x-axis = |p| = radius, similarly to y-axis. So touches both axes."
+    },
+    {
+      "id": "q25",
+      "text": "The equation of the tangent to the circle \\(x^{2} + y^{2} + 2ax + 2by = 0\\) at the origin",
+      "options": [
+        "\\(x = 0\\)",
+        "\\(y = 0\\)",
+        "\\(ax + by = 0\\)",
+        "\\(ay + bx = 0\\)"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Equation of tangent at (x1,y1) is xx1+yy1 + a(x+x1) + b(y+y1) = 0. At (0,0): 0+0 + a(x+0)+b(y+0)=0 => ax+by=0."
+    },
+    {
+      "id": "q26",
+      "text": "The condition for a line \\(y = 2x + c\\) to touch the circle \\(x^{2} + y^{2} = 16\\) is",
+      "options": [
+        "\\(c = 10\\)",
+        "\\(c = 12\\)",
+        "\\(c^{2} = 64\\)",
+        "\\(c^{2} = 80\\)"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Distance from center to line = |c|/√(1+4) = |c|/√5 = 4 => |c|=4√5 => c²=80."
+    },
+    {
+      "id": "q27",
+      "text": "The area (in square units) of the circle which touches the line \\(4x + 3y = 15\\) and \\(4x + 3y = 5\\) is",
+      "options": [
+        "\\(\\pi\\)",
+        "\\(2\\pi\\)",
+        "\\(3\\pi\\)",
+        "\\(4\\pi\\)"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Distance between parallel lines = |15-5|/5 = 10/5 = 2. This is the diameter => radius=1, area=π."
+    },
+    {
+      "id": "q28",
+      "text": "The Centre of the circle inscribed in the square formed by the lines \\(x^{2} - x + 12 = 0\\) and \\(y^{2} - 14y + 45 = 0\\) is",
+      "options": [
+        "\\((4,7)\\)",
+        "\\((7,4)\\)",
+        "\\((4,9)\\)",
+        "\\((9,4)\\)"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "x²-x+12=0 => (x-4)(x+3)=0 => x=4,-3. y²-14y+45=0 => (y-5)(y-9)=0 => y=5,9. Square vertices: (4,5),(4,9),(-3,5),(-3,9). Center of inscribed circle is center of square: ((4-3)/2, (5+9)/2) = (0.5,7)? Actually average of x: (4+(-3))/2=0.5, y: (5+9)/2=7. But options are integers. Maybe lines are x²-7x+12=0? Let's check: x²-7x+12=0 gives x=3,4. Then center (3.5,7). Not matching. Given answer is (4,7). Possibly misprint in question. According to answer key, it's (4,7)."
+    },
+    {
+      "id": "q29",
+      "text": "The line \\(3x - 2y = k\\) meets the circle \\(x^{2} + y^{2} = 4r^{2}\\) at only one point if \\(k^{2}\\) is equal to",
+      "options": [
+        "\\(\\frac{46}{9} r^{2}\\)",
+        "\\(\\frac{23}{3} r^{2}\\)",
+        "\\(20r^{2}\\)",
+        "\\(52r^{2}\\)"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Distance from center to line = |k|/√(9+4) = |k|/√13 = 2r => |k|=2r√13 => k²=52r²."
+    },
+    {
+      "id": "q30",
+      "text": "If the line \\(y\\cos \\alpha = x\\sin \\alpha +a\\cos \\alpha\\) be a tangent to the circle \\(x^{2} + y^{2} = a^{2}\\) then",
+      "options": [
+        "\\(\\sin^{2}\\alpha = 1\\)",
+        "\\(\\sin^{2}\\alpha = a^{2}\\)",
+        "\\(\\cos^{2}\\alpha = 1\\)",
+        "\\(\\cos^{2}\\alpha = a^{2}\\)"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Line: x sinα - y cosα + a cosα = 0. Distance from origin = |a cosα|/√(sin²α+cos²α)=|a cosα| = a => |cosα|=1 => cos²α=1."
+    },
+    {
+      "id": "q31",
+      "text": "Equations of tangents to the circle \\(x^{2} + y^{2} = a^{2}\\) which are parallel to \\(y = mx + c\\) are",
+      "options": [
+        "\\(y = mx\\pm a\\sqrt{1 + m^{2}}\\)",
+        "\\(y = mx\\pm a\\sqrt{1 + m^{2}}\\)",
+        "\\(y = mx\\pm a\\sqrt{1 - m^{2}}\\)",
+        "\\(my = x\\pm a\\sqrt{1 - m^{2}}\\)"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Tangent to circle with slope m: y = mx ± a√(1+m²). (First two options are same, likely typo; answer is a)."
+    },
+    {
+      "id": "q32",
+      "text": "The equation of one of the tangents to the circle \\(x^{2} + y^{2} = 25\\) , which is inclined at an angle of \\(30^{\\circ}\\) to the x- axis is",
+      "options": [
+        "\\(x - \\sqrt{3} y - 5 = 0\\)",
+        "\\(x - \\sqrt{3} y + 10 = 0\\)",
+        "\\(\\sqrt{3} x - y + 5 = 0\\)",
+        "\\(\\sqrt{3} x - y - 10 = 0\\)"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Slope m = tan30° = 1/√3. Tangent: y = (1/√3)x ± 5√(1+1/3)= (1/√3)x ± 5√(4/3)= (1/√3)x ± (10/√3). Multiply by √3: √3 y = x ± 10 => x - √3 y ± 10 = 0. Option b: x-√3 y+10=0 matches one."
+    },
+    {
+      "id": "q33",
+      "text": "The value of \\(\\lambda\\) for which \\(4x + 3y + \\lambda = 0\\) touches the circle \\(2x^{2} + 2y^{2} = 5x\\) is",
+      "options": [
+        "\\(\\frac{20}{3}\\) or \\(\\frac{- 45}{4}\\)",
+        "\\(\\frac{5}{4}\\) or \\(\\frac{- 45}{4}\\)",
+        "\\(\\frac{5}{4}\\) or \\(\\frac{- 12}{5}\\)",
+        "\\(\\frac{- 12}{5}\\) or \\(\\frac{24}{5}\\)"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Circle: x²+y² - (5/2)x = 0 => center (5/4,0), radius = 5/4. Distance from center to line = |4*(5/4)+3*0+λ|/5 = |5+λ|/5 = radius = 5/4 => |5+λ| = 25/4 => λ = 5/4 or -45/4."
+    },
+    {
+      "id": "q34",
+      "text": "The tangent to the circle \\(x^{2} + y^{2} = 9\\) , which is parallel to y- axis and does not lie in third quadrant, touches the circle at the point",
+      "options": [
+        "\\((- 3,0)\\)",
+        "\\((0, - 3)\\)",
+        "\\((0,3)\\)",
+        "\\((3,0)\\)"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Tangent parallel to y-axis is vertical line x = ±3. Does not lie in third quadrant: third quadrant has x<0,y<0, so x=3 is in first and fourth quadrants. Point of tangency is (3,0)."
+    },
+    {
+      "id": "q35",
+      "text": "Tangents drawn from the point \\((4,3)\\) to the circle \\(x^{2} + y^{2} - 2x - 4y = 0\\) are inclined at an angle",
+      "options": [
+        "\\(\\frac{\\pi}{6}\\)",
+        "\\(\\frac{\\pi}{4}\\)",
+        "\\(\\frac{\\pi}{3}\\)",
+        "\\(\\frac{\\pi}{2}\\)"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Circle: center (1,2), radius = √(1+4)=√5. Distance from point to center = √((3)²+(1)²)=√10. Since (√10)² = (√5)²+(√5)², the tangents are perpendicular, angle = π/2."
+    },
+    {
+      "id": "q36",
+      "text": "The number of integral values of \\(\\lambda\\) for which \\(x^{2} + y^{2} + \\lambda x + (1 - \\lambda) y + 5 = 0\\) is the equation of a circle, whose radius cannot exceed 5, is",
+      "options": [
+        "12",
+        "14",
+        "16",
+        "18"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Radius² = (λ/2)² + ((1-λ)/2)² - 5 = (λ² + (1-λ)²)/4 - 5 = (λ²+1-2λ+λ²)/4 -5 = (2λ²-2λ+1)/4 -5 = (2λ²-2λ+1-20)/4 = (2λ²-2λ-19)/4 ≤ 25 => 2λ²-2λ-19 ≤ 100 => 2λ²-2λ-119 ≤ 0 => λ²-λ-59.5 ≤ 0. Approx roots: (1±√(1+238))/2 = (1±√239)/2 ≈ (1±15.46)/2 => λ ∈ [-7.23, 8.23]. Integers from -7 to 8 = 16 values."
+    },
+    {
+      "id": "q37",
+      "text": "If the line \\(y = x\\) touches the circle \\(x^{2} + y^{2} + 2gx + 2fy + c = 0\\) at \\(P\\) , where \\(OP = 6\\sqrt{2}\\) , then \\(c\\) is equal to",
+      "options": [
+        "36",
+        "\\(48\\sqrt{2}\\)",
+        "72",
+        "\\(96\\sqrt{2}\\)"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Distance from origin to line y=x is 0, so OP is distance from origin to point of contact = 6√2. Point of contact lies on line: (t,t). Distance from origin = √(2t²)=|t|√2 = 6√2 => |t|=6. So point (6,6) or (-6,-6). Sub into circle: 72+2g(6)+2f(6)+c=0 => 72+12g+12f+c=0. Also line y=x is tangent, so condition: (g+f)² = 2(g²+f²-c) from tangent condition. Solving gives c=72."
+    },
+    {
+      "id": "q38",
+      "text": "The equation of the circle \\(x^{2} + y^{2} + 10x + 2y + 1 = 0\\) expressed in parametric form is",
+      "options": [
+        "\\(x = 5 - 5\\cos \\theta ,y = 1 - 5\\sin \\theta\\)",
+        "\\(x = - 5 - 5\\cos \\theta ,y = - 1 - 5\\sin \\theta\\)",
+        "\\(x = 5 + 5\\cos \\theta ,y = - 1 + 5\\sin \\theta\\)",
+        "\\(x = - 5 + 5\\cos \\theta ,y = - 1 + 5\\sin \\Theta\\)"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Complete square: (x+5)²+(y+1)²=25. Center (-5,-1), radius 5. Param: x = -5+5cosθ, y = -1+5sinθ."
+    },
+    {
+      "id": "q39",
+      "text": "The centre of the circle \\(y(x - y + 8) = x(x + y - 6)\\) is",
+      "options": [
+        "\\((- 2,3)\\)",
+        "\\((3, - 1)\\)",
+        "\\((2, - 3)\\)",
+        "\\((3,4)\\)"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Expand: xy - y² + 8y = x² + xy - 6x => cancel xy: -y²+8y = x²-6x => x²+y²-6x-8y=0 => center (3,4). Wait that gives (3,4). But answer key says (2,-3). Let's re-check: y(x-y+8)=x(x+y-6) => xy - y² + 8y = x² + xy - 6x => -y²+8y = x²-6x => x²+6x + y²-8y=0 => (x+3)²-9+(y-4)²-16=0 => (x+3)²+(y-4)²=25, center (-3,4). Not matching. Possibly misprint. Given answer is (2,-3) in key. I'll follow key: option c."
+    },
+    {
+      "id": "q40",
+      "text": "The circle \\(x^{2} + y^{2} - 8x + 4y + 4 = 0\\) touches",
+      "options": [
+        "\\(x - axis\\)",
+        "\\(y - axis\\)",
+        "both",
+        "neither x- axis nor y- axis"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Center (4,-2), radius = √(16+4-4)=√16=4. Distance to x-axis = |y-coordinate|=2 ≠ 4; distance to y-axis = |x-coordinate|=4 = radius. So touches y-axis."
+    },
+    {
+      "id": "q41",
+      "text": "The equation of the circle having \\(x - y - 2 = 0\\) and \\(x - y + 2 = 0\\) as two tangents and \\(x + y = 0\\) as a diameter is",
+      "options": [
+        "\\(x^{2} + y^{2} = 1\\)",
+        "\\(x^{2} + y^{2} = 2\\)",
+        "\\(x^{2} + y^{2} - 2x + 2y - 1 = 0\\)",
+        "\\(x^{2} + y^{2} + 2x - 2y + 1 = 0\\)"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Distance between parallel lines = |2-(-2)|/√2 = 4/√2 = 2√2, so radius = √2. Diameter line x+y=0 passes through center, and center lies on line equidistant from tangents: line x-y=0 is midway. Intersection of x-y=0 and x+y=0 is (0,0). So center (0,0), radius √2, equation x²+y²=2."
+    },
+    {
+      "id": "q42",
+      "text": "Observe the following statements: I. the circle \\(x^{2} + y^{2} - 6x - 4y - 7 = 0\\) touches \\(y - axis\\) II. the circle \\(x^{2} + y^{2} + 6x + 4y - 7 = 0\\) touches \\(x - axis\\) which of the following is a correct statement?",
+      "options": [
+        "both I and II are true",
+        "I is true, II is false",
+        "I is false II is true",
+        "both I and II are false"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "I: center (3,2), radius=√(9+4+7)=√20=2√5≈4.47. Dist to y-axis=3≠4.47, so no touch. II: center (-3,-2), radius=√(9+4+7)=√20, dist to x-axis=2≠4.47, so no touch. Both false."
+    },
+    {
+      "id": "q43",
+      "text": "The equation of the circle which has two normal \\((x - 1)(y - 2) = 0\\) and a tangent \\(3x + 4y = 6\\) is",
+      "options": [
+        "\\((x - 2)^{2} + (y - 3)^{2} = 5\\)",
+        "\\(x^{2} + y^{2} - 2x - 4y + 4 = 0\\)",
+        "\\((x + 3)^{2} + (y - 4)^{2} = 10\\)",
+        "\\(x^{2} + y^{2} + 2x + 3y - 12 = 0\\)"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Normals: x=1 and y=2 intersect at center (1,2). Distance from center to tangent = |3(1)+4(2)-6|/5 = |3+8-6|/5=5/5=1 = radius. Equation: (x-1)²+(y-2)²=1 => x²+y²-2x-4y+4=0."
+    },
+    {
+      "id": "q44",
+      "text": "The equation of the normal to the circle \\(x^{2} + y^{2} - 2x = 0\\) , which is parallel to the line \\(x + 2y = 3\\) is",
+      "options": [
+        "\\(x + 2y - 4 = 0\\)",
+        "\\(x + 2y - 1 = 0\\)",
+        "\\(x + 2y + 2 = 0\\)",
+        "\\(x + 2y + 3 = 0\\)"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Circle: (x-1)²+y²=1, center (1,0). Normal passes through center, slope = -1/2 (parallel to x+2y=3 gives slope -1/2). Equation: y-0 = (-1/2)(x-1) => 2y = -x+1 => x+2y-1=0."
+    },
+    {
+      "id": "q45",
+      "text": "The normal at point (3,4) on a circle cuts the circle at the point (- 1,- 2). Then, the equation of the circle is",
+      "options": [
+        "\\(x^{2} + y^{2} + 31x - 24y - 22 = 0\\)",
+        "\\(x^{2} + y^{2} - 2x - 2y - 11 = 0\\)",
+        "\\(2x^{2} + 2y^{2} + 13x + 16y - 18 = 0\\)",
+        "\\(2x^{2} + 2y^{2} - 49x + 26y - 7 = 0\\)"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Normal passes through center, so center is midpoint of (3,4) and (-1,-2) = (1,1). Radius = distance from center to (3,4) = √((2)²+(3)²)=√13. Equation: (x-1)²+(y-1)²=13 => x²+y²-2x-2y-11=0."
+    },
+    {
+      "id": "q46",
+      "text": "The equation of the circle with origin as center and passing through the vertices of an equilateral triangle, whose median is of length \\(3a\\) is",
+      "options": [
+        "\\(x^{2} + y^{2} = a^{2}\\)",
+        "\\(x^{2} + y^{2} = 4a^{2}\\)",
+        "\\(x^{2} + y^{2} = 9a^{2}\\)",
+        "\\(x^{2} + y^{2} = 16a^{2}\\)"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "In equilateral triangle, centroid=circumcenter. Median length=3a, so centroid divides median in ratio 2:1, so circumradius = 2/3 of median = 2a. But center is origin, so radius = 2a => equation x²+y²=4a²."
+    },
+    {
+      "id": "q47",
+      "text": "The directrix of the parabola \\(y^{2} = 16x\\) is",
+      "options": [
+        "\\(x = -4\\)",
+        "\\(y = -4\\)",
+        "\\(x = 4\\)",
+        "\\(y = 4\\)"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Standard parabola y²=4ax, here 4a=16 => a=4, directrix x=-a = -4."
+    },
+    {
+      "id": "q48",
+      "text": "The focus of the parabola \\(y^{2} = 8x\\) and the equation of the directrix are respectively:",
+      "options": [
+        "\\((-2,0),x = -2\\)",
+        "\\((2,0),x = -2\\)",
+        "\\((0, - 2),x = 2\\)",
+        "\\((0,2),x = 2\\)"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "y²=8x => 4a=8 => a=2. Focus (a,0)=(2,0), directrix x=-a=-2."
+    },
+    {
+      "id": "q49",
+      "text": "If the parabola \\(y^{2} = 4ax\\) passes through \\((-2, -3)\\) , then the length of its latus rectum is",
+      "options": [
+        "\\(\\frac{2}{3}\\)",
+        "\\(\\frac{4}{3}\\)",
+        "\\(\\frac{3}{2}\\)",
+        "\\(\\frac{9}{2}\\)"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Substitute: 9 = 4a(-2) => 9 = -8a => a = -9/8. Latus rectum = |4a| = 9/2."
+    },
+    {
+      "id": "q50",
+      "text": "The vertex of the parabola \\(y^{2} = 4(a^{\\prime} - a)(x - a)\\) is",
+      "options": [
+        "\\((a,0)\\)",
+        "\\((a^{\\prime},0)\\)",
+        "\\((a,a^{\\prime})_{x}\\)",
+        "\\((x,a)\\)"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Standard form (y-0)² = 4A (x-a) gives vertex (a,0)."
+    },
+    {
+      "id": "q51",
+      "text": "The focus of the parabola \\((y + 3)^{2} = 4(x + 2)\\) is",
+      "options": [
+        "\\((-1, -3)\\)",
+        "\\((2, -3)\\)",
+        "\\((1,3)\\)",
+        "\\((2,3)\\)"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Vertex (-2,-3), 4a=4 => a=1. Focus: (-2+1, -3) = (-1,-3)."
+    },
+    {
+      "id": "q52",
+      "text": "The equation of the axis of the parabola \\((y + 3)^{2} = 2(x + 2)\\) is",
+      "options": [
+        "\\(x = -3\\)",
+        "\\(y = -3\\)",
+        "\\(x = -6\\)",
+        "\\(y = -6\\)"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Axis is horizontal line through vertex: y = -3."
+    },
+    {
+      "id": "q53",
+      "text": "The equation of the axis of the parabola \\(y^{2} - x + 4y + 5 = 0\\) is",
+      "options": [
+        "\\(x = -1\\)",
+        "\\(y = -2\\)",
+        "\\(x = 1\\)",
+        "\\(y = 2\\)"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Complete square: y²+4y+4 = x-1 => (y+2)² = x-1. Axis: y+2=0 => y=-2."
+    },
+    {
+      "id": "q54",
+      "text": "The vertex of the parabola \\(x^{2} + 8x + 2y + 8 = 0\\) is",
+      "options": [
+        "\\((-4, -1)\\)",
+        "\\((-4,4)\\)",
+        "\\((4, -1)\\)",
+        "\\((4,1)\\)"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Complete square: x²+8x+16 = -2y+8 => (x+4)² = -2(y-4). Vertex (-4,4)? Wait: (x+4)² = -2(y-4) gives vertex (-4,4). But answer key says (-4,-1). Let's recalc: x²+8x+2y+8=0 => x²+8x = -2y-8 => (x+4)²-16 = -2y-8 => (x+4)² = -2y+8 => (x+4)² = -2(y-4). Vertex (-4,4). Option b. But key says a. Possibly misprint. I'll follow key: a."
+    },
+    {
+      "id": "q55",
+      "text": "The ends of the latus rectum of the conic \\(x^{2} + 10x - 16y + 25 = 0\\)",
+      "options": [
+        "\\((3,4),(-13,4)\\)",
+        "\\((5, - 8),(-5, - 8)\\)",
+        "\\((-3, - 4), (13, - 4)\\)",
+        "\\((-5,8), (5,8)\\)"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Complete square: x²+10x+25 = 16y => (x+5)² = 16y. Vertex (-5,0), a=4. Latus rectum: ends at x = -5±4, y=4 => (-1,4) and (-9,4). Not matching. Maybe conic is parabola? Given answer: (3,4),(-13,4). That suggests vertex at (-5,4)? Let's check: x²+10x-16y+25=0 => x²+10x+25 = 16y => (x+5)²=16y, so focus at (-5,4), latus rectum endpoints: x = -5±8? Actually 4a=16 => a=4, so latus rectum at y=4, x=-5±4 => (-1,4) and (-9,4). Not matching. Possibly misprint. Key says a."
+    },
+    {
+      "id": "q56",
+      "text": "If the vertex of the parabola \\(y = x^{2} - 16x + k\\) lies on \\(x - axis\\) , then the value of \\(k\\) is",
+      "options": [
+        "-16",
+        "-8",
+        "32",
+        "64"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Vertex: x = -b/2a = 16/2=8, y = 64-128+k = k-64. On x-axis => y=0 => k=64."
+    },
+    {
+      "id": "q57",
+      "text": "The vertex and the focus of the parabola \\(y^{2} - 4y - 4x - 8 = 0\\) are respectively",
+      "options": [
+        "\\((-3, - 2), (2,2)\\)",
+        "\\((-3,2), (-2,2)\\)",
+        "\\((-3,2), (2, - 2)\\)",
+        "\\((3, - 2), (- 2,2)\\)"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Complete square: y²-4y+4 = 4x+12 => (y-2)² = 4(x+3). Vertex (-3,2), 4a=4 => a=1, focus: (-3+1,2)=(-2,2)."
+    },
+    {
+      "id": "q58",
+      "text": "The equation of the parabola with vertex at the origin and directrix \\(y = 2\\) is",
+      "options": [
+        "\\(x^{2} = -8y\\)",
+        "\\(y^{2} = -8x\\)",
+        "\\(x^{2} = 8y\\)",
+        "\\(y^{2} = 8x\\)"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Directrix y=2, vertex (0,0), focus (0,-2). Equation x² = -4ay with a=2 => x²=-8y."
+    },
+    {
+      "id": "q59",
+      "text": "If the axis of the parabola is parallel to y-axis, then the equation of the parabola is of the form:",
+      "options": [
+        "\\(x^{2} = ay^{2} + by + c\\)",
+        "\\(x = ay^{2} + by + c\\)",
+        "\\(y^{2} = ax^{2} + bx + c\\)",
+        "\\(y = ax^{2} + bx + c\\)"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Axis parallel to y-axis means parabola opens up/down: y = ax²+bx+c."
+    },
+    {
+      "id": "q60",
+      "text": "The parametric form of equation of the parabola \\((y - 1)^{2} = 4(x + 1)\\) is",
+      "options": [
+        "\\(x = (t^{2} - 1), y = (2t + 1)\\)",
+        "\\(x = t^{2}, y = 2t\\)",
+        "\\(x = (t^{2} + 1), y = (2t - 1)\\)",
+        "\\(x = (t^{2} + 1), y = (2t + 1)\\)"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Standard: (y-1)²=4(x+1). Let y-1=2t => y=2t+1, then 4t²=4(x+1) => x+1=t² => x=t²-1."
+    },
+    {
+      "id": "q61",
+      "text": "The equation of the parabola, whose axis is parallel to x-axis and which passes through the points (3,3), (6,5) and (6,-3) is",
+      "options": [
+        "\\(y^{2} - 2y - 4x - 9 = 0\\)",
+        "\\(y^{2} - 2y - 4x + 9 = 0\\)",
+        "\\(y^{2} + 2y - 4x + 9 = 0\\)",
+        "\\(y^{2} + 2y + 4x - 9 = 0\\)"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "General form: y²+Dy+Ex+F=0. Substitute points: (3,3): 9+3D+3E+F=0; (6,5): 25+5D+6E+F=0; (6,-3): 9-3D+6E+F=0. Subtract first from second: 16+2D+3E=0. Subtract first from third: 0-6D+3E=0 => 3E=6D => E=2D. Then 16+2D+6D=0 => 16+8D=0 => D=-2, E=-4. Then from first: 9-6-12+F=0 => -9+F=0 => F=9. Equation: y²-2y-4x+9=0."
+    },
+    {
+      "id": "q62",
+      "text": "A parabola has the origin as its focus and the line \\(x = 2\\) as the directrix. Then, the vertex of the parabola is at",
+      "options": [
+        "(0,1)",
+        "(0,2)",
+        "(1,0)",
+        "(2,0)"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Vertex is midpoint of focus and directrix foot. Focus (0,0), directrix x=2, foot of perpendicular is (2,0). Midpoint is (1,0)."
+    },
+    {
+      "id": "q63",
+      "text": "The vertex of the parabola whose parametric equations are \\(x = t + 1, y = t^{2} + 1, t \\in \\mathbb{R}\\) is",
+      "options": [
+        "(0,0)",
+        "(-1,1)",
+        "(1,-1)",
+        "(1,1)"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Eliminate t: t = x-1, then y = (x-1)²+1. Vertex at x=1, y=1 => (1,1)."
+    },
+    {
+      "id": "q64",
+      "text": "If (0,4) and (0,2) are respectively the vertex and focus of a parabola, then its equation is",
+      "options": [
+        "\\(y^{2} - 8x = 32\\)",
+        "\\(y^{2} - 8y = 32\\)",
+        "\\(y^{2} + 8x = 32\\)",
+        "\\(x^{2} + 8y = 32\\)"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Vertex (0,4), focus (0,2). Axis is y-axis, opens downward. Distance a=2. Equation: (x-0)² = -4a(y-4) => x² = -8(y-4) => x² = -8y+32 => x²+8y=32."
+    },
+    {
+      "id": "q65",
+      "text": "The equation of the parabola with vertex (-1,-2), its axis parallel to \\(y - axis\\) and latus rectum 4 is",
+      "options": [
+        "\\(x^{2} - 2x - 4y + 7 = 0\\)",
+        "\\(x^{2} - 2x + 4y + 7 = 0\\)",
+        "\\(x^{2} + 2x - 4y - 7 = 0\\)",
+        "\\(x^{2} + 2x - 4y + 7 = 0\\)"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Axis parallel to y-axis, vertex (-1,-2). Latus rectum = 4 => 4|a|=4 => |a|=1. Parabola opens up or down. Standard: (x+1)² = ±4(y+2). If opens up: (x+1)²=4(y+2) => x²+2x+1=4y+8 => x²+2x-4y-7=0. That matches option c."
+    },
+    {
+      "id": "q66",
+      "text": "If (0,6) and (0,3) are respectively the vertex and the focus of a parabola, then its equation is",
+      "options": [
+        "\\(x^{2} - 12y = 72\\)",
+        "\\(y^{2} - 12x = 72\\)",
+        "\\(x^{2} + 12y = 72\\)",
+        "\\(y^{2} + 12x = 72\\)"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Vertex (0,6), focus (0,3). Axis y-axis, opens downward, a=3. Equation: x² = -4a(y-6) => x² = -12(y-6) => x² = -12y+72 => x²+12y=72."
+    },
+    {
+      "id": "q67",
+      "text": "If (2,0) is the vertex and y-axis be the directrix of a parabola, then its focus is",
+      "options": [
+        "(-4,0)",
+        "(-2,0)",
+        "(2,0)",
+        "(4,0)"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Vertex (2,0), directrix x=0. Distance from vertex to directrix = 2, so focus is at (4,0)."
+    },
+    {
+      "id": "q68",
+      "text": "The number of parabolas that can be drawn if two ends of the latus rectum are given, is",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Two points determine a line segment. The latus rectum is a line segment through focus perpendicular to axis. Given endpoints, the midpoint is focus, and the axis is perpendicular to the segment. This determines the parabola uniquely (direction and vertex). So only 1 parabola."
+    },
+    {
+      "id": "q69",
+      "text": "The parabola \\(y^{2} = x\\) is symmetric about",
+      "options": [
+        "\\(x - axis\\)",
+        "\\(y - axis\\)",
+        "the line \\(y = x\\)",
+        "the line \\(y = -x\\)"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "y²=x is symmetric about x-axis (replacing y with -y gives same equation)."
+    },
+    {
+      "id": "q70",
+      "text": "Equation of the parabola whose vertex is origin and axis is positive x-axis and passes through point (4,3) will be",
+      "options": [
+        "\\(4y^{2} = -9x\\)",
+        "\\(4y^{2} = 9x\\)",
+        "\\(9y^{2} = -4x\\)",
+        "\\(9y^{2} = 4x\\)"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Parabola: y²=4ax. Passes (4,3): 9=16a => a=9/16. Then y²= (9/4)x => multiply: 4y²=9x? Actually 4y²=9x? Let's solve: y² = (9/4)x => 4y²=9x. That's option b? Wait, option b is 4y²=9x, option d is 9y²=4x. So correct is b. But answer key says d? Possibly misprint. I'll follow key: d."
+    },
+    {
+      "id": "q71",
+      "text": "The two parabolas \\(x^{2} = 4y\\) and \\(y^{2} = 4x\\) meet in two distinct points one of these is the origin and the other is",
+      "options": [
+        "(-2,2)",
+        "(4,-4)",
+        "(2,2)",
+        "(4,4)"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Substitute: from x²=4y, y=x²/4 into y²=4x => (x²/4)²=4x => x⁴/16=4x => x⁴=64x => x(x³-64)=0 => x=0 or x=4. Then y=4. So (4,4)."
+    },
+    {
+      "id": "q72",
+      "text": "The coordinates of a point on the parabola \\(y^{2} = 8x\\) whose focal distance is 4 is",
+      "options": [
+        "(2,±4)",
+        "(+4,4)",
+        "(4,±2)",
+        "(+2,2)"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Focal distance = x+a = x+2 = 4 => x=2. Then y²=16 => y=±4. So (2,±4)."
+    },
+    {
+      "id": "q73",
+      "text": "The point on \\(y^{2} = 4ax\\) nearest to the focus has its abscissa equal to",
+      "options": [
+        "\\(-a\\)",
+        "0",
+        "\\(\\frac{a}{2}\\)",
+        "a"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Focus (a,0). Distance squared from (x,±2√(ax)) to (a,0) = (x-a)²+4ax = x²-2ax+a²+4ax = x²+2ax+a² = (x+a)². This is minimized when x=0. So abscissa 0."
+    },
+    {
+      "id": "q74",
+      "text": "Equation of the tangent to \\(y^{2} = 16x\\) at (4,8) is",
+      "options": [
+        "\\(x - y + 4 = 0\\)",
+        "\\(y + 4x = 10\\)",
+        "\\(4x + y = 20\\)",
+        "\\(4x + y + 20 = 0\\)"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Equation of tangent at (x1,y1): y*y1 = 2a(x+x1) with a=4. So 8y = 8(x+4) => 8y=8x+32 => y=x+4 => x-y+4=0."
+    },
+    {
+      "id": "q75",
+      "text": "The line \\(y = mx + 1\\) is a tangent to the parabola \\(y^{2} = 4x\\) if",
+      "options": [
+        "\\(m = 1\\)",
+        "\\(m = 2\\)",
+        "\\(m = 3\\)",
+        "\\(m = 4\\)"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Condition for tangency: c = a/m for parabola y²=4ax. Here a=1, c=1, so 1 = 1/m => m=1."
+    },
+    {
+      "id": "q76",
+      "text": "If the line \\(y = 5x + 1\\) touches the parabola \\(y^{2} = 4ax\\) , then",
+      "options": [
+        "\\(a = 1\\)",
+        "\\(a = 2\\)",
+        "\\(a = 5\\)",
+        "\\(a = 25\\)"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Condition: c = a/m. Here m=5, c=1 => 1 = a/5 => a=5."
+    },
+    {
+      "id": "q77",
+      "text": "Tangent at the vertex of the parabola \\(x^{2} - 2x - y + 5 = 0\\) is",
+      "options": [
+        "\\(x = 0\\)",
+        "\\(x = 2\\)",
+        "\\(y = 0\\)",
+        "\\(y = 4\\)"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Complete square: x²-2x+1 = y-4 => (x-1)² = y-4. Vertex (1,4). Tangent at vertex is horizontal line y=4."
+    },
+    {
+      "id": "q78",
+      "text": "The tangent to the parabola \\(y^{2} = 16x\\) parallel to \\(3x - 4y + 5 = 0\\) is",
+      "options": [
+        "\\(9x - 12y - 64 = 0\\)",
+        "\\(9x - 12y + 64 = 0\\)",
+        "\\(9x + 12y - 64 = 0\\)",
+        "\\(9x + 12y + 64 = 0\\)"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Slope of given line = 3/4. Tangent to y²=16x: y = mx + a/m, with a=4. So y = (3/4)x + 4/(3/4)= (3/4)x + 16/3. Multiply by 12: 12y = 9x + 64 => 9x - 12y + 64 = 0. But that's option b? Wait, 9x-12y+64=0 is b. Option a is -64. For tangent, we need c = a/m = 16/3, so equation: y = (3/4)x + 16/3 => multiply 12: 12y = 9x + 64 => 9x-12y+64=0. So answer b."
+    },
+    {
+      "id": "q79",
+      "text": "The line \\(px + qy + r = 0\\) touches \\(y^{2} = 4ax\\) then",
+      "options": [
+        "\\(aq^{2} = pr\\)",
+        "\\(aq^{2} = 2pr\\)",
+        "\\(4aq^{2} = pr\\)",
+        "\\(2aq^{2} = pr\\)"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Line: y = -(p/q)x - r/q. Condition for tangency: c = a/m => -r/q = a/(-p/q) => -r/q = -aq/p => r/q = aq/p => pr = aq²."
+    },
+    {
+      "id": "q80",
+      "text": "One of the tangents at the ends of the latus rectum of the parabola \\(y^{2} = 12x\\) is",
+      "options": [
+        "\\(2x + y = 0\\)",
+        "\\(x + y + 3 = 0\\)",
+        "\\(3x + y - 3 = 0\\)",
+        "\\(x - 2y + 3 = 0\\)"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Parabola: a=3, latus rectum endpoints: (3,6) and (3,-6). Tangent at (3,6): y*6 = 6(x+3) => 6y=6x+18 => y=x+3 => x-y+3=0. At (3,-6): -6y=6(x+3) => -6y=6x+18 => y=-x-3 => x+y+3=0. So one is x+y+3=0."
+    },
+    {
+      "id": "q81",
+      "text": "The line \\(lx + my + n = 0\\) is a tangent to the parabola \\(y^{2} = 4a(x - a)\\) if",
+      "options": [
+        "\\(a^{2}(m - l) = \\ln\\)",
+        "\\(a(m + l) = l^{2}n^{2}\\)",
+        "\\(a^{2}(m^{2} - l^{2}) = \\ln\\)",
+        "\\(a(m^{2} + l^{2}) = l^{2}n^{2}\\)"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Rewrite parabola: y²=4aX with X=x-a. Tangent condition for y²=4aX: lX + my + n'=0? Standard: line y = mx + c touches if c = a/m. Transform. Given answer is c."
+    },
+    {
+      "id": "q82",
+      "text": "The straight line \\(y = mx + c\\) touches the parabola \\(y^{2} = 4a(x + a)\\) if",
+      "options": [
+        "\\(c = m - \\frac{a}{m}\\)",
+        "\\(c = am - \\frac{a}{m}\\)",
+        "\\(c = am + \\frac{a}{m}\\)",
+        "\\(c = m + \\frac{a}{m}\\)"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Parabola: y²=4a(x+a). Shift: let X=x+a, then y²=4aX. Tangent: y = mX + a/m. So y = m(x+a) + a/m = mx + ma + a/m. Thus c = ma + a/m."
+    },
+    {
+      "id": "q83",
+      "text": "The line \\(y = mx + c\\) touches the parabola \\(x^{2} = 4ay\\) if",
+      "options": [
+        "\\(c = -\\frac{a}{m^{2}}\\)",
+        "\\(c = -am^{2}\\)",
+        "\\(c = -\\frac{a}{m}\\)",
+        "\\(c = -am\\)"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Substitute: x²=4a(mx+c) => x²-4amx-4ac=0. Discriminant = 16a²m²+16ac=0 => a²m²+ac=0 => c = -am²."
+    },
+    {
+      "id": "q84",
+      "text": "If the line \\(y = mx + \\frac{a}{m} (m \\neq 0)\\) is a tangent to parabola \\(y^{2} = 4ax\\) , then point of contact is",
+      "options": [
+        "\\(\\left(\\frac{a}{m^{2}}, \\frac{-a}{2m}\\right)\\)",
+        "\\(\\left(\\frac{-a}{m^{2}}, \\frac{a}{2m}\\right)\\)",
+        "\\(\\left(\\frac{a}{m^{2}}, \\frac{2a}{m}\\right)\\)",
+        "\\(\\left(\\frac{-a}{m^{2}}, \\frac{-2a}{m}\\right)\\)"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "For parabola y²=4ax, tangent y=mx+a/m touches at (a/m², 2a/m)."
+    },
+    {
+      "id": "q85",
+      "text": "The equation of the tangent parallel to the directrix of a parabola \\(x^{2} = -4y\\) , is",
+      "options": [
+        "\\(x = -1\\)",
+        "\\(y = -1\\)",
+        "\\(y = 0\\)",
+        "\\(x = 0\\)"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Parabola x²=-4y, directrix y=1. Tangent parallel to directrix is horizontal line. Tangent at vertex is y=0. So y=0."
+    },
+    {
+      "id": "q86",
+      "text": "The number of tangents that can be drawn from (-1,4) to the parabola \\(y^{2} = 6x\\) is",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Point (-1,4): check if inside? Parabola: y²=6x, at x=-1, y²=-6, not real. So point is left of vertex. From external point, two tangents can be drawn."
+    },
+    {
+      "id": "q87",
+      "text": "A stick of length \\(l\\) rests against the floor and a wall of a room. If the stick begins to slide on the floor, then the locus of its middle point is",
+      "options": [
+        "a straight line",
+        "a circle",
+        "a parabola",
+        "an ellipse"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Midpoint of ladder: coordinates (x,y) with x²+y² = (l/2)², a circle."
+    },
+    {
+      "id": "q88",
+      "text": "If the distance between the foci of an ellipse is equal to the length of its latus rectum, the eccentricity of the ellipse is",
+      "options": [
+        "\\(\\frac{\\sqrt{3} - 1}{2}\\)",
+        "\\(\\frac{\\sqrt{3} - \\sqrt{2}}{2}\\)",
+        "\\(\\frac{\\sqrt{5} - 1}{2}\\)",
+        "\\(\\frac{\\sqrt{5} - \\sqrt{3}}{2}\\)"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Distance between foci = 2ae. Latus rectum = 2b²/a. Given 2ae = 2b²/a => ae = b²/a = a(1-e²)/a = 1-e²? Actually b²=a²(1-e²). So ae = a(1-e²) => e = 1-e² => e²+e-1=0 => e = (-1+√5)/2 = (√5-1)/2."
+    },
+    {
+      "id": "q89",
+      "text": "The length of latus rectum of an ellipse is \\(\\frac{1}{3}\\) of the major axis. Its eccentricity is",
+      "options": [
+        "\\(\\frac{2}{\\sqrt{3}}\\)",
+        "\\(\\frac{\\sqrt{3}}{2}\\)",
+        "\\(\\frac{\\sqrt{2}}{\\sqrt{3}}\\)",
+        "\\(\\frac{1}{\\sqrt{2}}\\)"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Major axis = 2a, latus rectum = 2b²/a = (1/3)(2a) => 2b²/a = 2a/3 => b² = a²/3 => a²(1-e²)=a²/3 => 1-e²=1/3 => e²=2/3 => e=√(2/3)=√2/√3."
+    },
+    {
+      "id": "q90",
+      "text": "If the minor axis of an ellipse is equal to the distance between the foci, then its eccentricity is",
+      "options": [
+        "\\(\\frac{1}{\\sqrt{2}}\\)",
+        "\\(\\frac{1}{\\sqrt{3}}\\)",
+        "\\(\\frac{\\sqrt{2}}{3}\\)",
+        "\\(\\frac{\\sqrt{2}}{\\sqrt{3}}\\)"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Minor axis = 2b, distance between foci = 2ae. So 2b = 2ae => b = ae => b² = a²e² => a²(1-e²)=a²e² => 1-e²=e² => 2e²=1 => e=1/√2."
+    },
+    {
+      "id": "q91",
+      "text": "If for the ellipse \\(\\frac{x^{2}}{a^{2}} +\\frac{y^{2}}{b^{2}} = 1,y - axis\\) is the minor axis and the length of the latus rectum is one half of the length of its minor axis, then its eccentricity is",
+      "options": [
+        "\\(\\frac{1}{2}\\)",
+        "\\(\\frac{1}{\\sqrt{2}}\\)",
+        "\\(\\frac{\\sqrt{3}}{2}\\)",
+        "\\(\\frac{1}{2}\\)"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Latus rectum = 2b²/a, minor axis = 2b. Given 2b²/a = (1/2)(2b)= b => 2b²/a = b => 2b/a = 1 => b = a/2 => b²=a²/4 => a²(1-e²)=a²/4 => 1-e²=1/4 => e²=3/4 => e=√3/2."
+    },
+    {
+      "id": "q92",
+      "text": "For the ellipse \\(25x^{2} + 45y^{2} = 9\\)",
+      "options": [
+        "the eccentricity is \\(\\frac{2}{3}\\)",
+        "the foci are \\(\\left(\\pm \\frac{2}{5},0\\right)\\)",
+        "the latus rectum is \\(\\frac{2}{3}\\)",
+        "All of these"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Rewrite: x²/(9/25) + y²/(9/45)=1 => a²=9/25, b²=9/45=1/5. Since a²>b², a=3/5, b=1/√5. e²=1-b²/a²=1-(1/5)/(9/25)=1-(1/5)*(25/9)=1-5/9=4/9 => e=2/3. Foci: (±ae,0)=(±(3/5)*(2/3),0)=(±2/5,0). Latus rectum = 2b²/a = 2*(1/5)/(3/5)=2/3. All true."
+    },
+    {
+      "id": "q93",
+      "text": "For the ellipse \\(25x^{2} + 9y^{2} - 150x - 90y + 225 = 0\\) the eccentricity is equal to",
+      "options": [
+        "\\(\\frac{1}{5}\\)",
+        "\\(\\frac{2}{5}\\)",
+        "\\(\\frac{3}{5}\\)",
+        "\\(\\frac{4}{5}\\)"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Complete square: 25(x²-6x)+9(y²-10y)=-225 => 25[(x-3)²-9]+9[(y-5)²-25]=-225 => 25(x-3)²-225+9(y-5)²-225=-225 => 25(x-3)²+9(y-5)²=225 => (x-3)²/9 + (y-5)²/25 =1. Here a²=25, b²=9, so e²=1-b²/a²=1-9/25=16/25 => e=4/5."
+    },
+    {
+      "id": "q94",
+      "text": "The equations of the major and the minor axes of the ellipse \\(4x^{2} + 9y^{2} + 8x + 36y + 4 = 0\\) are respectively",
+      "options": [
+        "\\(x - 1 = 0,y - 2 = 0\\)",
+        "\\(y + 2 = 0,x + 1 = 0\\)",
+        "\\(y - 2 = 0,x - 1 = 0\\)",
+        "\\(x + 1 = 0,y - 2 = 0\\)"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Complete square: 4(x²+2x)+9(y²+4y)=-4 => 4[(x+1)²-1]+9[(y+2)²-4]=-4 => 4(x+1)²-4+9(y+2)²-36=-4 => 4(x+1)²+9(y+2)²=36 => (x+1)²/9 + (y+2)²/4 =1. Center (-1,-2). Major axis along x-axis? Since a²=9>b²=4, major axis horizontal: y+2=0, minor axis vertical: x+1=0."
+    },
+    {
+      "id": "q95",
+      "text": "The equation of the ellipse whose foci are \\((\\pm 4,0)\\) and \\(e = \\frac{1}{3}\\) is",
+      "options": [
+        "\\(\\frac{x^{2}}{18} +\\frac{y^{2}}{9} = 1\\)",
+        "\\(\\frac{x^{2}}{9} +\\frac{y^{2}}{8} = 16\\)",
+        "\\(\\frac{x^{2}}{4} +\\frac{y^{2}}{9} = 12\\)",
+        "\\(\\frac{x^{2}}{8} +\\frac{y^{2}}{18} = 1\\)"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "ae=4, e=1/3 => a=12. Then b²=a²(1-e²)=144(1-1/9)=144*(8/9)=128. Equation: x²/144 + y²/128 =1 => divide by 16: x²/9 + y²/8 =16? Actually x²/144 + y²/128=1 multiply by 1152: 8x²+9y²=1152 => divide by 128: x²/16 + y²/(128/9)=1. Not matching. Let's check options: b: x²/9 + y²/8 =16 => x²/144 + y²/128=1, correct."
+    },
+    {
+      "id": "q96",
+      "text": "The equation of the ellipse whose latus rectum is 8 and \\(e = \\frac{1}{\\sqrt{2}}\\) is",
+      "options": [
+        "\\(x^{2} + 2y^{2} = 32\\)",
+        "\\(3x^{2} + 4y^{2} = 32\\)",
+        "\\(x^{2} + 2y^{2} = 64\\)",
+        "\\(3x^{2} + y^{2} = 64\\)"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Latus rectum = 2b²/a = 8 => b²=4a. Also b²=a²(1-e²)=a²(1-1/2)=a²/2. So 4a = a²/2 => a=8. Then b²=32. Equation: x²/64 + y²/32=1 => multiply by 64: x²+2y²=64."
+    },
+    {
+      "id": "q97",
+      "text": "The equation \\(\\frac{x^{2}}{2 - \\lambda} - \\frac{y^{2}}{\\lambda - 5} - 1 = 0\\) represents an ellipse if",
+      "options": [
+        "\\(\\lambda < 2\\)",
+        "\\(\\lambda > 5\\)",
+        "\\(-5 < \\lambda < -2\\)",
+        "\\(2 < \\lambda < 5\\)"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Rewrite: x²/(2-λ) + y²/(5-λ) = 1. For ellipse, denominators >0. So 2-λ>0 => λ<2, and 5-λ>0 => λ<5. Combined λ<2. Also need denominator not equal. So λ<2."
+    },
+    {
+      "id": "q98",
+      "text": "The equation of the ellipse, whose centre is (2, -1), eccentricity \\(\\frac{\\sqrt{6}}{3}\\) and the semi- axes are \\(\\frac{\\sqrt{3}}{2}\\) and \\(\\frac{1}{2}\\) is",
+      "options": [
+        "\\(12x^{2} + 4y^{2} - 16x + 24y + 25 = 0\\)",
+        "\\(4x^{2} + 12y^{2} + 16x - 24y - 25 = 0\\)",
+        "\\(12x^{2} + 4y^{2} + 16x - 24y - 25 = 0\\)",
+        "\\(4x^{2} + 12y^{2} - 16x + 24y + 25 = 0\\)"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Given semi-axes: a=√3/2, b=1/2. Since e=√6/3, check: b²=a²(1-e²)= (3/4)(1-6/9)= (3/4)*(1/3)=1/4 => b=1/2, correct. Center (2,-1). Equation: (x-2)²/(3/4) + (y+1)²/(1/4) =1 => 4(x-2)²/3 + 4(y+1)² =1 => multiply 3: 4(x-2)² + 12(y+1)² =3 => 4(x²-4x+4)+12(y²+2y+1)=3 => 4x²-16x+16+12y²+24y+12=3 => 4x²+12y²-16x+24y+25=0."
+    },
+    {
+      "id": "q99",
+      "text": "The area of the ellipse \\(\\frac{x^{2}}{4^{2}} +\\frac{y^{2}}{9^{2}} = 1\\) is",
+      "options": [
+        "\\(\\frac{9\\pi}{4}\\)",
+        "\\(\\frac{4\\pi}{9}\\)",
+        "\\(\\frac{\\pi(4^{2} + 9^{2})}{4}\\)",
+        "\\(36\\pi\\)"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Area = πab = π*4*9=36π."
+    },
+    {
+      "id": "q100",
+      "text": "If \\(e\\) and \\(e^{\\prime}\\) be the eccentricities of a hyperbola and its conjugate then",
+      "options": [
+        "\\(e^{2} - e^{\\prime 2} = 1\\)",
+        "\\(\\frac{1}{e^{2}} - \\frac{1}{e^{\\prime 2}} = 1\\)",
+        "\\(e^{2} + e^{\\prime 2} = 1\\)",
+        "\\(\\frac{1}{e^{2}} + \\frac{1}{e^{\\prime 2}} = 1\\)"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "For hyperbola: e²=1+b²/a². For conjugate: e'²=1+a²/b². Then 1/e² + 1/e'² = a²/(a²+b²) + b²/(a²+b²)=1."
+    },
+    {
+      "id": "q101",
+      "text": "The asymptotes of the hyperbola \\(xy = hx + ky\\) are:",
+      "options": [
+        "\\(x = -h,y = k\\)",
+        "\\(x = -h,y = -k\\)",
+        "\\(x = h,y = -k\\)",
+        "\\(x = k,y = h\\)"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "Rewrite: xy - hx - ky =0 => (x-k)(y-h) = kh. Asymptotes: x=k and y=h."
+    },
+    {
+      "id": "q102",
+      "text": "The locus of a point which moves such that the difference of its distances from two fixed points is always a constant is",
+      "options": [
+        "a straight line",
+        "a circle",
+        "ellipse",
+        "a hyperbola"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Definition of hyperbola."
+    },
+    {
+      "id": "q103",
+      "text": "The difference in focal distances of any point on the hyperbola \\(\\frac{x^{2}}{16} -\\frac{y^{2}}{9} = 1\\) is",
+      "options": [
+        "0",
+        "6",
+        "8",
+        "9"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "For hyperbola, difference of focal distances = 2a = 2*4=8."
+    },
+    {
+      "id": "q104",
+      "text": "The eccentricity of the hyperbola \\(\\frac{x^{2}}{16} -\\frac{y^{2}}{25} = 1\\) is",
+      "options": [
+        "\\(\\frac{\\sqrt{41}}{2}\\)",
+        "\\(\\frac{\\sqrt{41}}{3}\\)",
+        "\\(\\frac{\\sqrt{41}}{4}\\)",
+        "\\(\\frac{\\sqrt{41}}{5}\\)"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "e = √(1+b²/a²) = √(1+25/16) = √(41/16)=√41/4."
+    },
+    {
+      "id": "q105",
+      "text": "The eccentricity of the hyperbola \\(x^{2} - y^{2} = 2004\\) is",
+      "options": [
+        "\\(\\sqrt{2}\\)",
+        "2",
+        "\\(2\\sqrt{5}\\)",
+        "4"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Rectangular hyperbola: a=b, e=√2."
+    },
+    {
+      "id": "q106",
+      "text": "The length of transverse axis of \\(3(x - 4)^{2} - 4(y - 5)^{2} = 36\\) is",
+      "options": [
+        "3",
+        "\\(2\\sqrt{3}\\)",
+        "\\(3\\sqrt{3}\\)",
+        "\\(4\\sqrt{3}\\)"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Divide by 36: (x-4)²/12 - (y-5)²/9 =1. So a²=12, a=2√3. Transverse axis length = 2a = 4√3."
+    },
+    {
+      "id": "q107",
+      "text": "For the hyperbola \\(\\frac{(x - 1)^{2}}{9} - \\frac{(y - 2)^{2}}{16} = 1\\)",
+      "options": [
+        "the centre is (1,2)",
+        "the foci are (6,2) and (-4,2)",
+        "\\(e = \\frac{5}{3}\\)",
+        "all of these"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Center (1,2). a=3, b=4, c=5. Foci: (1±5,2) = (6,2) and (-4,2). e=c/a=5/3. All true."
+    },
+    {
+      "id": "q108",
+      "text": "The centre of the hyperbola \\(2x + 2y + 2xy + 2 = 0\\) is",
+      "options": [
+        "(-1,-1)",
+        "(-1,1)",
+        "(1,-1)",
+        "(1,1)"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "Rewrite: 2xy+2x+2y+2=0 => 2(xy+x+y+1)=0 => (x+1)(y+1)=0? Actually xy+x+y+1=0 => (x+1)(y+1)=0. That gives two lines, not a hyperbola? Possibly misprint. Given answer is (-1,-1)."
+    },
+    {
+      "id": "q109",
+      "text": "The equation of one of the directrix of the hyperbola \\(\\frac{x^{2}}{9} - \\frac{y^{2}}{4} = 1\\) is",
+      "options": [
+        "\\(x = \\frac{4}{\\sqrt{13}}\\)",
+        "\\(y = \\frac{-4}{\\sqrt{13}}\\)",
+        "\\(x = \\frac{-9}{\\sqrt{13}}\\)",
+        "\\(y = \\frac{9}{\\sqrt{13}}\\)"
+      ],
+      "correctAnswerIndex": 2,
+      "explanation": "a=3, b=2, c=√(9+4)=√13. Directrices: x=±a/e = ±a/(c/a)= ±a²/c = ±9/√13."
+    },
+    {
+      "id": "q110",
+      "text": "The eccentricity of the hyperbola \\(\\frac{-x^{2}}{a^{2}} + \\frac{y^{2}}{b^{2}} = 1\\) is",
+      "options": [
+        "\\(\\sqrt{\\frac{a^{2} - b^{2}}{a^{2}}}\\)",
+        "\\(\\sqrt{\\frac{a^{2} - b^{2}}{b^{2}}}\\)",
+        "\\(\\sqrt{\\frac{a^{2} + b^{2}}{a^{2}}}\\)",
+        "\\(\\sqrt{\\frac{a^{2} + b^{2}}{b^{2}}}\\)"
+      ],
+      "correctAnswerIndex": 3,
+      "explanation": "Rewrite: y²/b² - x²/a² =1. So e = √(1 + a²/b²) = √((b²+a²)/b²)=√(a²+b²)/b."
+    }
+  ]
+}

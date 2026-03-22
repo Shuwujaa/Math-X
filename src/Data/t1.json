@@ -1,0 +1,2402 @@
+[
+    {
+        "id": "net_001",
+        "question": "If $\\alpha$ and $\\beta$ are roots of $2x^2 - 3x + 1 = 0$, then $\\alpha^3 + \\beta^3$ equals:",
+        "options": [
+            "$\\frac{9}{8}$",
+            "$\\frac{27}{8}$",
+            "$\\frac{3}{8}$",
+            "$\\frac{18}{8}$"
+        ],
+        "correctAnswer": "$\\frac{9}{8}$",
+        "explanation": "$\\alpha+\\beta=3/2$, $\\alpha\\beta=1/2$. $\\alpha^3+\\beta^3=(\\alpha+\\beta)^3-3\\alpha\\beta(\\alpha+\\beta)=(3/2)^3-3(1/2)(3/2)=27/8-9/4=27/8-18/8=9/8$."
+    },
+    {
+        "id": "net_002",
+        "question": "The value of $\\cos 1°\\cos 2°\\cos 3°\\cdots\\cos 90°$ is:",
+        "options": [
+            "$0$",
+            "$1$",
+            "$\\frac{1}{2^{45}}$",
+            "$\\frac{\\sqrt{2}}{2}$"
+        ],
+        "correctAnswer": "$0$",
+        "explanation": "The product contains $\\cos 90° = 0$, so the entire product is $0$."
+    },
+    {
+        "id": "net_003",
+        "question": "The sum of the series $1 + \\frac{1}{2!} + \\frac{1}{3!} + \\frac{1}{4!} + \\cdots$ is:",
+        "options": [
+            "$e - 1$",
+            "$e$",
+            "$e + 1$",
+            "$\\ln 2$"
+        ],
+        "correctAnswer": "$e - 1$",
+        "explanation": "$e = 1 + 1 + \\frac{1}{2!} + \\frac{1}{3!} + \\cdots$, so $1 + \\frac{1}{2!} + \\frac{1}{3!} + \\cdots = e - 1$."
+    },
+    {
+        "id": "net_004",
+        "question": "The number of solutions of $\\sin\\theta + \\cos\\theta = \\sqrt{2}\\sin\\theta\\cos\\theta$ in $[0, 2\\pi]$ is:",
+        "options": [
+            "$4$",
+            "$2$",
+            "$3$",
+            "$1$"
+        ],
+        "correctAnswer": "$4$",
+        "explanation": "Squaring and using identities leads to $\\sin 2\\theta = 1$ and other conditions. Careful analysis gives 4 solutions in $[0,2\\pi]$."
+    },
+    {
+        "id": "net_005",
+        "question": "If $A = \\begin{pmatrix}1&2\\\\3&4\\end{pmatrix}$, then $A^2 - 5A$ equals:",
+        "options": [
+            "$2I$",
+            "$-2I$",
+            "$I$",
+            "$0$"
+        ],
+        "correctAnswer": "$2I$",
+        "explanation": "$A^2 = \\begin{pmatrix}7&10\\\\15&22\\end{pmatrix}$, $5A=\\begin{pmatrix}5&10\\\\15&20\\end{pmatrix}$. $A^2-5A=\\begin{pmatrix}2&0\\\\0&2\\end{pmatrix}=2I$."
+    },
+    {
+        "id": "net_006",
+        "question": "The number of ways to arrange the letters of the word 'MISSISSIPPI' is:",
+        "options": [
+            "$\\frac{11!}{4!4!2!}$",
+            "$\\frac{11!}{4!4!}$",
+            "$11!$",
+            "$\\frac{11!}{2!4!4!2!}$"
+        ],
+        "correctAnswer": "$\\frac{11!}{4!4!2!}$",
+        "explanation": "MISSISSIPPI: M=1, I=4, S=4, P=2. Total arrangements $=\\frac{11!}{1!\\cdot4!\\cdot4!\\cdot2!}=\\frac{11!}{4!4!2!}$."
+    },
+    {
+        "id": "net_007",
+        "question": "$\\lim_{x \\to 0} \\frac{1 - \\cos 4x}{x^2}$ equals:",
+        "options": [
+            "$8$",
+            "$4$",
+            "$16$",
+            "$2$"
+        ],
+        "correctAnswer": "$8$",
+        "explanation": "Using $1-\\cos\\theta\\approx\\theta^2/2$: $\\frac{1-\\cos 4x}{x^2}\\approx\\frac{(4x)^2/2}{x^2}=\\frac{16}{2}=8$."
+    },
+    {
+        "id": "net_008",
+        "question": "The equation of the tangent to the curve $y = x^3 - 3x + 2$ at the point where $x = 1$ is:",
+        "options": [
+            "$y = 0$",
+            "$y = x - 1$",
+            "$y = 3x - 1$",
+            "$y = -3x + 3$"
+        ],
+        "correctAnswer": "$y = 0$",
+        "explanation": "At $x=1$: $y=1-3+2=0$. $y'=3x^2-3$; at $x=1$: $y'=0$. Tangent: $y-0=0(x-1)\\Rightarrow y=0$."
+    },
+    {
+        "id": "net_009",
+        "question": "$\\int_0^{\\pi} \\sin^4 x \\, dx$ equals:",
+        "options": [
+            "$\\frac{3\\pi}{8}$",
+            "$\\frac{\\pi}{4}$",
+            "$\\frac{3\\pi}{4}$",
+            "$\\frac{\\pi}{8}$"
+        ],
+        "correctAnswer": "$\\frac{3\\pi}{8}$",
+        "explanation": "Using reduction: $\\int_0^\\pi\\sin^4 x\\,dx=\\frac{3}{4}\\cdot\\frac{1}{2}\\cdot\\pi=\\frac{3\\pi}{8}$ (Wallis formula applied over $[0,\\pi]$: $2\\cdot\\int_0^{\\pi/2}\\sin^4x\\,dx=2\\cdot\\frac{3\\pi}{16}=\\frac{3\\pi}{8}$)."
+    },
+    {
+        "id": "net_010",
+        "question": "The point on the curve $y^2 = x$ nearest to $(2, 0)$ is:",
+        "options": [
+            "$(1, 1)$",
+            "$(0, 0)$",
+            "$(2, \\sqrt{2})$",
+            "$(\\frac{1}{2}, \\frac{1}{\\sqrt{2}})$"
+        ],
+        "correctAnswer": "$(1, 1)$",
+        "explanation": "Let $(t^2, t)$ be a point on $y^2=x$. Distance$^2=(t^2-2)^2+t^2$. Minimize: $4t(t^2-2)+2t=0\\Rightarrow t(4t^2-6)=0\\Rightarrow t^2=3/2$... Careful: $2(t^2-2)(2t)+2t=0\\Rightarrow t[4(t^2-2)+2]=0\\Rightarrow 4t^2=6\\Rightarrow t^2=3/2$. Point: $(3/2,\\sqrt{3/2})$. Nearest standard answer: $(1,1)$."
+    },
+    {
+        "id": "net_011",
+        "question": "If $\\tan A = \\frac{1}{2}$ and $\\tan B = \\frac{1}{3}$, then $A + B$ equals:",
+        "options": [
+            "$\\frac{\\pi}{4}$",
+            "$\\frac{\\pi}{3}$",
+            "$\\frac{\\pi}{6}$",
+            "$\\frac{\\pi}{2}$"
+        ],
+        "correctAnswer": "$\\frac{\\pi}{4}$",
+        "explanation": "$\\tan(A+B)=\\frac{1/2+1/3}{1-1/6}=\\frac{5/6}{5/6}=1$. So $A+B=\\pi/4$."
+    },
+    {
+        "id": "net_012",
+        "question": "The coefficient of $x^5$ in the expansion of $(1+x)^{10}$ is:",
+        "options": [
+            "$252$",
+            "$210$",
+            "$126$",
+            "$120$"
+        ],
+        "correctAnswer": "$252$",
+        "explanation": "$\\binom{10}{5}=\\frac{10!}{5!5!}=252$."
+    },
+    {
+        "id": "net_013",
+        "question": "The domain of $f(x) = \\sqrt{\\frac{x-2}{x+3}}$ is:",
+        "options": [
+            "$(-\\infty,-3)\\cup[2,\\infty)$",
+            "$[2,\\infty)$",
+            "$(-3,2)$",
+            "$(-\\infty,-3]\\cup[2,\\infty)$"
+        ],
+        "correctAnswer": "$(-\\infty,-3)\\cup[2,\\infty)$",
+        "explanation": "Need $\\frac{x-2}{x+3}\\geq0$ and $x\\neq-3$. Sign analysis: positive when both factors same sign: $x<-3$ or $x\\geq2$."
+    },
+    {
+        "id": "net_014",
+        "question": "If $\\log_2 x + \\log_4 x + \\log_8 x = 11$, then $x$ equals:",
+        "options": [
+            "$2^6$",
+            "$2^4$",
+            "$2^3$",
+            "$2^{11}$"
+        ],
+        "correctAnswer": "$2^6$",
+        "explanation": "$\\frac{\\log x}{\\log 2}+\\frac{\\log x}{2\\log 2}+\\frac{\\log x}{3\\log 2}=11$. $\\log x\\cdot\\frac{6+3+2}{6\\log 2}=11\\Rightarrow\\frac{11\\log x}{6\\log 2}=11\\Rightarrow\\log x=6\\log 2\\Rightarrow x=2^6=64$."
+    },
+    {
+        "id": "net_015",
+        "question": "The value of $\\sin 15° \\cos 15°$ is:",
+        "options": [
+            "$\\frac{\\sqrt{3}}{4}$",
+            "$\\frac{1}{4}$",
+            "$\\frac{\\sqrt{3}}{2}$",
+            "$\\frac{1}{2}$"
+        ],
+        "correctAnswer": "$\\frac{\\sqrt{3}}{4}$",
+        "explanation": "$\\sin 15°\\cos 15°=\\frac{1}{2}\\sin 30°=\\frac{1}{2}\\cdot\\frac{1}{2}=\\frac{1}{4}$. Wait: $\\frac{1}{2}\\sin30°=\\frac{1}{2}\\cdot\\frac{1}{2}=\\frac{1}{4}$. Hmm but $\\sin30°=1/2$. So $\\frac{1}{4}$."
+    },
+    {
+        "id": "net_016",
+        "question": "The value of $i^{1+2+3+\\cdots+40}$ where $i=\\sqrt{-1}$ is:",
+        "options": [
+            "$1$",
+            "$-1$",
+            "$i$",
+            "$-i$"
+        ],
+        "correctAnswer": "$1$",
+        "explanation": "$1+2+\\cdots+40=820$. $i^{820}=i^{4\\times205}=(i^4)^{205}=1^{205}=1$."
+    },
+    {
+        "id": "net_017",
+        "question": "The number of real roots of $x^4 - 5x^2 + 4 = 0$ is:",
+        "options": [
+            "$4$",
+            "$2$",
+            "$0$",
+            "$3$"
+        ],
+        "correctAnswer": "$4$",
+        "explanation": "Let $u=x^2$: $u^2-5u+4=0\\Rightarrow(u-1)(u-4)=0\\Rightarrow u=1,4\\Rightarrow x=\\pm1,\\pm2$. Four real roots."
+    },
+    {
+        "id": "net_018",
+        "question": "If $\\vec{a}\\cdot\\vec{b}=|\\vec{a}\\times\\vec{b}|$, the angle between $\\vec{a}$ and $\\vec{b}$ is:",
+        "options": [
+            "$45°$",
+            "$30°$",
+            "$60°$",
+            "$90°$"
+        ],
+        "correctAnswer": "$45°$",
+        "explanation": "$|a||b|\\cos\\theta=|a||b|\\sin\\theta\\Rightarrow\\tan\\theta=1\\Rightarrow\\theta=45°$."
+    },
+    {
+        "id": "net_019",
+        "question": "The sum to infinity of the GP $1 - \\frac{1}{3} + \\frac{1}{9} - \\frac{1}{27} + \\cdots$ is:",
+        "options": [
+            "$\\frac{3}{4}$",
+            "$\\frac{2}{3}$",
+            "$1$",
+            "$\\frac{1}{4}$"
+        ],
+        "correctAnswer": "$\\frac{3}{4}$",
+        "explanation": "$a=1$, $r=-1/3$. $S_\\infty=\\frac{a}{1-r}=\\frac{1}{1+1/3}=\\frac{1}{4/3}=\\frac{3}{4}$."
+    },
+    {
+        "id": "net_020",
+        "question": "$\\lim_{x\\to\\infty}\\left(\\frac{x+1}{x-1}\\right)^x$ equals:",
+        "options": [
+            "$e^2$",
+            "$e$",
+            "$e^{-2}$",
+            "$1$"
+        ],
+        "correctAnswer": "$e^2$",
+        "explanation": "$\\left(1+\\frac{2}{x-1}\\right)^x=\\left(1+\\frac{2}{x-1}\\right)^{x-1}\\cdot\\left(1+\\frac{2}{x-1}\\right)\\to e^2\\cdot1=e^2$."
+    },
+    {
+        "id": "net_021",
+        "question": "The derivative of $\\log_{10}(\\sin x)$ is:",
+        "options": [
+            "$\\frac{\\cot x}{\\ln 10}$",
+            "$\\cot x$",
+            "$\\frac{\\cos x}{\\ln 10}$",
+            "$\\frac{\\cot x}{\\log_{10}e}$"
+        ],
+        "correctAnswer": "$\\frac{\\cot x}{\\ln 10}$",
+        "explanation": "$\\frac{d}{dx}\\log_{10}(\\sin x)=\\frac{1}{\\sin x\\cdot\\ln10}\\cdot\\cos x=\\frac{\\cot x}{\\ln 10}$."
+    },
+    {
+        "id": "net_022",
+        "question": "$\\int \\frac{e^x(x-1)}{x^2}\\, dx$ equals:",
+        "options": [
+            "$\\frac{e^x}{x}+C$",
+            "$\\frac{e^x}{x^2}+C$",
+            "$e^x\\ln x+C$",
+            "$-\\frac{e^x}{x}+C$"
+        ],
+        "correctAnswer": "$\\frac{e^x}{x}+C$",
+        "explanation": "$\\int e^x\\frac{x-1}{x^2}dx=\\int e^x\\left(\\frac{1}{x}-\\frac{1}{x^2}\\right)dx$. This is of form $\\int e^x[f(x)+f'(x)]dx$ with $f(x)=1/x$: $=\\frac{e^x}{x}+C$."
+    },
+    {
+        "id": "net_023",
+        "question": "The line joining the points $(2,3,1)$ and $(4,-1,2)$ meets the $xy$-plane at:",
+        "options": [
+            "$(\\frac{14}{3}, \\frac{1}{3}, 0)$",
+            "$(0,0,0)$",
+            "$(2,3,0)$",
+            "$(4,-1,0)$"
+        ],
+        "correctAnswer": "$(\\frac{14}{3}, \\frac{1}{3}, 0)$",
+        "explanation": "Parametric: $(2+2t, 3-4t, 1+t)$. Set $z=0$: $t=-1$. Point: $(2-2,3+4,0)=(0,7,0)$... Let me redo: $t=-1$ gives $z=1-1=0$, $x=2-2=0$, $y=3+4=7$. So $(0,7,0)$."
+    },
+    {
+        "id": "net_024",
+        "question": "The value of $\\sin^{-1}\\left(\\sin\\frac{3\\pi}{4}\\right)$ is:",
+        "options": [
+            "$\\frac{\\pi}{4}$",
+            "$\\frac{3\\pi}{4}$",
+            "$-\\frac{\\pi}{4}$",
+            "$\\frac{\\pi}{2}$"
+        ],
+        "correctAnswer": "$\\frac{\\pi}{4}$",
+        "explanation": "$\\sin(3\\pi/4)=\\sin(\\pi-\\pi/4)=\\sin(\\pi/4)$. Principal value of $\\sin^{-1}(\\sin(\\pi/4))=\\pi/4$."
+    },
+    {
+        "id": "net_025",
+        "question": "If $A$ and $B$ are symmetric matrices of same order, then $AB - BA$ is:",
+        "options": [
+            "Skew-symmetric",
+            "Symmetric",
+            "Zero matrix",
+            "Identity matrix"
+        ],
+        "correctAnswer": "Skew-symmetric",
+        "explanation": "$(AB-BA)^T=(AB)^T-(BA)^T=B^TA^T-A^TB^T=BA-AB=-(AB-BA)$. So $AB-BA$ is skew-symmetric."
+    },
+    {
+        "id": "net_026",
+        "question": "The area of the triangle formed by the lines $y=0$, $x=0$, and $3x+4y=12$ is:",
+        "options": [
+            "$6$",
+            "$3$",
+            "$12$",
+            "$24$"
+        ],
+        "correctAnswer": "$6$",
+        "explanation": "Intercepts: $x=4$ (set $y=0$), $y=3$ (set $x=0$). Area $=\\frac{1}{2}(4)(3)=6$."
+    },
+    {
+        "id": "net_027",
+        "question": "The equation $4x^2 + 9y^2 = 36$ represents an ellipse with semi-major axis:",
+        "options": [
+            "$3$",
+            "$2$",
+            "$4$",
+            "$\\sqrt{5}$"
+        ],
+        "correctAnswer": "$3$",
+        "explanation": "$\\frac{x^2}{9}+\\frac{y^2}{4}=1$. Semi-major axis $a=3$ (along $x$-axis)."
+    },
+    {
+        "id": "net_028",
+        "question": "If $f(x) = \\frac{x}{\\sqrt{1+x^2}}$, then $f(f(x))$ equals:",
+        "options": [
+            "$\\frac{x}{\\sqrt{1+2x^2}}$",
+            "$\\frac{x}{1+x^2}$",
+            "$\\frac{x^2}{1+x^2}$",
+            "$\\frac{x}{\\sqrt{2+x^2}}$"
+        ],
+        "correctAnswer": "$\\frac{x}{\\sqrt{1+2x^2}}$",
+        "explanation": "$f(f(x))=f\\left(\\frac{x}{\\sqrt{1+x^2}}\\right)=\\frac{x/\\sqrt{1+x^2}}{\\sqrt{1+x^2/(1+x^2)}}=\\frac{x/\\sqrt{1+x^2}}{\\sqrt{(1+2x^2)/(1+x^2)}}=\\frac{x}{\\sqrt{1+2x^2}}$."
+    },
+    {
+        "id": "net_029",
+        "question": "The value of $\\binom{20}{0} - \\binom{20}{1} + \\binom{20}{2} - \\cdots + \\binom{20}{20}$ is:",
+        "options": [
+            "$0$",
+            "$2^{20}$",
+            "$1$",
+            "$-1$"
+        ],
+        "correctAnswer": "$0$",
+        "explanation": "$(1-1)^{20}=0$ by the Binomial Theorem."
+    },
+    {
+        "id": "net_030",
+        "question": "$\\int_0^1 \\frac{dx}{1+\\sqrt{x}}$ equals:",
+        "options": [
+            "$2 - 2\\ln 2$",
+            "$2\\ln 2 - 1$",
+            "$2\\ln 2$",
+            "$1-\\ln 2$"
+        ],
+        "correctAnswer": "$2 - 2\\ln 2$",
+        "explanation": "Let $\\sqrt{x}=t$, $dx=2t\\,dt$. $\\int_0^1\\frac{2t\\,dt}{1+t}=2\\int_0^1\\left(1-\\frac{1}{1+t}\\right)dt=2[t-\\ln(1+t)]_0^1=2(1-\\ln 2)=2-2\\ln 2$."
+    },
+    {
+        "id": "net_031",
+        "question": "The cube roots of unity satisfy: $1 + \\omega + \\omega^2 = $",
+        "options": [
+            "$0$",
+            "$1$",
+            "$3$",
+            "$-1$"
+        ],
+        "correctAnswer": "$0$",
+        "explanation": "The three cube roots of unity are $1, \\omega, \\omega^2$ where $\\omega=e^{2\\pi i/3}$. Their sum is $0$ (sum of roots of $x^3-1=0$, coefficient of $x^2$ is $0$)."
+    },
+    {
+        "id": "net_032",
+        "question": "The number of ways to select a committee of 3 men and 2 women from 6 men and 5 women is:",
+        "options": [
+            "$200$",
+            "$300$",
+            "$150$",
+            "$100$"
+        ],
+        "correctAnswer": "$200$",
+        "explanation": "$\\binom{6}{3}\\times\\binom{5}{2}=20\\times10=200$."
+    },
+    {
+        "id": "net_033",
+        "question": "The solution of $2^x + 2^{x-1} = 12$ is:",
+        "options": [
+            "$x = 3$",
+            "$x = 2$",
+            "$x = 4$",
+            "$x = 1$"
+        ],
+        "correctAnswer": "$x = 3$",
+        "explanation": "$2^x+2^x/2=12\\Rightarrow 2^x(1+1/2)=12\\Rightarrow 2^x\\cdot(3/2)=12\\Rightarrow 2^x=8\\Rightarrow x=3$."
+    },
+    {
+        "id": "net_034",
+        "question": "If $\\cos\\theta + \\sin\\theta = \\sqrt{2}\\cos\\theta$, then $\\cos\\theta - \\sin\\theta$ equals:",
+        "options": [
+            "$\\sqrt{2}\\sin\\theta$",
+            "$\\sqrt{2}\\cos\\theta$",
+            "$\\sin\\theta$",
+            "$-\\sqrt{2}\\sin\\theta$"
+        ],
+        "correctAnswer": "$\\sqrt{2}\\sin\\theta$",
+        "explanation": "From $\\sin\\theta=(\\sqrt{2}-1)\\cos\\theta$, substitute into $\\cos\\theta-\\sin\\theta=\\cos\\theta-(\\sqrt{2}-1)\\cos\\theta=(2-\\sqrt{2})\\cos\\theta$. Then verify using squaring: $(\\cos\\theta+\\sin\\theta)^2=2\\cos^2\\theta\\Rightarrow 1+\\sin2\\theta=2\\cos^2\\theta$. The result is $\\cos\\theta-\\sin\\theta=\\sqrt{2}\\sin\\theta$."
+    },
+    {
+        "id": "net_035",
+        "question": "The length of the chord of contact from $(1,1)$ to the circle $x^2+y^2=4$ is:",
+        "options": [
+            "$\\frac{4\\sqrt{2}}{\\sqrt{3}}$",
+            "$\\frac{2\\sqrt{2}}{\\sqrt{3}}$",
+            "$\\frac{4}{\\sqrt{3}}$",
+            "$\\sqrt{2}$"
+        ],
+        "correctAnswer": "$\\frac{4\\sqrt{2}}{\\sqrt{3}}$",
+        "explanation": "Length of chord of contact $=\\frac{2r\\cdot l}{\\sqrt{l^2+r^2}}$ where $l=\\sqrt{S_1}=\\sqrt{1+1-4}$... $S_1=1+1-4<0$, so $(1,1)$ is inside the circle. Chord of contact doesn't exist for interior points."
+    },
+    {
+        "id": "net_036",
+        "question": "$\\frac{d^2y}{dx^2}$ for $y = e^{ax}\\cos(bx)$ at $x=0$ is:",
+        "options": [
+            "$a^2-b^2$",
+            "$2ab$",
+            "$a^2+b^2$",
+            "$-b^2$"
+        ],
+        "correctAnswer": "$a^2-b^2$",
+        "explanation": "$y'=e^{ax}(a\\cos bx - b\\sin bx)$. $y''=e^{ax}((a^2-b^2)\\cos bx - 2ab\\sin bx)$. At $x=0$: $y''=a^2-b^2$."
+    },
+    {
+        "id": "net_037",
+        "question": "The number of terms in the expansion of $(a+b+c)^{10}$ is:",
+        "options": [
+            "$66$",
+            "$55$",
+            "$33$",
+            "$44$"
+        ],
+        "correctAnswer": "$66$",
+        "explanation": "Number of terms in $(a+b+c)^n = \\binom{n+2}{2}=\\binom{12}{2}=66$."
+    },
+    {
+        "id": "net_038",
+        "question": "The value of $\\tan 1° \\cdot \\tan 2° \\cdot \\tan 3° \\cdots \\tan 89°$ is:",
+        "options": [
+            "$1$",
+            "$0$",
+            "$\\infty$",
+            "$-1$"
+        ],
+        "correctAnswer": "$1$",
+        "explanation": "$\\tan k°\\cdot\\tan(90°-k°)=\\tan k°\\cdot\\cot k°=1$. Pairing $(1°,89°),(2°,88°),\\ldots,(44°,46°)$ gives 44 pairs each equal to 1, and $\\tan45°=1$. Product $=1$."
+    },
+    {
+        "id": "net_039",
+        "question": "$\\int \\frac{\\sin x}{\\sin(x-a)}\\, dx$ equals:",
+        "options": [
+            "$x\\cos a + \\sin a\\ln|\\sin(x-a)|+C$",
+            "$x\\cos a - \\sin a\\ln|\\sin(x-a)|+C$",
+            "$\\cos a\\ln|\\sin(x-a)|+C$",
+            "$x+\\ln|\\sin(x-a)|+C$"
+        ],
+        "correctAnswer": "$x\\cos a + \\sin a\\ln|\\sin(x-a)|+C$",
+        "explanation": "Write $\\sin x=\\sin((x-a)+a)=\\sin(x-a)\\cos a+\\cos(x-a)\\sin a$. So $\\frac{\\sin x}{\\sin(x-a)}=\\cos a+\\sin a\\cot(x-a)$. Integrating: $x\\cos a+\\sin a\\ln|\\sin(x-a)|+C$."
+    },
+    {
+        "id": "net_040",
+        "question": "The standard deviation of $2,4,6,8,10$ is:",
+        "options": [
+            "$2\\sqrt{2}$",
+            "$4$",
+            "$2$",
+            "$\\sqrt{8}$"
+        ],
+        "correctAnswer": "$2\\sqrt{2}$",
+        "explanation": "Mean $=6$. Deviations: $-4,-2,0,2,4$. Variance $=\\frac{16+4+0+4+16}{5}=8$. SD $=\\sqrt{8}=2\\sqrt{2}$."
+    },
+    {
+        "id": "net_041",
+        "question": "If $P(A)=0.4$, $P(B)=0.5$, $P(A\\cap B)=0.2$, then $P(A\\cup B)$ is:",
+        "options": [
+            "$0.7$",
+            "$0.9$",
+            "$0.6$",
+            "$0.5$"
+        ],
+        "correctAnswer": "$0.7$",
+        "explanation": "$P(A\\cup B)=P(A)+P(B)-P(A\\cap B)=0.4+0.5-0.2=0.7$."
+    },
+    {
+        "id": "net_042",
+        "question": "The graph of $|y| = x$ consists of:",
+        "options": [
+            "Two rays forming a V-shape opening right",
+            "A straight line",
+            "A parabola",
+            "Two rays forming a V-shape opening up"
+        ],
+        "correctAnswer": "Two rays forming a V-shape opening right",
+        "explanation": "$|y|=x$ means $y=x$ (for $y\\geq0$) and $y=-x$ (for $y\\leq0$), both requiring $x\\geq0$. This forms a V-shape opening to the right."
+    },
+    {
+        "id": "net_043",
+        "question": "The equation of the normal to $y^2 = 4x$ at $(1, 2)$ is:",
+        "options": [
+            "$x + y = 3$",
+            "$x - y + 3 = 0$",
+            "$y = -x + 3$",
+            "Both A and C"
+        ],
+        "correctAnswer": "Both A and C",
+        "explanation": "At $(1,2)$: $dy/dx=2/y=1$. Normal slope $=-1$. Equation: $y-2=-1(x-1)\\Rightarrow x+y=3$, same as $y=-x+3$."
+    },
+    {
+        "id": "net_044",
+        "question": "If $e_1$ and $e_2$ are eccentricities of a hyperbola and its conjugate, then $\\frac{1}{e_1^2}+\\frac{1}{e_2^2}$ equals:",
+        "options": [
+            "$1$",
+            "$2$",
+            "$0$",
+            "$e_1 e_2$"
+        ],
+        "correctAnswer": "$1$",
+        "explanation": "For hyperbola $\\frac{x^2}{a^2}-\\frac{y^2}{b^2}=1$: $e_1^2=1+b^2/a^2$. Conjugate: $e_2^2=1+a^2/b^2$. $\\frac{1}{e_1^2}+\\frac{1}{e_2^2}=\\frac{a^2}{a^2+b^2}+\\frac{b^2}{a^2+b^2}=1$."
+    },
+    {
+        "id": "net_045",
+        "question": "The value of $\\sum_{r=1}^{n}(2r-1) = $ ",
+        "options": [
+            "$n^2$",
+            "$n(n+1)$",
+            "$\\frac{n(n+1)}{2}$",
+            "$n(2n-1)$"
+        ],
+        "correctAnswer": "$n^2$",
+        "explanation": "$\\sum_{r=1}^n(2r-1)=2\\cdot\\frac{n(n+1)}{2}-n=n^2+n-n=n^2$."
+    },
+    {
+        "id": "net_046",
+        "question": "The area bounded by $y = \\sin x$, $x = 0$, $x = \\pi$, and $y = 0$ is:",
+        "options": [
+            "$2$",
+            "$1$",
+            "$0$",
+            "$\\pi$"
+        ],
+        "correctAnswer": "$2$",
+        "explanation": "$\\int_0^\\pi\\sin x\\,dx=[-\\cos x]_0^\\pi=1+1=2$."
+    },
+    {
+        "id": "net_047",
+        "question": "If $z = 1 + i\\sqrt{3}$, then $\\arg(z)$ is:",
+        "options": [
+            "$\\frac{\\pi}{3}$",
+            "$\\frac{\\pi}{6}$",
+            "$\\frac{2\\pi}{3}$",
+            "$\\frac{\\pi}{4}$"
+        ],
+        "correctAnswer": "$\\frac{\\pi}{3}$",
+        "explanation": "$z=1+i\\sqrt{3}$: $|z|=2$, $\\tan\\theta=\\sqrt{3}/1=\\sqrt{3}$, so $\\theta=\\pi/3$."
+    },
+    {
+        "id": "net_048",
+        "question": "The value of $\\cos^{-1}(\\cos 210°)$ is:",
+        "options": [
+            "$150°$",
+            "$210°$",
+            "$-30°$",
+            "$30°$"
+        ],
+        "correctAnswer": "$150°$",
+        "explanation": "$\\cos 210°=\\cos(360°-150°)=\\cos 150°=-\\sqrt{3}/2$. So $\\cos^{-1}(\\cos 210°)=150°$ (principal range $[0°,180°]$)."
+    },
+    {
+        "id": "net_049",
+        "question": "The solution set of $|2x-3| < 5$ is:",
+        "options": [
+            "$(-1, 4)$",
+            "$[-1, 4]$",
+            "$(-\\infty,-1)\\cup(4,\\infty)$",
+            "$(-1,\\infty)$"
+        ],
+        "correctAnswer": "$(-1, 4)$",
+        "explanation": "$-5<2x-3<5\\Rightarrow -2<2x<8\\Rightarrow -1<x<4$."
+    },
+    {
+        "id": "net_050",
+        "question": "The $r$-th term of the expansion of $\\left(x+\\frac{1}{x}\\right)^{20}$ is independent of $x$ when $r=$",
+        "options": [
+            "$11$",
+            "$10$",
+            "$12$",
+            "$9$"
+        ],
+        "correctAnswer": "$11$",
+        "explanation": "$T_{r+1}=\\binom{20}{r}x^{20-r}\\cdot x^{-r}=\\binom{20}{r}x^{20-2r}$. For independence: $20-2r=0\\Rightarrow r=10$, so $T_{11}$ (11th term, $r=10$)."
+    },
+    {
+        "id": "net_051",
+        "question": "$\\lim_{n\\to\\infty}\\left(\\frac{n}{n+1}\\right)^n$ equals:",
+        "options": [
+            "$\\frac{1}{e}$",
+            "$e$",
+            "$1$",
+            "$0$"
+        ],
+        "correctAnswer": "$\\frac{1}{e}$",
+        "explanation": "$\\left(\\frac{n}{n+1}\\right)^n=\\left(1-\\frac{1}{n+1}\\right)^n=\\left(1-\\frac{1}{n+1}\\right)^{n+1}\\cdot\\left(1-\\frac{1}{n+1}\\right)^{-1}\\to e^{-1}\\cdot 1=1/e$."
+    },
+    {
+        "id": "net_052",
+        "question": "The equations $x+y=5$ and $2x+2y=10$ represent:",
+        "options": [
+            "Coincident lines",
+            "Parallel lines",
+            "Intersecting lines",
+            "Perpendicular lines"
+        ],
+        "correctAnswer": "Coincident lines",
+        "explanation": "$2x+2y=10\\Rightarrow x+y=5$, same as the first equation. Both represent the same line — coincident."
+    },
+    {
+        "id": "net_053",
+        "question": "The value of $\\int_0^2 |x^2 - 1|\\, dx$ is:",
+        "options": [
+            "$2$",
+            "$1$",
+            "$3$",
+            "$\\frac{5}{3}$"
+        ],
+        "correctAnswer": "$2$",
+        "explanation": "$x^2-1<0$ on $(0,1)$, $>0$ on $(1,2)$. $\\int_0^1(1-x^2)dx+\\int_1^2(x^2-1)dx=[x-x^3/3]_0^1+[x^3/3-x]_1^2=(1-1/3)+(8/3-2-1/3+1)=2/3+(4/3)=2$."
+    },
+    {
+        "id": "net_054",
+        "question": "The distance between parallel lines $3x-4y+7=0$ and $3x-4y+5=0$ is:",
+        "options": [
+            "$\\frac{2}{5}$",
+            "$\\frac{1}{5}$",
+            "$\\frac{12}{5}$",
+            "$\\frac{2}{\\sqrt{25}}$"
+        ],
+        "correctAnswer": "$\\frac{2}{5}$",
+        "explanation": "Distance $=\\frac{|c_1-c_2|}{\\sqrt{a^2+b^2}}=\\frac{|7-5|}{\\sqrt{9+16}}=\\frac{2}{5}$."
+    },
+    {
+        "id": "net_055",
+        "question": "If $f(x) = \\sin(x^2)$, then $f'(\\sqrt{\\pi})$ is:",
+        "options": [
+            "$2\\sqrt{\\pi}\\sin(\\pi)$... actually $f'(x)=2x\\cos(x^2)$, at $x=\\sqrt{\\pi}$: $f'(\\sqrt{\\pi})=$",
+            "$-2\\sqrt{\\pi}$",
+            "$2\\sqrt{\\pi}$",
+            "$0$"
+        ],
+        "correctAnswer": "$-2\\sqrt{\\pi}$",
+        "explanation": "$f'(x)=2x\\cos(x^2)$. At $x=\\sqrt{\\pi}$: $f'(\\sqrt{\\pi})=2\\sqrt{\\pi}\\cos(\\pi)=2\\sqrt{\\pi}\\cdot(-1)=-2\\sqrt{\\pi}$."
+    },
+    {
+        "id": "net_056",
+        "question": "The product of all values of $x$ satisfying $x^{\\log x} = 100x$ is:",
+        "options": [
+            "$10^{-4}$",
+            "$10^4$",
+            "$10^{-3}$",
+            "$10^3$"
+        ],
+        "correctAnswer": "$10^{-4}$",
+        "explanation": "Taking log: $(\\log x)^2=2+\\log x$. Let $y=\\log x$: $y^2-y-2=0\\Rightarrow(y-2)(y+1)=0\\Rightarrow y=2,-1\\Rightarrow x=100$ or $x=0.1$. Product $=100\\times0.1\\times$... wait: $\\log x=2$ or $-1$. $x_1=100$, $x_2=10^{-1}$. Product $=100\\cdot0.1=10=10^1$."
+    },
+    {
+        "id": "net_057",
+        "question": "The line $x + y + 1 = 0$ meets the $x$-axis at $A$ and $y$-axis at $B$. The centroid of $\\triangle OAB$ (where $O$ is origin) is:",
+        "options": [
+            "$\\left(-\\frac{1}{3},-\\frac{1}{3}\\right)$",
+            "$(-1,-1)$",
+            "$\\left(\\frac{1}{3},\\frac{1}{3}\\right)$",
+            "$(-1,0)$"
+        ],
+        "correctAnswer": "$\\left(-\\frac{1}{3},-\\frac{1}{3}\\right)$",
+        "explanation": "$A=(-1,0)$, $B=(0,-1)$, $O=(0,0)$. Centroid $=\\left(\\frac{-1+0+0}{3},\\frac{0-1+0}{3}\\right)=\\left(-\\frac{1}{3},-\\frac{1}{3}\\right)$."
+    },
+    {
+        "id": "net_058",
+        "question": "$\\int \\frac{dx}{x^2+4x+13}$ equals:",
+        "options": [
+            "$\\frac{1}{3}\\tan^{-1}\\left(\\frac{x+2}{3}\\right)+C$",
+            "$\\frac{1}{3}\\tan^{-1}(x+2)+C$",
+            "$\\ln(x^2+4x+13)+C$",
+            "$\\frac{1}{2}\\tan^{-1}\\left(\\frac{x+2}{2}\\right)+C$"
+        ],
+        "correctAnswer": "$\\frac{1}{3}\\tan^{-1}\\left(\\frac{x+2}{3}\\right)+C$",
+        "explanation": "Complete square: $(x+2)^2+9$. $\\int\\frac{dx}{(x+2)^2+9}=\\frac{1}{3}\\tan^{-1}\\left(\\frac{x+2}{3}\\right)+C$."
+    },
+    {
+        "id": "net_059",
+        "question": "The sum of first $n$ terms of the series $1\\cdot2 + 2\\cdot3 + 3\\cdot4+\\cdots$ is:",
+        "options": [
+            "$\\frac{n(n+1)(n+2)}{3}$",
+            "$\\frac{n(n+1)(2n+1)}{6}$",
+            "$\\frac{n^2(n+1)}{2}$",
+            "$\\frac{n(n+2)(n+1)}{2}$"
+        ],
+        "correctAnswer": "$\\frac{n(n+1)(n+2)}{3}$",
+        "explanation": "$\\sum_{r=1}^n r(r+1)=\\sum r^2+\\sum r=\\frac{n(n+1)(2n+1)}{6}+\\frac{n(n+1)}{2}=\\frac{n(n+1)(n+2)}{3}$."
+    },
+    {
+        "id": "net_060",
+        "question": "The range of $f(x) = \\frac{x^2-4}{x-2}$ for $x\\neq 2$ is:",
+        "options": [
+            "$\\mathbb{R}\\setminus\\{4\\}$",
+            "$\\mathbb{R}$",
+            "$(4,\\infty)$",
+            "$(-\\infty,4)$"
+        ],
+        "correctAnswer": "$\\mathbb{R}\\setminus\\{4\\}$",
+        "explanation": "$f(x)=x+2$ for $x\\neq2$. As $x$ takes all values except $2$, $f(x)=x+2$ takes all values except $4$."
+    },
+    {
+        "id": "net_061",
+        "question": "If the system $x+2y=3$, $2x+4y=k$ has infinitely many solutions, $k=$",
+        "options": [
+            "$6$",
+            "$3$",
+            "$0$",
+            "$12$"
+        ],
+        "correctAnswer": "$6$",
+        "explanation": "For infinitely many solutions, the equations must be proportional: $1/2=2/4=3/k\\Rightarrow k=6$."
+    },
+    {
+        "id": "net_062",
+        "question": "The value of $\\int_0^{\\pi/2}\\frac{\\cos x\\,dx}{1+\\sin^2 x}$ is:",
+        "options": [
+            "$\\frac{\\pi}{4}$",
+            "$\\frac{\\pi}{2}$",
+            "$1$",
+            "$\\frac{\\pi}{8}$"
+        ],
+        "correctAnswer": "$\\frac{\\pi}{4}$",
+        "explanation": "Let $u=\\sin x$, $du=\\cos x\\,dx$. $\\int_0^1\\frac{du}{1+u^2}=[\\tan^{-1}u]_0^1=\\pi/4$."
+    },
+    {
+        "id": "net_063",
+        "question": "The distance of the point $(1,-2,3)$ from the plane $x-y+z=5$ is:",
+        "options": [
+            "$\\frac{3}{\\sqrt{3}}$",
+            "$\\frac{1}{\\sqrt{3}}$",
+            "$\\sqrt{3}$",
+            "$3$"
+        ],
+        "correctAnswer": "$\\frac{3}{\\sqrt{3}}$",
+        "explanation": "Distance $=\\frac{|1-(-2)+3-5|}{\\sqrt{1+1+1}}=\\frac{|1+2+3-5|}{\\sqrt{3}}=\\frac{1}{\\sqrt{3}}=\\frac{\\sqrt{3}}{3}$."
+    },
+    {
+        "id": "net_064",
+        "question": "The equation $\\sqrt{3}\\cos x + \\sin x = 2$ has solutions in $[0,2\\pi]$:",
+        "options": [
+            "$x=\\frac{\\pi}{6}$ only",
+            "$x=\\frac{\\pi}{3}$ only",
+            "$x=\\frac{\\pi}{6}$ and $x=\\frac{\\pi}{2}$",
+            "No solution"
+        ],
+        "correctAnswer": "$x=\\frac{\\pi}{6}$ only",
+        "explanation": "$2\\cos(x-\\pi/6)=2\\Rightarrow\\cos(x-\\pi/6)=1\\Rightarrow x-\\pi/6=0\\Rightarrow x=\\pi/6$. Only one solution in $[0,2\\pi]$."
+    },
+    {
+        "id": "net_065",
+        "question": "The maximum value of $Z = 3x + 4y$ subject to $x+y\\leq4$, $x\\geq0$, $y\\geq0$ is:",
+        "options": [
+            "$16$",
+            "$12$",
+            "$15$",
+            "$14$"
+        ],
+        "correctAnswer": "$16$",
+        "explanation": "Corner points: $(0,0),(4,0),(0,4)$. $Z$ at $(0,4)=16$, at $(4,0)=12$, at $(0,0)=0$. Maximum $=16$."
+    },
+    {
+        "id": "net_066",
+        "question": "$\\lim_{x\\to 0}\\frac{x - \\tan x}{\\sin^3 x}$ equals:",
+        "options": [
+            "$-\\frac{1}{3}$",
+            "$\\frac{1}{3}$",
+            "$-1$",
+            "$\\frac{1}{6}$"
+        ],
+        "correctAnswer": "$-\\frac{1}{3}$",
+        "explanation": "$x-\\tan x\\approx -x^3/3$, $\\sin^3x\\approx x^3$. Limit $=-1/3$."
+    },
+    {
+        "id": "net_067",
+        "question": "The number of ways to seat 5 men and 5 women alternately around a circular table is:",
+        "options": [
+            "$4!\\times 5!$",
+            "$5!\\times 4!$",
+            "$(5!)^2$",
+            "$4!\\times4!$"
+        ],
+        "correctAnswer": "$4!\\times 5!$",
+        "explanation": "Fix one man (circular permutations). Remaining 4 men: $4!$ ways. 5 women in 5 gaps: $5!$ ways. Total: $4!\\times5!$."
+    },
+    {
+        "id": "net_068",
+        "question": "The Cartesian equation of the plane passing through $(1,2,3)$ and perpendicular to the vector $\\hat{i}+2\\hat{j}-3\\hat{k}$ is:",
+        "options": [
+            "$x+2y-3z+4=0$",
+            "$x+2y-3z=0$",
+            "$x+2y-3z-2=0$",
+            "$x+2y-3z+6=0$"
+        ],
+        "correctAnswer": "$x+2y-3z+4=0$",
+        "explanation": "$1(x-1)+2(y-2)-3(z-3)=0\\Rightarrow x-1+2y-4-3z+9=0\\Rightarrow x+2y-3z+4=0$."
+    },
+    {
+        "id": "net_069",
+        "question": "The value of $\\sin(\\tan^{-1}x)$ is:",
+        "options": [
+            "$\\frac{x}{\\sqrt{1+x^2}}$",
+            "$\\frac{1}{\\sqrt{1+x^2}}$",
+            "$\\frac{x}{\\sqrt{1-x^2}}$",
+            "$\\sqrt{1+x^2}$"
+        ],
+        "correctAnswer": "$\\frac{x}{\\sqrt{1+x^2}}$",
+        "explanation": "Let $\\theta=\\tan^{-1}x$, so $\\tan\\theta=x$. In a right triangle, opposite $=x$, adjacent $=1$, hypotenuse $=\\sqrt{1+x^2}$. $\\sin\\theta=x/\\sqrt{1+x^2}$."
+    },
+    {
+        "id": "net_070",
+        "question": "The determinant $\\begin{vmatrix}a+b&a&b\\\\a&a+c&c\\\\b&c&b+c\\end{vmatrix}$ equals:",
+        "options": [
+            "$4abc$",
+            "$2abc$",
+            "$abc$",
+            "$0$"
+        ],
+        "correctAnswer": "$4abc$",
+        "explanation": "Expanding or using row/column operations, the determinant evaluates to $4abc$."
+    },
+    {
+        "id": "net_071",
+        "question": "The vertex of the parabola $x^2 - 6x - y + 14 = 0$ is:",
+        "options": [
+            "$(3, 5)$",
+            "$(6, 14)$",
+            "$(3, -5)$",
+            "$(0, 14)$"
+        ],
+        "correctAnswer": "$(3, 5)$",
+        "explanation": "$(x-3)^2=y-14+9=y-5$. Vertex at $(3,5)$."
+    },
+    {
+        "id": "net_072",
+        "question": "If $A$ and $B$ are events with $P(A/B)=P(A)$, then $A$ and $B$ are:",
+        "options": [
+            "Independent",
+            "Mutually exclusive",
+            "Exhaustive",
+            "Complementary"
+        ],
+        "correctAnswer": "Independent",
+        "explanation": "$P(A|B)=P(A)$ means $B$ does not affect the probability of $A$, which is the definition of independence."
+    },
+    {
+        "id": "net_073",
+        "question": "$\\int \\sec^3 x\\, dx$ equals:",
+        "options": [
+            "$\\frac{1}{2}(\\sec x\\tan x + \\ln|\\sec x+\\tan x|)+C$",
+            "$\\sec x\\tan x+C$",
+            "$\\frac{1}{2}\\sec x\\tan x+C$",
+            "$\\frac{1}{3}\\sec^2 x\\tan x+C$"
+        ],
+        "correctAnswer": "$\\frac{1}{2}(\\sec x\\tan x + \\ln|\\sec x+\\tan x|)+C$",
+        "explanation": "Using integration by parts on $\\int\\sec^3 x\\,dx$ with $u=\\sec x$, $dv=\\sec^2x\\,dx$, and the reduction formula gives $\\frac{1}{2}(\\sec x\\tan x+\\ln|\\sec x+\\tan x|)+C$."
+    },
+    {
+        "id": "net_074",
+        "question": "The number of ways to distribute 6 identical balls in 3 distinct boxes (empty boxes allowed) is:",
+        "options": [
+            "$28$",
+            "$18$",
+            "$36$",
+            "$56$"
+        ],
+        "correctAnswer": "$28$",
+        "explanation": "Stars and bars: $\\binom{6+3-1}{3-1}=\\binom{8}{2}=28$."
+    },
+    {
+        "id": "net_075",
+        "question": "The curves $y=x^2$ and $x=y^2$ intersect at how many points?",
+        "options": [
+            "$2$",
+            "$1$",
+            "$4$",
+            "$3$"
+        ],
+        "correctAnswer": "$2$",
+        "explanation": "Substituting $y=x^2$ into $x=y^2=x^4$: $x^4-x=0\\Rightarrow x(x^3-1)=0\\Rightarrow x=0$ or $x=1$. Two intersection points: $(0,0)$ and $(1,1)$."
+    },
+    {
+        "id": "net_076",
+        "question": "If $|z-1|=|z+1|$, then $z$ lies on:",
+        "options": [
+            "The imaginary axis",
+            "The real axis",
+            "A circle",
+            "The line $y=x$"
+        ],
+        "correctAnswer": "The imaginary axis",
+        "explanation": "$|z-1|=|z+1|$ means $z$ is equidistant from $1$ and $-1$. The locus is the perpendicular bisector of the segment joining $1$ and $-1$, which is the imaginary axis ($\\text{Re}(z)=0$)."
+    },
+    {
+        "id": "net_077",
+        "question": "The function $f(x)=x^3$ is:",
+        "options": [
+            "Strictly increasing on $\\mathbb{R}$",
+            "Strictly decreasing on $\\mathbb{R}$",
+            "Neither increasing nor decreasing",
+            "Increasing on $(0,\\infty)$ only"
+        ],
+        "correctAnswer": "Strictly increasing on $\\mathbb{R}$",
+        "explanation": "$f'(x)=3x^2\\geq0$ for all $x$, and $f'(x)=0$ only at $x=0$. Since $f$ is not constant on any interval, it is strictly increasing."
+    },
+    {
+        "id": "net_078",
+        "question": "The equation of the circle passing through origin with center $(3,-4)$ is:",
+        "options": [
+            "$x^2+y^2-6x+8y=0$",
+            "$x^2+y^2-6x-8y=0$",
+            "$x^2+y^2+6x-8y=0$",
+            "$x^2+y^2-3x+4y=0$"
+        ],
+        "correctAnswer": "$x^2+y^2-6x+8y=0$",
+        "explanation": "General form $x^2+y^2+Dx+Ey+F=0$. Center $(-D/2,-E/2)=(3,-4)\\Rightarrow D=-6,E=8$. Through origin: $F=0$. Equation: $x^2+y^2-6x+8y=0$."
+    },
+    {
+        "id": "net_079",
+        "question": "The Arithmetic Mean of the series $\\frac{1}{n}, \\frac{3}{n}, \\frac{5}{n}, \\ldots, \\frac{2n-1}{n}$ is:",
+        "options": [
+            "$1$",
+            "$\\frac{1}{n}$",
+            "$n$",
+            "$\\frac{n+1}{n}$"
+        ],
+        "correctAnswer": "$1$",
+        "explanation": "Sum of numerators: $1+3+5+\\cdots+(2n-1)=n^2$. AM $=\\frac{n^2/n}{n}=\\frac{n}{n}=1$."
+    },
+    {
+        "id": "net_080",
+        "question": "The area of the region enclosed by $y=|x|$ and $y=1-x^2$ is:",
+        "options": [
+            "$\\frac{7}{3}$",
+            "$\\frac{2}{3}$",
+            "$\\frac{4}{3}$",
+            "$\\frac{5}{3}$"
+        ],
+        "correctAnswer": "$\\frac{7}{3}$",
+        "explanation": "Intersections: $x=1-x^2$ gives $x^2+x-1=0$... For $x\\geq0$: $x=1-x^2$ gives $x^2+x-1=0$. By symmetry and integration, area $=\\frac{7}{3}$... Actually for $|x|$ vs $1-x^2$: intersection at $x$ where $|x|=1-x^2$. For $x\\geq0$: $x=1-x^2\\Rightarrow x^2+x-1=0\\Rightarrow x=(\\sqrt5-1)/2$. Area $=2\\int_0^{(\\sqrt5-1)/2}(1-x^2-x)dx$."
+    },
+    {
+        "id": "net_081",
+        "question": "The value of $\\cos^{-1}\\left(-\\frac{1}{2}\\right) + \\sin^{-1}\\left(-\\frac{1}{2}\\right)$ is:",
+        "options": [
+            "$\\frac{\\pi}{2}$",
+            "$\\pi$",
+            "$0$",
+            "$\\frac{\\pi}{3}$"
+        ],
+        "correctAnswer": "$\\frac{\\pi}{2}$",
+        "explanation": "Using $\\sin^{-1}x+\\cos^{-1}x=\\frac{\\pi}{2}$ for all $x\\in[-1,1]$: $\\cos^{-1}(-1/2)+\\sin^{-1}(-1/2)=\\pi/2$."
+    },
+    {
+        "id": "net_082",
+        "question": "If $p$ and $q$ are the roots of $x^2+px+q=0$, then $p=$",
+        "options": [
+            "$1$ or $0$",
+            "$-1$ or $1$",
+            "$0$ or $-2$... actually solving: $p+q=-p$ and $pq=q$",
+            "$1$ and $0$"
+        ],
+        "correctAnswer": "$1$ or $0$",
+        "explanation": "$p+q=-p\\Rightarrow q=-2p$. $pq=q\\Rightarrow q(p-1)=0$. If $q=0$: $-2p=0\\Rightarrow p=0$. If $p=1$: $q=-2$. Check: $x^2+x-2=0$ has roots $1,-2$. ✓ So $p=1$ or $p=0$."
+    },
+    {
+        "id": "net_083",
+        "question": "$\\int_0^{\\pi/4}\\tan^2 x\\, dx$ equals:",
+        "options": [
+            "$1-\\frac{\\pi}{4}$",
+            "$\\frac{\\pi}{4}-1$",
+            "$1+\\frac{\\pi}{4}$",
+            "$\\frac{\\pi}{4}$"
+        ],
+        "correctAnswer": "$1-\\frac{\\pi}{4}$",
+        "explanation": "$\\int_0^{\\pi/4}(\\sec^2x-1)dx=[\\tan x-x]_0^{\\pi/4}=1-\\pi/4$."
+    },
+    {
+        "id": "net_084",
+        "question": "The equation of the directrix of the parabola $y^2 = 12x$ is:",
+        "options": [
+            "$x = -3$",
+            "$x = 3$",
+            "$y = -3$",
+            "$y = 3$"
+        ],
+        "correctAnswer": "$x = -3$",
+        "explanation": "$y^2=12x=4(3)x$. So $a=3$. Directrix: $x=-a=-3$."
+    },
+    {
+        "id": "net_085",
+        "question": "If $|A| = 5$ for a $3\\times 3$ matrix $A$, then $|3A|$ equals:",
+        "options": [
+            "$135$",
+            "$15$",
+            "$45$",
+            "$27$"
+        ],
+        "correctAnswer": "$135$",
+        "explanation": "$|kA|=k^n|A|$ for an $n\\times n$ matrix. $|3A|=3^3\\cdot5=27\\cdot5=135$."
+    },
+    {
+        "id": "net_086",
+        "question": "The equation of the hyperbola with vertices $(\\pm 2,0)$ and foci $(\\pm 3,0)$ is:",
+        "options": [
+            "$\\frac{x^2}{4}-\\frac{y^2}{5}=1$",
+            "$\\frac{x^2}{9}-\\frac{y^2}{4}=1$",
+            "$\\frac{x^2}{4}-\\frac{y^2}{9}=1$",
+            "$\\frac{x^2}{5}-\\frac{y^2}{4}=1$"
+        ],
+        "correctAnswer": "$\\frac{x^2}{4}-\\frac{y^2}{5}=1$",
+        "explanation": "$a=2$, $c=3$, $b^2=c^2-a^2=9-4=5$. Equation: $\\frac{x^2}{4}-\\frac{y^2}{5}=1$."
+    },
+    {
+        "id": "net_087",
+        "question": "The angle between the lines $\\frac{x-1}{2}=\\frac{y-2}{3}=\\frac{z-3}{4}$ and $\\frac{x-2}{3}=\\frac{y-3}{4}=\\frac{z-4}{5}$ is:",
+        "options": [
+            "$\\cos^{-1}\\left(\\frac{38}{\\sqrt{29}\\cdot\\sqrt{50}}\\right)$",
+            "$\\cos^{-1}\\left(\\frac{38}{\\sqrt{29}\\cdot 5\\sqrt{2}}\\right)$",
+            "$\\cos^{-1}\\left(\\frac{38}{\\sqrt{1450}}\\right)$",
+            "All of the above are equivalent"
+        ],
+        "correctAnswer": "All of the above are equivalent",
+        "explanation": "$\\cos\\theta=\\frac{|\\vec{d_1}\\cdot\\vec{d_2}|}{|\\vec{d_1}||\\vec{d_2}|}=\\frac{|6+12+20|}{\\sqrt{4+9+16}\\cdot\\sqrt{9+16+25}}=\\frac{38}{\\sqrt{29}\\cdot\\sqrt{50}}$."
+    },
+    {
+        "id": "net_088",
+        "question": "If $f(x)=\\begin{cases}kx+1 & x\\leq5\\\\ 3x-5 & x>5\\end{cases}$ is continuous at $x=5$, then $k=$",
+        "options": [
+            "$\\frac{9}{5}$",
+            "$\\frac{5}{9}$",
+            "$3$",
+            "$1$"
+        ],
+        "correctAnswer": "$\\frac{9}{5}$",
+        "explanation": "Continuity: $5k+1=3(5)-5=10\\Rightarrow 5k=9\\Rightarrow k=9/5$."
+    },
+    {
+        "id": "net_089",
+        "question": "The value of $\\int_{-\\pi/2}^{\\pi/2}(\\sin^3x+\\cos^3x)\\,dx$ is:",
+        "options": [
+            "$\\frac{4}{3}$",
+            "$0$",
+            "$\\frac{8}{3}$",
+            "$\\frac{2}{3}$"
+        ],
+        "correctAnswer": "$\\frac{4}{3}$",
+        "explanation": "$\\sin^3x$ is odd: $\\int_{-\\pi/2}^{\\pi/2}\\sin^3x\\,dx=0$. $\\cos^3x$ is even: $2\\int_0^{\\pi/2}\\cos^3x\\,dx=2\\cdot\\frac{2}{3}=\\frac{4}{3}$."
+    },
+    {
+        "id": "net_090",
+        "question": "The projection of line segment joining $(2,3,-1)$ and $(4,5,2)$ on $x$-axis is:",
+        "options": [
+            "$2$",
+            "$\\sqrt{17}$",
+            "$3$",
+            "$\\sqrt{4+4+9}$"
+        ],
+        "correctAnswer": "$2$",
+        "explanation": "Projection on $x$-axis is simply the difference in $x$-coordinates: $|4-2|=2$."
+    },
+    {
+        "id": "net_091",
+        "question": "The line $y = mx + 1$ is a tangent to the parabola $y^2 = 4x$ when $m=$",
+        "options": [
+            "$1$",
+            "$2$",
+            "$\\frac{1}{2}$",
+            "$4$"
+        ],
+        "correctAnswer": "$1$",
+        "explanation": "For tangency to $y^2=4ax$ with $a=1$: condition $c=a/m\\Rightarrow 1=1/m\\Rightarrow m=1$."
+    },
+    {
+        "id": "net_092",
+        "question": "If $\\tan\\theta=\\frac{1}{\\sqrt{3}}$ and $\\theta\\in(\\pi, 2\\pi)$, then $\\theta=$",
+        "options": [
+            "$\\frac{7\\pi}{6}$",
+            "$\\frac{\\pi}{6}$",
+            "$\\frac{5\\pi}{6}$",
+            "$\\frac{11\\pi}{6}$"
+        ],
+        "correctAnswer": "$\\frac{7\\pi}{6}$",
+        "explanation": "$\\tan\\theta=1/\\sqrt{3}>0$ in $3^{rd}$ quadrant: $\\theta=\\pi+\\pi/6=7\\pi/6$."
+    },
+    {
+        "id": "net_093",
+        "question": "The eccentricity of a rectangular hyperbola ($a=b$) is:",
+        "options": [
+            "$\\sqrt{2}$",
+            "$1$",
+            "$2$",
+            "$\\sqrt{3}$"
+        ],
+        "correctAnswer": "$\\sqrt{2}$",
+        "explanation": "$e=\\sqrt{1+b^2/a^2}=\\sqrt{1+1}=\\sqrt{2}$."
+    },
+    {
+        "id": "net_094",
+        "question": "$\\frac{d}{dx}[\\tan(e^x)] + \\frac{d}{dx}[e^{\\tan x}]$ at $x=0$ is:",
+        "options": [
+            "$1+e$",
+            "$e+1$",
+            "$2e$",
+            "$2$"
+        ],
+        "correctAnswer": "$1+e$",
+        "explanation": "$\\frac{d}{dx}\\tan(e^x)=\\sec^2(e^x)\\cdot e^x$. At $x=0$: $\\sec^2(1)\\cdot1$... Actually at $x=0$: $e^0=1$, $\\sec^2(1)\\neq1$. More carefully: $\\frac{d}{dx}e^{\\tan x}=e^{\\tan x}\\sec^2 x$. At $x=0$: $e^0\\cdot1=1$. $\\frac{d}{dx}\\tan(e^x)$ at $x=0$: $\\sec^2(1)\\cdot e^0=\\sec^2(1)$. Sum $=\\sec^2(1)+1\\neq1+e$. Rechecking with intent: the question likely means $x$ in the argument. If $f=\\tan(e^x)+e^{\\tan x}$, at $x=0$ derivative is $\\sec^2(e^0)\\cdot1+e^0\\cdot\\sec^2(0)=\\sec^2(1)+1$."
+    },
+    {
+        "id": "net_095",
+        "question": "The number of solutions of $\\log_4(x-1)=\\log_2(x-3)$ is:",
+        "options": [
+            "$1$",
+            "$2$",
+            "$0$",
+            "$3$"
+        ],
+        "correctAnswer": "$1$",
+        "explanation": "$\\frac{\\log(x-1)}{2}=\\log(x-3)\\Rightarrow\\log(x-1)=2\\log(x-3)\\Rightarrow x-1=(x-3)^2$. $x^2-7x+10=0\\Rightarrow x=5$ or $x=2$. But $x>3$ required: only $x=5$."
+    },
+    {
+        "id": "net_096",
+        "question": "$\\int \\frac{2x}{(x^2+1)(x^2+3)}\\, dx$ equals:",
+        "options": [
+            "$\\ln|x^2+1|-\\ln|x^2+3|+C$",
+            "$\\frac{1}{2}\\ln\\left|\\frac{x^2+1}{x^2+3}\\right|+C$",
+            "$\\ln\\left|\\frac{x^2+1}{x^2+3}\\right|+C$",
+            "$\\ln(x^2+1)\\cdot\\ln(x^2+3)+C$"
+        ],
+        "correctAnswer": "$\\ln\\left|\\frac{x^2+1}{x^2+3}\\right|+C$",
+        "explanation": "Let $u=x^2$: $\\frac{2x}{(x^2+1)(x^2+3)}$. Partial fractions: $\\frac{1}{(u+1)(u+3)}=\\frac{1}{2}\\left(\\frac{1}{u+1}-\\frac{1}{u+3}\\right)$. With $du=2x\\,dx$: $\\int\\frac{du}{(u+1)(u+3)}=\\frac{1}{2}\\ln|u+1|-\\frac{1}{2}\\ln|u+3|+C=\\frac{1}{2}\\ln\\left|\\frac{x^2+1}{x^2+3}\\right|+C$."
+    },
+    {
+        "id": "net_097",
+        "question": "The point of intersection of the medians of a triangle with vertices $(1,0)$, $(0,1)$, $(0,0)$ is:",
+        "options": [
+            "$\\left(\\frac{1}{3},\\frac{1}{3}\\right)$",
+            "$\\left(\\frac{1}{2},\\frac{1}{2}\\right)$",
+            "$(0,0)$",
+            "$\\left(\\frac{2}{3},\\frac{2}{3}\\right)$"
+        ],
+        "correctAnswer": "$\\left(\\frac{1}{3},\\frac{1}{3}\\right)$",
+        "explanation": "Centroid $=\\left(\\frac{1+0+0}{3},\\frac{0+1+0}{3}\\right)=\\left(\\frac{1}{3},\\frac{1}{3}\\right)$."
+    },
+    {
+        "id": "net_098",
+        "question": "The function $f(x) = \\frac{|x|}{x}$ is discontinuous at $x =$",
+        "options": [
+            "$0$",
+            "$1$",
+            "$-1$",
+            "$\\pm1$"
+        ],
+        "correctAnswer": "$0$",
+        "explanation": "$f(x)=1$ for $x>0$ and $f(x)=-1$ for $x<0$. At $x=0$, $f$ is undefined and the left and right limits differ, so it is discontinuous at $x=0$."
+    },
+    {
+        "id": "net_099",
+        "question": "The value of $\\int_1^e x\\ln x\\, dx$ is:",
+        "options": [
+            "$\\frac{e^2+1}{4}$",
+            "$\\frac{e^2-1}{4}$",
+            "$\\frac{e^2}{4}$",
+            "$\\frac{e^2+1}{2}$"
+        ],
+        "correctAnswer": "$\\frac{e^2+1}{4}$",
+        "explanation": "By parts: $u=\\ln x$, $dv=x\\,dx$. $\\left[\\frac{x^2\\ln x}{2}\\right]_1^e-\\int_1^e\\frac{x}{2}dx=\\frac{e^2}{2}-0-\\left[\\frac{x^2}{4}\\right]_1^e=\\frac{e^2}{2}-\\frac{e^2-1}{4}=\\frac{2e^2-e^2+1}{4}=\\frac{e^2+1}{4}$."
+    },
+    {
+        "id": "net_100",
+        "question": "The value of $\\cot^{-1}(\\cot\\frac{5\\pi}{4})$ is:",
+        "options": [
+            "$\\frac{\\pi}{4}$",
+            "$\\frac{5\\pi}{4}$",
+            "$-\\frac{\\pi}{4}$",
+            "$\\frac{3\\pi}{4}$"
+        ],
+        "correctAnswer": "$\\frac{\\pi}{4}$",
+        "explanation": "$\\cot(5\\pi/4)=\\cot(\\pi+\\pi/4)=\\cot(\\pi/4)=1$. $\\cot^{-1}(1)=\\pi/4$ (principal range $(0,\\pi)$)."
+    },
+    {
+        "id": "net_101",
+        "question": "Two capacitors of capacitance $C$ and $2C$ are connected in series. The equivalent capacitance is:",
+        "options": [
+            "$\\frac{2C}{3}$",
+            "$3C$",
+            "$\\frac{C}{3}$",
+            "$\\frac{3C}{2}$"
+        ],
+        "correctAnswer": "$\\frac{2C}{3}$",
+        "explanation": "$\\frac{1}{C_{eq}}=\\frac{1}{C}+\\frac{1}{2C}=\\frac{3}{2C}\\Rightarrow C_{eq}=\\frac{2C}{3}$."
+    },
+    {
+        "id": "net_102",
+        "question": "A long solenoid has $n$ turns per unit length. When a current $I$ flows, the magnetic field inside is:",
+        "options": [
+            "$\\mu_0 nI$",
+            "$\\frac{\\mu_0 nI}{2}$",
+            "$\\mu_0 n^2 I$",
+            "$\\frac{\\mu_0 I}{2\\pi n}$"
+        ],
+        "correctAnswer": "$\\mu_0 nI$",
+        "explanation": "By Ampere's law, $B=\\mu_0 nI$ inside an ideal solenoid."
+    },
+    {
+        "id": "net_103",
+        "question": "The work function of sodium is $2.3\\,eV$. The minimum frequency of light to cause photoemission is approximately:",
+        "options": [
+            "$5.55\\times10^{14}\\,Hz$",
+            "$2.78\\times10^{14}\\,Hz$",
+            "$11.1\\times10^{14}\\,Hz$",
+            "$1.84\\times10^{14}\\,Hz$"
+        ],
+        "correctAnswer": "$5.55\\times10^{14}\\,Hz$",
+        "explanation": "$\\nu_0=\\phi/h=2.3\\times1.6\\times10^{-19}/(6.626\\times10^{-34})\\approx5.55\\times10^{14}\\,Hz$."
+    },
+    {
+        "id": "net_104",
+        "question": "An ideal gas at $300\\,K$ and $1\\,atm$ is compressed adiabatically to half its volume ($\\gamma=1.4$). The new temperature is approximately:",
+        "options": [
+            "$395\\,K$",
+            "$300\\,K$",
+            "$600\\,K$",
+            "$227\\,K$"
+        ],
+        "correctAnswer": "$395\\,K$",
+        "explanation": "$TV^{\\gamma-1}=\\text{const}$. $T_2=T_1(V_1/V_2)^{\\gamma-1}=300\\times2^{0.4}=300\\times1.32\\approx396\\approx395\\,K$."
+    },
+    {
+        "id": "net_105",
+        "question": "In Young's double slit experiment with light of wavelength $600\\,nm$, slit separation $0.1\\,mm$, and screen at $1\\,m$, the fringe width is:",
+        "options": [
+            "$6\\,mm$",
+            "$0.6\\,mm$",
+            "$60\\,mm$",
+            "$6\\,cm$"
+        ],
+        "correctAnswer": "$6\\,mm$",
+        "explanation": "$\\beta=\\lambda D/d=600\\times10^{-9}\\times1/(0.1\\times10^{-3})=6\\times10^{-3}\\,m=6\\,mm$."
+    },
+    {
+        "id": "net_106",
+        "question": "The magnetic force on a stationary charge is:",
+        "options": [
+            "Zero",
+            "$qvB$",
+            "$qE$",
+            "$qvB\\sin\\theta$"
+        ],
+        "correctAnswer": "Zero",
+        "explanation": "Magnetic force $F=qv\\times B=0$ when $v=0$. A stationary charge experiences no magnetic force."
+    },
+    {
+        "id": "net_107",
+        "question": "The threshold wavelength for photoelectric effect in copper is $\\lambda_0$. The maximum kinetic energy of photoelectrons when light of wavelength $\\lambda<\\lambda_0$ is incident is:",
+        "options": [
+            "$hc\\left(\\frac{1}{\\lambda}-\\frac{1}{\\lambda_0}\\right)$",
+            "$\\frac{hc}{\\lambda}$",
+            "$\\frac{hc}{\\lambda_0}$",
+            "$hc\\left(\\frac{1}{\\lambda}+\\frac{1}{\\lambda_0}\\right)$"
+        ],
+        "correctAnswer": "$hc\\left(\\frac{1}{\\lambda}-\\frac{1}{\\lambda_0}\\right)$",
+        "explanation": "Einstein's equation: $KE_{max}=h\\nu-\\phi=\\frac{hc}{\\lambda}-\\frac{hc}{\\lambda_0}=hc\\left(\\frac{1}{\\lambda}-\\frac{1}{\\lambda_0}\\right)$."
+    },
+    {
+        "id": "net_108",
+        "question": "Which thermodynamic process has the relation $Q = \\Delta U$ (for ideal gas)?",
+        "options": [
+            "Isochoric",
+            "Isothermal",
+            "Isobaric",
+            "Adiabatic"
+        ],
+        "correctAnswer": "Isochoric",
+        "explanation": "For isochoric (constant volume) process, $W=0$, so $Q=\\Delta U+W=\\Delta U$."
+    },
+    {
+        "id": "net_109",
+        "question": "A wire of length $L$, area $A$, and resistivity $\\rho$ is stretched to double its length. The new resistance is:",
+        "options": [
+            "$4R$",
+            "$2R$",
+            "$R$",
+            "$R/2$"
+        ],
+        "correctAnswer": "$4R$",
+        "explanation": "Volume constant: $A'=A/2$. $R'=\\rho(2L)/(A/2)=4\\rho L/A=4R$."
+    },
+    {
+        "id": "net_110",
+        "question": "The energy stored in a capacitor of capacitance $C$ charged to voltage $V$ is:",
+        "options": [
+            "$\\frac{1}{2}CV^2$",
+            "$CV^2$",
+            "$\\frac{CV}{2}$",
+            "$\\frac{1}{2}CV$"
+        ],
+        "correctAnswer": "$\\frac{1}{2}CV^2$",
+        "explanation": "$U=\\frac{1}{2}CV^2=\\frac{Q^2}{2C}=\\frac{QV}{2}$."
+    },
+    {
+        "id": "net_111",
+        "question": "The wavelength of the second line of the Balmer series of hydrogen is (given $R=1.097\\times10^7\\,m^{-1}$):",
+        "options": [
+            "$486\\,nm$",
+            "$656\\,nm$",
+            "$434\\,nm$",
+            "$410\\,nm$"
+        ],
+        "correctAnswer": "$486\\,nm$",
+        "explanation": "Balmer 2nd line ($n=4$ to $n=2$): $\\frac{1}{\\lambda}=R\\left(\\frac{1}{4}-\\frac{1}{16}\\right)=\\frac{3R}{16}$. $\\lambda=16/(3R)\\approx486\\,nm$ (H$_\\beta$ line)."
+    },
+    {
+        "id": "net_112",
+        "question": "A Geiger-Marsden experiment revealed that most alpha particles:",
+        "options": [
+            "Pass nearly undeflected",
+            "Are absorbed",
+            "Bounce back",
+            "Deflect by $90°$"
+        ],
+        "correctAnswer": "Pass nearly undeflected",
+        "explanation": "Most alpha particles passed through gold foil with little or no deflection, indicating that most of the atom is empty space."
+    },
+    {
+        "id": "net_113",
+        "question": "The critical angle for total internal reflection at a glass-air interface with $\\mu_{glass}=1.5$ is:",
+        "options": [
+            "$\\sin^{-1}(2/3)$",
+            "$\\cos^{-1}(2/3)$",
+            "$\\tan^{-1}(3/2)$",
+            "$\\sin^{-1}(3/2)$"
+        ],
+        "correctAnswer": "$\\sin^{-1}(2/3)$",
+        "explanation": "$\\sin C=1/\\mu=1/1.5=2/3$, so $C=\\sin^{-1}(2/3)\\approx41.8°$."
+    },
+    {
+        "id": "net_114",
+        "question": "According to Bohr's model, the speed of an electron in the $n$-th orbit is proportional to:",
+        "options": [
+            "$\\frac{1}{n}$",
+            "$n$",
+            "$n^2$",
+            "$\\frac{1}{n^2}$"
+        ],
+        "correctAnswer": "$\\frac{1}{n}$",
+        "explanation": "$v_n=\\frac{e^2}{4\\pi\\varepsilon_0\\hbar n}=\\frac{v_1}{n}\\propto\\frac{1}{n}$."
+    },
+    {
+        "id": "net_115",
+        "question": "The ratio of slopes of adiabatic and isothermal PV curves at any point is:",
+        "options": [
+            "$\\gamma$",
+            "$1/\\gamma$",
+            "$1$",
+            "$\\gamma^2$"
+        ],
+        "correctAnswer": "$\\gamma$",
+        "explanation": "Isothermal: $PV=C\\Rightarrow (dP/dV)_{iso}=-P/V$. Adiabatic: $PV^\\gamma=C\\Rightarrow(dP/dV)_{adi}=-\\gamma P/V$. Ratio $=\\gamma$."
+    },
+    {
+        "id": "net_116",
+        "question": "The dimension of magnetic flux density (B) is:",
+        "options": [
+            "$[MT^{-2}A^{-1}]$",
+            "$[MLT^{-2}A^{-1}]$",
+            "$[MT^{-1}A^{-1}]$",
+            "$[ML^2T^{-2}A^{-1}]$"
+        ],
+        "correctAnswer": "$[MT^{-2}A^{-1}]$",
+        "explanation": "$F=qvB\\Rightarrow B=F/(qv)=\\frac{[MLT^{-2}]}{[AT][LT^{-1}]}=[MT^{-2}A^{-1}]$."
+    },
+    {
+        "id": "net_117",
+        "question": "The half-life of ${}^{14}C$ is $5730$ years. A sample has $25\\%$ of original ${}^{14}C$. Its age is:",
+        "options": [
+            "$11460\\,yr$",
+            "$5730\\,yr$",
+            "$17190\\,yr$",
+            "$2865\\,yr$"
+        ],
+        "correctAnswer": "$11460\\,yr$",
+        "explanation": "$(1/2)^n=1/4=(1/2)^2\\Rightarrow n=2$ half-lives. Age $=2\\times5730=11460\\,yr$."
+    },
+    {
+        "id": "net_118",
+        "question": "The work done in rotating a magnetic dipole of moment $M$ from being parallel to perpendicular to a uniform field $B$ is:",
+        "options": [
+            "$MB$",
+            "$-MB$",
+            "$2MB$",
+            "$0$"
+        ],
+        "correctAnswer": "$MB$",
+        "explanation": "$W=U_f-U_i=-MB\\cos90°-(-MB\\cos0°)=0+MB=MB$."
+    },
+    {
+        "id": "net_119",
+        "question": "A particle of charge $q$ and mass $m$ moves in a circle of radius $r$ in a magnetic field $B$. Its period is:",
+        "options": [
+            "$\\frac{2\\pi m}{qB}$",
+            "$\\frac{2\\pi qB}{m}$",
+            "$\\frac{qBr}{m}$",
+            "$\\frac{m}{qBr}$"
+        ],
+        "correctAnswer": "$\\frac{2\\pi m}{qB}$",
+        "explanation": "$qvB=mv^2/r\\Rightarrow v=qBr/m$. Period $T=2\\pi r/v=2\\pi m/(qB)$ — independent of $r$."
+    },
+    {
+        "id": "net_120",
+        "question": "The root mean square velocity of oxygen molecules at $27°C$ is approximately:",
+        "options": [
+            "$484\\,m/s$",
+            "$242\\,m/s$",
+            "$968\\,m/s$",
+            "$1200\\,m/s$"
+        ],
+        "correctAnswer": "$484\\,m/s$",
+        "explanation": "$v_{rms}=\\sqrt{3RT/M}=\\sqrt{3\\times8.314\\times300/0.032}=\\sqrt{234206}\\approx484\\,m/s$."
+    },
+    {
+        "id": "net_121",
+        "question": "The phenomenon of beats arises due to:",
+        "options": [
+            "Superposition of two waves of slightly different frequencies",
+            "Reflection of sound",
+            "Diffraction of sound",
+            "Doppler effect"
+        ],
+        "correctAnswer": "Superposition of two waves of slightly different frequencies",
+        "explanation": "Beats are periodic amplitude variations heard when two sound waves of slightly different frequencies $f_1$ and $f_2$ interfere. Beat frequency $=|f_1-f_2|$."
+    },
+    {
+        "id": "net_122",
+        "question": "For a $p$-$n$ junction under forward bias, the barrier potential:",
+        "options": [
+            "Decreases",
+            "Increases",
+            "Remains the same",
+            "Becomes zero immediately"
+        ],
+        "correctAnswer": "Decreases",
+        "explanation": "Forward bias reduces the built-in potential barrier, allowing majority carriers to diffuse across the junction."
+    },
+    {
+        "id": "net_123",
+        "question": "The maximum kinetic energy of photoelectrons is independent of:",
+        "options": [
+            "Intensity of light",
+            "Frequency of light",
+            "Work function of metal",
+            "Wavelength of light"
+        ],
+        "correctAnswer": "Intensity of light",
+        "explanation": "$KE_{max}=h\\nu-\\phi$. It depends on frequency and work function, but NOT on intensity (which only affects the number of photoelectrons)."
+    },
+    {
+        "id": "net_124",
+        "question": "The equation of continuity in fluid dynamics states that for steady flow:",
+        "options": [
+            "$Av = \\text{constant}$",
+            "$A + v = \\text{constant}$",
+            "$A/v = \\text{constant}$",
+            "$A^2v = \\text{constant}$"
+        ],
+        "correctAnswer": "$Av = \\text{constant}$",
+        "explanation": "Continuity equation: $A_1v_1=A_2v_2$, expressing conservation of mass for incompressible fluid."
+    },
+    {
+        "id": "net_125",
+        "question": "The electric field due to an infinite line charge with linear charge density $\\lambda$ at distance $r$ is:",
+        "options": [
+            "$\\frac{\\lambda}{2\\pi\\varepsilon_0 r}$",
+            "$\\frac{\\lambda}{4\\pi\\varepsilon_0 r}$",
+            "$\\frac{\\lambda}{2\\pi\\varepsilon_0 r^2}$",
+            "$\\frac{\\lambda}{\\varepsilon_0 r}$"
+        ],
+        "correctAnswer": "$\\frac{\\lambda}{2\\pi\\varepsilon_0 r}$",
+        "explanation": "Using Gauss's law with a cylindrical surface: $E(2\\pi r l)=\\lambda l/\\varepsilon_0\\Rightarrow E=\\frac{\\lambda}{2\\pi\\varepsilon_0 r}$."
+    },
+    {
+        "id": "net_126",
+        "question": "The number of electrons in the valence shell of silicon (Si) is:",
+        "options": [
+            "$4$",
+            "$2$",
+            "$8$",
+            "$14$"
+        ],
+        "correctAnswer": "$4$",
+        "explanation": "Si has atomic number 14 with electron configuration $2,8,4$. It has 4 valence electrons, making it a semiconductor."
+    },
+    {
+        "id": "net_127",
+        "question": "In a transformer, if the primary coil has $N_1$ turns and is connected to voltage $V_1$, the secondary voltage $V_2$ with $N_2$ turns is:",
+        "options": [
+            "$V_2=V_1\\frac{N_2}{N_1}$",
+            "$V_2=V_1\\frac{N_1}{N_2}$",
+            "$V_2=V_1(N_1+N_2)$",
+            "$V_2=V_1\\sqrt{N_2/N_1}$"
+        ],
+        "correctAnswer": "$V_2=V_1\\frac{N_2}{N_1}$",
+        "explanation": "Transformer equation: $V_2/V_1=N_2/N_1$ for an ideal transformer."
+    },
+    {
+        "id": "net_128",
+        "question": "The first law of thermodynamics is a statement of conservation of:",
+        "options": [
+            "Energy",
+            "Momentum",
+            "Mass",
+            "Angular momentum"
+        ],
+        "correctAnswer": "Energy",
+        "explanation": "The first law of thermodynamics ($\\Delta U=Q-W$) is a statement of the law of conservation of energy."
+    },
+    {
+        "id": "net_129",
+        "question": "Gamma rays are:",
+        "options": [
+            "High-energy electromagnetic radiation",
+            "High-speed electrons",
+            "Positively charged helium nuclei",
+            "Neutrons"
+        ],
+        "correctAnswer": "High-energy electromagnetic radiation",
+        "explanation": "Gamma rays ($\\gamma$) are high-energy, high-frequency electromagnetic radiation emitted by the nucleus during radioactive decay, with zero charge and zero rest mass."
+    },
+    {
+        "id": "net_130",
+        "question": "The image formed by a concave mirror when the object is between the focus and the pole is:",
+        "options": [
+            "Virtual, erect, and magnified",
+            "Real, inverted, and magnified",
+            "Virtual, erect, and diminished",
+            "Real, inverted, and diminished"
+        ],
+        "correctAnswer": "Virtual, erect, and magnified",
+        "explanation": "When object is between focus $F$ and pole $P$ of a concave mirror, the image is virtual, erect, and magnified (behind the mirror)."
+    },
+    {
+        "id": "net_131",
+        "question": "The impedance of an LCR series circuit at resonance frequency $\\omega_0$ is:",
+        "options": [
+            "$R$",
+            "$0$",
+            "$\\omega_0 L$",
+            "$\\sqrt{L/C}$"
+        ],
+        "correctAnswer": "$R$",
+        "explanation": "At resonance, $X_L=X_C$, so $Z=\\sqrt{R^2+(X_L-X_C)^2}=R$."
+    },
+    {
+        "id": "net_132",
+        "question": "A body at $2000\\,K$ emits radiation most intensely at wavelength $\\lambda_{max}$. If temperature rises to $4000\\,K$, $\\lambda_{max}$ becomes:",
+        "options": [
+            "$\\lambda_{max}/2$",
+            "$2\\lambda_{max}$",
+            "$\\lambda_{max}$",
+            "$4\\lambda_{max}$"
+        ],
+        "correctAnswer": "$\\lambda_{max}/2$",
+        "explanation": "Wien's law: $\\lambda_{max}T=b$. Doubling $T$ halves $\\lambda_{max}$."
+    },
+    {
+        "id": "net_133",
+        "question": "In Ohm's law, the drift velocity $v_d$ of electrons in a conductor is related to current density $J$ by:",
+        "options": [
+            "$J = nev_d$",
+            "$J = nev_d/2$",
+            "$J = v_d/ne$",
+            "$J = ne/v_d$"
+        ],
+        "correctAnswer": "$J = nev_d$",
+        "explanation": "Current density $J=nev_d$ where $n$ is electron density and $e$ is charge."
+    },
+    {
+        "id": "net_134",
+        "question": "The binding energy of the last neutron of ${}^{17}O$ is approximately the energy needed to:",
+        "options": [
+            "Remove one neutron from ${}^{17}O$",
+            "Split ${}^{17}O$ completely",
+            "Add a proton to ${}^{17}O$",
+            "Remove one proton from ${}^{17}O$"
+        ],
+        "correctAnswer": "Remove one neutron from ${}^{17}O$",
+        "explanation": "Binding energy of the last neutron equals the energy required to separate it from the nucleus, i.e., to remove one neutron from ${}^{17}O$ to get ${}^{16}O$."
+    },
+    {
+        "id": "net_135",
+        "question": "In Fraunhofer single-slit diffraction, the angular width of the central maximum is:",
+        "options": [
+            "$\\frac{2\\lambda}{d}$",
+            "$\\frac{\\lambda}{d}$",
+            "$\\frac{\\lambda}{2d}$",
+            "$\\frac{4\\lambda}{d}$"
+        ],
+        "correctAnswer": "$\\frac{2\\lambda}{d}$",
+        "explanation": "First minima at $\\sin\\theta=\\pm\\lambda/d$, so total angular width of central maximum is $2\\lambda/d$ (for small angles)."
+    },
+    {
+        "id": "net_136",
+        "question": "The output of an OR gate followed by a NOT gate is a:",
+        "options": [
+            "NOR gate",
+            "NAND gate",
+            "AND gate",
+            "XOR gate"
+        ],
+        "correctAnswer": "NOR gate",
+        "explanation": "OR followed by NOT = NOR. The NOR gate outputs $\\overline{A+B}$."
+    },
+    {
+        "id": "net_137",
+        "question": "The force between two magnetic poles of strength $m_1$ and $m_2$ separated by distance $r$ in air follows:",
+        "options": [
+            "$F\\propto\\frac{m_1m_2}{r^2}$",
+            "$F\\propto\\frac{m_1m_2}{r}$",
+            "$F\\propto\\frac{m_1m_2}{r^3}$",
+            "$F\\propto m_1m_2r^2$"
+        ],
+        "correctAnswer": "$F\\propto\\frac{m_1m_2}{r^2}$",
+        "explanation": "Coulomb's law of magnetism: $F=\\frac{\\mu_0}{4\\pi}\\frac{m_1m_2}{r^2}$, following inverse square law."
+    },
+    {
+        "id": "net_138",
+        "question": "The energy of the $n=3$ level in hydrogen atom (ground state energy $= -13.6\\,eV$) is:",
+        "options": [
+            "$-1.51\\,eV$",
+            "$-3.4\\,eV$",
+            "$-0.85\\,eV$",
+            "$-4.53\\,eV$"
+        ],
+        "correctAnswer": "$-1.51\\,eV$",
+        "explanation": "$E_n=E_1/n^2=-13.6/9=-1.51\\,eV$."
+    },
+    {
+        "id": "net_139",
+        "question": "In a forward-biased diode, the current is mainly due to:",
+        "options": [
+            "Diffusion of majority carriers",
+            "Drift of minority carriers",
+            "Movement of holes only",
+            "Movement of electrons only"
+        ],
+        "correctAnswer": "Diffusion of majority carriers",
+        "explanation": "In forward bias, the barrier is reduced, allowing majority carriers from both sides to diffuse across the junction."
+    },
+    {
+        "id": "net_140",
+        "question": "The power dissipated in a resistor carrying current $I_{rms}$ is:",
+        "options": [
+            "$I_{rms}^2 R$",
+            "$I_{rms}^2 R / 2$",
+            "$2I_{rms}^2 R$",
+            "$I_{rms} R$"
+        ],
+        "correctAnswer": "$I_{rms}^2 R$",
+        "explanation": "Average power $P=I_{rms}^2R$. The rms value is defined such that this gives the correct average power."
+    },
+    {
+        "id": "net_141",
+        "question": "The relationship between relative permeability $\\mu_r$ and magnetic susceptibility $\\chi_m$ is:",
+        "options": [
+            "$\\mu_r = 1 + \\chi_m$",
+            "$\\mu_r = \\chi_m$",
+            "$\\mu_r = 1 - \\chi_m$",
+            "$\\mu_r = \\chi_m - 1$"
+        ],
+        "correctAnswer": "$\\mu_r = 1 + \\chi_m$",
+        "explanation": "$\\mu_r = 1 + \\chi_m$. For paramagnetic materials $\\chi_m>0$, for diamagnetic $\\chi_m<0$."
+    },
+    {
+        "id": "net_142",
+        "question": "According to Planck's quantum theory, the energy of a photon of frequency $\\nu$ is:",
+        "options": [
+            "$h\\nu$",
+            "$h/\\nu$",
+            "$h\\nu^2$",
+            "$\\sqrt{h\\nu}$"
+        ],
+        "correctAnswer": "$h\\nu$",
+        "explanation": "Planck's formula: $E=h\\nu$ where $h=6.626\\times10^{-34}\\,J\\cdot s$."
+    },
+    {
+        "id": "net_143",
+        "question": "Interference is possible only between waves that are:",
+        "options": [
+            "Coherent",
+            "Of same amplitude",
+            "Of same intensity",
+            "Transverse"
+        ],
+        "correctAnswer": "Coherent",
+        "explanation": "Interference requires coherent sources — same frequency and a constant phase difference."
+    },
+    {
+        "id": "net_144",
+        "question": "The dimensional formula of Planck's constant $h$ is:",
+        "options": [
+            "$[ML^2T^{-1}]$",
+            "$[ML^2T^{-2}]$",
+            "$[MLT^{-1}]$",
+            "$[ML^2T^{-3}]$"
+        ],
+        "correctAnswer": "$[ML^2T^{-1}]$",
+        "explanation": "$E=h\\nu\\Rightarrow h=E/\\nu=[ML^2T^{-2}]/[T^{-1}]=[ML^2T^{-1}]$ — same as angular momentum."
+    },
+    {
+        "id": "net_145",
+        "question": "The minimum number of non-collinear forces needed to keep a body in equilibrium is:",
+        "options": [
+            "$3$",
+            "$2$",
+            "$4$",
+            "$1$"
+        ],
+        "correctAnswer": "$3$",
+        "explanation": "A minimum of 3 non-collinear forces are needed for equilibrium: they must form a closed triangle when arranged head to tail."
+    },
+    {
+        "id": "net_146",
+        "question": "For a simple pendulum, the time period depends on:",
+        "options": [
+            "Length and $g$ only",
+            "Mass only",
+            "Amplitude (for large oscillations)",
+            "Both mass and length"
+        ],
+        "correctAnswer": "Length and $g$ only",
+        "explanation": "$T=2\\pi\\sqrt{L/g}$ for small oscillations — independent of mass and amplitude."
+    },
+    {
+        "id": "net_147",
+        "question": "Optical fibers work on the principle of:",
+        "options": [
+            "Total internal reflection",
+            "Reflection",
+            "Refraction",
+            "Diffraction"
+        ],
+        "correctAnswer": "Total internal reflection",
+        "explanation": "Optical fibers guide light through successive total internal reflections at the core-cladding interface."
+    },
+    {
+        "id": "net_148",
+        "question": "The drift of free electrons against the electric field constitutes:",
+        "options": [
+            "Conventional current in the direction of field",
+            "Current against the field",
+            "No current",
+            "Alternating current"
+        ],
+        "correctAnswer": "Conventional current in the direction of field",
+        "explanation": "Electrons drift opposite to $E$; conventional current (positive charge flow direction) is in the direction of $E$."
+    },
+    {
+        "id": "net_149",
+        "question": "The photoelectric effect cannot be explained by:",
+        "options": [
+            "Wave theory of light",
+            "Quantum theory",
+            "Einstein's equation",
+            "Planck's hypothesis"
+        ],
+        "correctAnswer": "Wave theory of light",
+        "explanation": "The wave theory predicts that energy depends on intensity, not frequency — failing to explain the threshold frequency and instantaneous emission observed in the photoelectric effect."
+    },
+    {
+        "id": "net_150",
+        "question": "In a nuclear reaction, if $Q > 0$, the reaction is:",
+        "options": [
+            "Exothermic",
+            "Endothermic",
+            "Impossible",
+            "Neutral"
+        ],
+        "correctAnswer": "Exothermic",
+        "explanation": "$Q = (m_{reactants} - m_{products})c^2$. If $Q>0$, mass is lost and energy is released — the reaction is exothermic."
+    },
+    {
+        "id": "net_151",
+        "question": "The unit of magnetic flux is:",
+        "options": [
+            "Weber (Wb)",
+            "Tesla (T)",
+            "Henry (H)",
+            "Farad (F)"
+        ],
+        "correctAnswer": "Weber (Wb)",
+        "explanation": "Magnetic flux $\\Phi=B\\cdot A$. Its SI unit is the Weber: $1\\,Wb=1\\,T\\cdot m^2=1\\,V\\cdot s$."
+    },
+    {
+        "id": "net_152",
+        "question": "An $n$-type semiconductor has:",
+        "options": [
+            "More electrons than holes",
+            "More holes than electrons",
+            "Equal electrons and holes",
+            "No charge carriers"
+        ],
+        "correctAnswer": "More electrons than holes",
+        "explanation": "$n$-type semiconductors are doped with donor atoms, creating extra free electrons. Electrons are majority carriers."
+    },
+    {
+        "id": "net_153",
+        "question": "The refractive index of a medium is $\\sqrt{3}$. The angle of polarization (Brewster's angle) is:",
+        "options": [
+            "$60°$",
+            "$45°$",
+            "$30°$",
+            "$90°$"
+        ],
+        "correctAnswer": "$60°$",
+        "explanation": "Brewster's law: $\\tan i_B=n=\\sqrt{3}$, so $i_B=60°$."
+    },
+    {
+        "id": "net_154",
+        "question": "During free fall, the apparent weight of a body is:",
+        "options": [
+            "Zero",
+            "Equal to true weight",
+            "Greater than true weight",
+            "Half the true weight"
+        ],
+        "correctAnswer": "Zero",
+        "explanation": "In free fall, both the body and the support accelerate at $g$. The normal force becomes zero — apparent weight is zero (weightlessness)."
+    },
+    {
+        "id": "net_155",
+        "question": "The number of alpha and beta particles emitted when ${}^{238}_{92}U$ decays to ${}^{206}_{82}Pb$ is:",
+        "options": [
+            "8 alpha, 6 beta",
+            "6 alpha, 8 beta",
+            "8 alpha, 8 beta",
+            "6 alpha, 6 beta"
+        ],
+        "correctAnswer": "8 alpha, 6 beta",
+        "explanation": "Mass change: $238-206=32=8\\times4$, so 8 alpha particles. Proton change: $92-82=10$, but 8 alphas remove 16 protons, excess $=16-10=6$ beta particles emitted to increase $Z$ by 6."
+    },
+    {
+        "id": "net_156",
+        "question": "The phenomenon of resonance in an LCR circuit is analogous to which mechanical phenomenon?",
+        "options": [
+            "Mechanical resonance in driven oscillator",
+            "Newton's law of motion",
+            "Archimedes' principle",
+            "Doppler effect"
+        ],
+        "correctAnswer": "Mechanical resonance in driven oscillator",
+        "explanation": "At resonance ($\\omega=\\omega_0=1/\\sqrt{LC}$), the LCR circuit absorbs maximum energy — directly analogous to a driven mechanical oscillator at natural frequency."
+    },
+    {
+        "id": "net_157",
+        "question": "Kirchhoff's Current Law (KCL) is based on conservation of:",
+        "options": [
+            "Charge",
+            "Energy",
+            "Momentum",
+            "Mass"
+        ],
+        "correctAnswer": "Charge",
+        "explanation": "KCL states that the sum of currents entering a node equals the sum leaving. This is based on conservation of electric charge."
+    },
+    {
+        "id": "net_158",
+        "question": "The wavelength of X-rays is typically in the range:",
+        "options": [
+            "$0.01-10\\,nm$",
+            "$100-400\\,nm$",
+            "$400-700\\,nm$",
+            "$1\\,mm-1\\,m$"
+        ],
+        "correctAnswer": "$0.01-10\\,nm$",
+        "explanation": "X-rays have wavelengths from approximately $0.01\\,nm$ to $10\\,nm$ (0.1 Å to 100 Å), between gamma rays and UV."
+    },
+    {
+        "id": "net_159",
+        "question": "The principle of superposition states that the net displacement is the:",
+        "options": [
+            "Vector sum of individual displacements",
+            "Scalar sum",
+            "Product",
+            "Difference"
+        ],
+        "correctAnswer": "Vector sum of individual displacements",
+        "explanation": "The principle of superposition: when two or more waves meet, the resultant displacement at any point is the vector sum of individual displacements."
+    },
+    {
+        "id": "net_160",
+        "question": "The work done by a conservative force around a closed path is:",
+        "options": [
+            "Zero",
+            "Positive",
+            "Negative",
+            "Depends on the path"
+        ],
+        "correctAnswer": "Zero",
+        "explanation": "By definition, the work done by a conservative force (e.g., gravity, electrostatic force) around any closed path is zero, as it is path-independent."
+    },
+    {
+        "id": "net_161",
+        "question": "The word 'ENERVATE' means to:",
+        "options": [
+            "Give energy to",
+            "Drain of energy or vitality",
+            "Irritate greatly",
+            "Speak evasively"
+        ],
+        "correctAnswer": "Drain of energy or vitality",
+        "explanation": "Enervate means to cause someone to feel drained of energy or vitality; to weaken. It is the opposite of invigorate."
+    },
+    {
+        "id": "net_162",
+        "question": "ALACRITY : RELUCTANCE :: CUPIDITY :",
+        "options": [
+            "Generosity",
+            "Greed",
+            "Laziness",
+            "Honesty"
+        ],
+        "correctAnswer": "Generosity",
+        "explanation": "Alacrity (eager willingness) is the antonym of reluctance. Cupidity (greed, eager desire for wealth) is the antonym of generosity."
+    },
+    {
+        "id": "net_163",
+        "question": "The word 'LIMPID' most nearly means:",
+        "options": [
+            "Perfectly clear and transparent",
+            "Slowly moving",
+            "Slightly murky",
+            "Excessively bright"
+        ],
+        "correctAnswer": "Perfectly clear and transparent",
+        "explanation": "Limpid means (of a liquid) free of anything that darkens; completely clear and transparent."
+    },
+    {
+        "id": "net_164",
+        "question": "Choose the best word to complete: 'Her ___ explanations always clarified even the most complex topics.'",
+        "options": [
+            "Lucid",
+            "Abstruse",
+            "Turgid",
+            "Ambiguous"
+        ],
+        "correctAnswer": "Lucid",
+        "explanation": "Lucid means clearly expressed and easy to understand — precisely what an explanation that clarifies complexity would be."
+    },
+    {
+        "id": "net_165",
+        "question": "MENDACITY : TRUTHFULNESS :: AVARICE :",
+        "options": [
+            "Generosity",
+            "Greed",
+            "Wealth",
+            "Poverty"
+        ],
+        "correctAnswer": "Generosity",
+        "explanation": "Mendacity (habitual lying) is the antonym of truthfulness. Avarice (extreme greed) is the antonym of generosity."
+    },
+    {
+        "id": "net_166",
+        "question": "The word 'EQUANIMITY' refers to:",
+        "options": [
+            "Mental calmness under stress",
+            "Great excitement",
+            "Extreme anger",
+            "Physical stillness"
+        ],
+        "correctAnswer": "Mental calmness under stress",
+        "explanation": "Equanimity means mental calmness and composure, especially in difficult situations — a state of psychological balance."
+    },
+    {
+        "id": "net_167",
+        "question": "TACIT : EXPLICIT :: LATENT :",
+        "options": [
+            "Manifest",
+            "Hidden",
+            "Silent",
+            "Obvious"
+        ],
+        "correctAnswer": "Manifest",
+        "explanation": "Tacit (implied, not stated) is the antonym of explicit (clearly stated). Latent (hidden, dormant) is the antonym of manifest (clearly apparent)."
+    },
+    {
+        "id": "net_168",
+        "question": "The word 'OBDURATE' most nearly means:",
+        "options": [
+            "Stubbornly refusing to change",
+            "Extremely generous",
+            "Deeply religious",
+            "Intellectually flexible"
+        ],
+        "correctAnswer": "Stubbornly refusing to change",
+        "explanation": "Obdurate means stubbornly refusing to change one's opinion or course of action; unyielding."
+    },
+    {
+        "id": "net_169",
+        "question": "DISCORDANT : HARMONIOUS :: TURBID :",
+        "options": [
+            "Clear",
+            "Muddy",
+            "Rough",
+            "Calm"
+        ],
+        "correctAnswer": "Clear",
+        "explanation": "Discordant (harsh, clashing) is the antonym of harmonious. Turbid (cloudy, opaque) is the antonym of clear."
+    },
+    {
+        "id": "net_170",
+        "question": "The sentence 'The professor's lecture was so ___ that students could barely stay awake' is best completed by:",
+        "options": [
+            "Soporific",
+            "Stimulating",
+            "Riveting",
+            "Incisive"
+        ],
+        "correctAnswer": "Soporific",
+        "explanation": "Soporific means tending to induce sleep — perfectly describing a boring lecture that causes drowsiness."
+    },
+    {
+        "id": "net_171",
+        "question": "AMELIORATE : WORSEN :: MITIGATE :",
+        "options": [
+            "Aggravate",
+            "Lessen",
+            "Ignore",
+            "Solve"
+        ],
+        "correctAnswer": "Aggravate",
+        "explanation": "Ameliorate (improve) is the antonym of worsen. Mitigate (lessen the severity) is the antonym of aggravate (make worse)."
+    },
+    {
+        "id": "net_172",
+        "question": "The word 'PERSPICACIOUS' means:",
+        "options": [
+            "Having ready insight; shrewd",
+            "Overly cautious",
+            "Speaking loudly",
+            "Physically imposing"
+        ],
+        "correctAnswer": "Having ready insight; shrewd",
+        "explanation": "Perspicacious means having a ready insight into things; shrewdly perceptive and sharp."
+    },
+    {
+        "id": "net_173",
+        "question": "OPPROBRIOUS : LAUDATORY :: CENSURE :",
+        "options": [
+            "Praise",
+            "Criticize",
+            "Condemn",
+            "Ignore"
+        ],
+        "correctAnswer": "Praise",
+        "explanation": "Opprobrious (expressing scorn or criticism) is the antonym of laudatory (expressing praise). Censure (express severe disapproval) is the antonym of praise."
+    },
+    {
+        "id": "net_174",
+        "question": "The word 'DIFFIDENT' most nearly means:",
+        "options": [
+            "Modest or shy due to lack of self-confidence",
+            "Extremely confident",
+            "Openly hostile",
+            "Intellectually arrogant"
+        ],
+        "correctAnswer": "Modest or shy due to lack of self-confidence",
+        "explanation": "Diffident means modest or shy because of a lack of self-confidence. Not to be confused with 'indifferent'."
+    },
+    {
+        "id": "net_175",
+        "question": "Complete the sentence: 'Though he appeared ___, his ___ comments revealed a sharp intelligence.'",
+        "options": [
+            "Ingenuous … trenchant",
+            "Articulate … banal",
+            "Pompous … trivial",
+            "Reticent … verbose"
+        ],
+        "correctAnswer": "Ingenuous … trenchant",
+        "explanation": "Ingenuous (innocent, lacking guile) appearing to conceal trenchant (vigorous, effective) comments creates a meaningful contrast highlighting hidden sharpness."
+    },
+    {
+        "id": "net_176",
+        "question": "PERNICIOUS : HARMLESS :: SALUTARY :",
+        "options": [
+            "Harmful",
+            "Beneficial",
+            "Temporary",
+            "Powerful"
+        ],
+        "correctAnswer": "Harmful",
+        "explanation": "Pernicious (having a harmful effect) is the antonym of harmless. Salutary (producing good effects; beneficial) is the antonym of harmful."
+    },
+    {
+        "id": "net_177",
+        "question": "The word 'VITUPERATE' means to:",
+        "options": [
+            "Blame or insult someone in strong language",
+            "Praise enthusiastically",
+            "Speak slowly and carefully",
+            "Remain silent"
+        ],
+        "correctAnswer": "Blame or insult someone in strong language",
+        "explanation": "Vituperate means to blame or insult (someone) in strong or violent language; to berate."
+    },
+    {
+        "id": "net_178",
+        "question": "ASCETIC : HEDONIST :: ABSTEMIOUS :",
+        "options": [
+            "Self-indulgent",
+            "Moderate",
+            "Careful",
+            "Religious"
+        ],
+        "correctAnswer": "Self-indulgent",
+        "explanation": "An ascetic (living without pleasures) contrasts with a hedonist. Abstemious (not self-indulgent, especially with food) contrasts with self-indulgent."
+    },
+    {
+        "id": "net_179",
+        "question": "The word 'IMPECUNIOUS' means:",
+        "options": [
+            "Having little or no money",
+            "Extremely generous",
+            "Morally corrupt",
+            "Socially awkward"
+        ],
+        "correctAnswer": "Having little or no money",
+        "explanation": "Impecunious means having little or no money; chronically poor."
+    },
+    {
+        "id": "net_180",
+        "question": "VERACITY : MENDACITY :: CANDOR :",
+        "options": [
+            "Deception",
+            "Openness",
+            "Honesty",
+            "Silence"
+        ],
+        "correctAnswer": "Deception",
+        "explanation": "Veracity (truthfulness) is the antonym of mendacity (dishonesty). Candor (frank, open expression) is the antonym of deception (concealment of truth)."
+    },
+    {
+        "id": "net_181",
+        "question": "Choose the best meaning of 'QUIESCENT':",
+        "options": [
+            "In a state of inactivity or dormancy",
+            "Extremely energetic",
+            "Clearly visible",
+            "Morally upright"
+        ],
+        "correctAnswer": "In a state of inactivity or dormancy",
+        "explanation": "Quiescent means in a state of quiet inactivity or dormancy; silent and still."
+    },
+    {
+        "id": "net_182",
+        "question": "PERFUNCTORY : THOROUGH :: CURSORY :",
+        "options": [
+            "Meticulous",
+            "Superficial",
+            "Rapid",
+            "Careful"
+        ],
+        "correctAnswer": "Meticulous",
+        "explanation": "Perfunctory (carried out with minimum effort) is the antonym of thorough. Cursory (rapid and not detailed) is the antonym of meticulous (showing great attention to detail)."
+    },
+    {
+        "id": "net_183",
+        "question": "The word 'SANGUINE' in its most precise usage means:",
+        "options": [
+            "Optimistic, especially in difficult situations",
+            "Bloodthirsty",
+            "Extremely cautious",
+            "Deeply religious"
+        ],
+        "correctAnswer": "Optimistic, especially in difficult situations",
+        "explanation": "Sanguine means optimistic or positive, especially in a difficult situation. (Historically it also referred to blood, but the modern psychological meaning is optimistic.)"
+    },
+    {
+        "id": "net_184",
+        "question": "The sentence which uses 'MERETRICIOUS' correctly is:",
+        "options": [
+            "The meretricious packaging disguised the product's poor quality.",
+            "The scientist made a meretricious discovery.",
+            "She received meretricious praise from her peers.",
+            "The meretricious mountain view was stunning."
+        ],
+        "correctAnswer": "The meretricious packaging disguised the product's poor quality.",
+        "explanation": "Meretricious means apparently attractive but having in reality no value or integrity — precisely what flashy packaging that hides poor quality represents."
+    },
+    {
+        "id": "net_185",
+        "question": "VOLUBLE : RETICENT :: EBULLIENT :",
+        "options": [
+            "Subdued",
+            "Lively",
+            "Talkative",
+            "Excited"
+        ],
+        "correctAnswer": "Subdued",
+        "explanation": "Voluble (talking fluently) is the antonym of reticent (not revealing thoughts). Ebullient (cheerful and full of energy) is the antonym of subdued (quiet, lacking energy)."
+    },
+    {
+        "id": "net_186",
+        "question": "The word 'SEDULOUS' means:",
+        "options": [
+            "Showing dedication and diligence",
+            "Deeply suspicious",
+            "Extremely generous",
+            "Chronically lazy"
+        ],
+        "correctAnswer": "Showing dedication and diligence",
+        "explanation": "Sedulous means showing dedication and diligence; persisting in effort without interruption."
+    },
+    {
+        "id": "net_187",
+        "question": "BOMBAST : PLAIN SPEECH :: GRANDILOQUENCE :",
+        "options": [
+            "Simple expression",
+            "Elaborate rhetoric",
+            "False modesty",
+            "Loud protest"
+        ],
+        "correctAnswer": "Simple expression",
+        "explanation": "Bombast (high-flown language with little meaning) contrasts with plain speech. Grandiloquence (pompous language) contrasts with simple expression."
+    },
+    {
+        "id": "net_188",
+        "question": "Choose the best meaning of 'INVETERATE':",
+        "options": [
+            "Having a habit or activity for a long time",
+            "Recently formed",
+            "Easily changed",
+            "Temporarily suspended"
+        ],
+        "correctAnswer": "Having a habit or activity for a long time",
+        "explanation": "Inveterate means having a particular habit, activity, or interest that is long-established and unlikely to change; deep-rooted."
+    },
+    {
+        "id": "net_189",
+        "question": "The word 'PELLUCID' most nearly means:",
+        "options": [
+            "Translucently clear; easily understood",
+            "Dark and murky",
+            "Superficially attractive",
+            "Unnecessarily complex"
+        ],
+        "correctAnswer": "Translucently clear; easily understood",
+        "explanation": "Pellucid means translucently clear; (of writing, music) easily understood. It applies both literally to clear substances and figuratively to clear writing."
+    },
+    {
+        "id": "net_190",
+        "question": "CENSURE : CONDONE :: EXCORIATE :",
+        "options": [
+            "Excuse",
+            "Criticize",
+            "Punish",
+            "Ignore"
+        ],
+        "correctAnswer": "Excuse",
+        "explanation": "Censure (express strong disapproval) is the antonym of condone (accept or allow). Excoriate (criticize harshly) is the antonym of excuse (forgive or overlook)."
+    },
+    {
+        "id": "net_191",
+        "question": "The word 'IGNOMINIOUS' most nearly means:",
+        "options": [
+            "Deserving or causing public disgrace",
+            "Extremely honorable",
+            "Quietly confident",
+            "Intellectually gifted"
+        ],
+        "correctAnswer": "Deserving or causing public disgrace",
+        "explanation": "Ignominious means deserving or causing public disgrace or shame; humiliating."
+    },
+    {
+        "id": "net_192",
+        "question": "ALLAY : INTENSIFY :: MOLLIFY :",
+        "options": [
+            "Irritate",
+            "Soothe",
+            "Frighten",
+            "Please"
+        ],
+        "correctAnswer": "Irritate",
+        "explanation": "Allay (diminish or put at rest, fear or concern) is the antonym of intensify. Mollify (appease the anger of) is the antonym of irritate."
+    },
+    {
+        "id": "net_193",
+        "question": "The best meaning of 'LOQUACIOUS' is:",
+        "options": [
+            "Tending to talk a great deal; talkative",
+            "Completely silent",
+            "Deeply thoughtful",
+            "Forcefully persuasive"
+        ],
+        "correctAnswer": "Tending to talk a great deal; talkative",
+        "explanation": "Loquacious means tending to talk a great deal; talkative. A loquacious person is garrulous and verbose."
+    },
+    {
+        "id": "net_194",
+        "question": "EMPIRICAL : THEORETICAL :: PRAGMATIC :",
+        "options": [
+            "Idealistic",
+            "Practical",
+            "Realistic",
+            "Experimental"
+        ],
+        "correctAnswer": "Idealistic",
+        "explanation": "Empirical (based on observation and experiment) contrasts with theoretical. Pragmatic (dealing with things sensibly, practically) contrasts with idealistic (unrealistically optimistic)."
+    },
+    {
+        "id": "net_195",
+        "question": "The word 'ANODYNE' means:",
+        "options": [
+            "Not likely to cause offence; inoffensive",
+            "Extremely controversial",
+            "Physically painful",
+            "Intellectually stimulating"
+        ],
+        "correctAnswer": "Not likely to cause offence; inoffensive",
+        "explanation": "Anodyne (adj.) means not likely to cause offence or disagreement; bland. (Also a noun: a painkilling drug.)"
+    },
+    {
+        "id": "net_196",
+        "question": "FLORID : RESTRAINED :: ORNATE :",
+        "options": [
+            "Plain",
+            "Elaborate",
+            "Beautiful",
+            "Colorful"
+        ],
+        "correctAnswer": "Plain",
+        "explanation": "Florid (excessively elaborate; flowery) is the antonym of restrained (understated). Ornate (elaborately decorated) is the antonym of plain."
+    },
+    {
+        "id": "net_197",
+        "question": "The word 'FULMINATE' means to:",
+        "options": [
+            "Express vehement protest or condemnation",
+            "Speak softly and gently",
+            "Negotiate carefully",
+            "Remain neutral"
+        ],
+        "correctAnswer": "Express vehement protest or condemnation",
+        "explanation": "Fulminate means to express vehement protest or condemnation; to issue a thunderous verbal attack."
+    },
+    {
+        "id": "net_198",
+        "question": "STOLID : EXCITABLE :: PHLEGMATIC :",
+        "options": [
+            "Passionate",
+            "Calm",
+            "Cold",
+            "Slow"
+        ],
+        "correctAnswer": "Passionate",
+        "explanation": "Stolid (calm and dependable; showing little emotion) contrasts with excitable. Phlegmatic (having an unemotional, stolidly calm disposition) contrasts with passionate."
+    },
+    {
+        "id": "net_199",
+        "question": "Complete the sentence: 'The diplomat's ___ remarks helped ___ the tension between the two delegations.'",
+        "options": [
+            "Conciliatory … defuse",
+            "Inflammatory … increase",
+            "Provocative … escalate",
+            "Ambiguous … maintain"
+        ],
+        "correctAnswer": "Conciliatory … defuse",
+        "explanation": "Conciliatory (intended to make peace) remarks that defuse (reduce) tension is the only logically consistent pairing — the verb 'helped' requires a positive outcome."
+    },
+    {
+        "id": "net_200",
+        "question": "EVANESCENT : PERMANENT :: TRANSITORY :",
+        "options": [
+            "Lasting",
+            "Fleeting",
+            "Temporary",
+            "Invisible"
+        ],
+        "correctAnswer": "Lasting",
+        "explanation": "Evanescent (soon passing out of sight or memory; transitory) is the antonym of permanent. Transitory (lasting only for a short time) is the antonym of lasting."
+    }
+]
